@@ -1,83 +1,66 @@
 ! Title: 0x7C2f Blocklist
 ! Expires: 1 Days (Update Frequency)
-! Description: 0x7C2f Personal Blocklist 
+! Description: 0x7C2f Personal Blocklist
 ! Homepage: https://github.com/0x7C2f/uBlock-Repository
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
-
 ! 2022-05-09 https://flows.nodered.org
 flows.nodered.org###cm
-
 ! 2022-05-09 https://sellbery.com
 sellbery.com##.cookies-container
 sellbery.com##.cookies-popup
 sellbery.com##div.sexy_red.blog_cta:nth-of-type(3)
 sellbery.com##.__ue__content
-
 ! 2022-05-10 https://www.aliexpress.com
 ||ae01.alicdn.com/kf/Se8d5705ceba74af2b93bfdd33ccd7fc8E.jpg_Q90.jpg_.webp$image
 www.aliexpress.com##._3KrBP
-
 ! 2022-05-11 https://www.fiverr.com
 www.fiverr.com##.ba-survey--fade-in.box-shadow-z4.ba-survey
 www.fiverr.com##.flex-between.p-b-24.p-l-24.p-r-24.flex-col.flex
 www.fiverr.com##.flex-end.flex
-
 ! 2022-05-11 https://www.isitwp.com
 www.isitwp.com##.Campaign--css.CampaignType--popup.Campaign.buffalo-campaign
-
 ! 2022-05-11 https://stackoverflow.com
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-
 ! 2022-05-12 https://chaturbate.com
 chaturbate.com##.RoomSignupPopup
-
 ! 2022-05-13 https://www.tiktok.com
 www.tiktok.com##.e1l04njg0.tiktok-4gw84j-DivKeyboardShortcutContainer
 www.tiktok.com##.ejkrawn1.tiktok-zxo5ey-ButtonGetAppText
-
 ! 2022-05-13 https://www.psypost.org
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .expanded.jeg_btn-facebook
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .expanded.jeg_btn-twitter
-www.psypost.org##.jeg_social_wrap > .square.socials_widget
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-email
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-qrcode
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-reddit
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-linkedin
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-pinterest
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-whatsapp
-www.psypost.org##.clearfix.share-bottom.jeg_share_button > .jeg_sharelist
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .expanded.jeg_btn-facebook
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .expanded.jeg_btn-twitter
+www.psypost.org##.jeg_social_wrap &gt; .square.socials_widget
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-email
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-qrcode
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-reddit
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-linkedin
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-pinterest
+www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-whatsapp
+www.psypost.org##.clearfix.share-bottom.jeg_share_button &gt; .jeg_sharelist
 www.psypost.org##.jnews-cookie-law-policy
-www.psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar
-
+www.psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar &gt; .jegStickyHolder &gt; .theiaStickySidebar
 ! 2022-05-13 https://www.vegascreativesoftware.com
 www.vegascreativesoftware.com###onetrust-group-container
 www.vegascreativesoftware.com###onetrust-button-group-parent
-
 ! 2022-05-13 https://dongknows.com
 dongknows.com##.chp_ads_blocker_detector-show.fadeInDown.chp_ads_block_modalmqm9xdhuk241i4qhmrez
-
 ! 2022-05-14 https://www.vpnmentor.com
 www.vpnmentor.com##.aff-button.aff-btn-orange.btn-warning.btn-lg.btn
 www.vpnmentor.com##.top-vendors-wrap.side-block-wrap
-
 ! 2022-05-14 https://www.magix.com
 www.magix.com###onetrust-group-container
 www.magix.com###onetrust-button-group-parent
-
 ! 2022-05-14 https://creativecow.net
 creativecow.net##.SCK_BannerContainer
 creativecow.net##.advads-background
 creativecow.net##.bbpress-sidebar.widget-area
-creativecow.net###cowtracks-1095258688 > .cowtracks-target.bbcow-ad-interstitial-container
+creativecow.net###cowtracks-1095258688 &gt; .cowtracks-target.bbcow-ad-interstitial-container
 creativecow.net##.is-sticky.advads-close.advads-background-click-close.advads-has-background.cowtracks-layer-onload.cowtracks-layer.cowtracks-target.bbcow-ad-interstitial-container.cowtracks-interstitial
-
 ! 2022-05-15 https://www.geeksforgeeks.org
 www.geeksforgeeks.org###color_pick_click_box
-www.geeksforgeeks.org##.login-modal-div > .modal-content
-
+www.geeksforgeeks.org##.login-modal-div &gt; .modal-content
 ! 2022-05-15 https://lrepacks.net
 lrepacks.net##iframe:nth-of-type(2)
-
 ! 2022-05-15 https://marcoramilli.com
 marcoramilli.com##rect
 marcoramilli.com###hu-bg-pattern
@@ -85,39 +68,29 @@ marcoramilli.com###hu-background
 marcoramilli.com###hu-outer-wrapper
 ||marcoramilli.com/wp-content/uploads/2019/08/award-icon-06.png$image
 ||i0.wp.com/marcoramilli.com/wp-content/uploads/2019/01/tw-.png?w=1100&ssl=1$image
-||i0.wp.com/marcoramilli.com/wp-content/uploads/2019/01/tw-.png?w=1100&ssl=1$image
-||i0.wp.com/marcoramilli.com/wp-content/uploads/2019/01/tw-.png?w=1100&ssl=1$image
-
 ! 2022-05-15 https://null-byte.wonderhowto.com
 null-byte.wonderhowto.com##.cta-newsletter.wht-cta
-
 ! 2022-05-16 https://www.timesofisrael.com
 www.timesofisrael.com##.bg-yellow-green.in-article.crm-post-module
-
 ! 2022-05-16 https://forward.com
 ||forward.com/wp-content/uploads/2022/04/engage-survey*.png$image
 ||buy.tinypass.com/checkout/template/cacheableShow?aid=6Z1jcPLepu&templateId=OTJHPW7V1HT3&offerId=fakeOfferId&experienceId=EXY3E12NMPEG&iframeId=offer_d58eccc3f3aee9ea8a68-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template&url=https%3A%2F%2Fforward.com$subdocument
-||buy.tinypass.com/checkout/template/cacheableShow?aid=6Z1jcPLepu&templateId=OTJHPW7V1HT3&offerId=fakeOfferId&experienceId=EXY3E12NMPEG&iframeId=offer_d58eccc3f3aee9ea8a68-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template&url=https%3A%2F%2Fforward.com$subdocument
-||buy.tinypass.com/checkout/template/cacheableShow?aid=6Z1jcPLepu&templateId=OTJHPW7V1HT3&offerId=fakeOfferId&experienceId=EXY3E12NMPEG&iframeId=offer_d58eccc3f3aee9ea8a68-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template&url=https%3A%2F%2Fforward.com$subdocument
 tinypass.com
-forward.com##section.explore-module > .container
+forward.com##section.explore-module &gt; .container
 forward.com##div.sticky-container:nth-of-type(1)
 forward.com##div.sticky-container:nth-of-type(2)
 forward.com##div.sticky-container:nth-of-type(3)
 forward.com##div.sticky-container:nth-of-type(4)
 forward.com##.sticky-rail
-
 ! 2022-05-16 https://www.frontiersin.org
 www.frontiersin.org##.right-container.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.a
 www.frontiersin.org##.right-container-articles.related.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.c
-
 ! 2022-05-16 https://vu.nl
 vu.nl##.vuw-cookie-scroll.vuw-card.auto.cell
 vu.nl##.vuw-bg-support-5.vuw-cookie.vuw-popup-bottom.grid-y
 vu.nl##.vuw-popup-wrapper-transparent
-
 ! 2022-05-16 https://www.jewishhistory.org
-www.jewishhistory.org##.theiaStickySidebar > .elementor-element-populated.elementor-widget-wrap
+www.jewishhistory.org##.theiaStickySidebar &gt; .elementor-element-populated.elementor-widget-wrap
 www.jewishhistory.org##.active.jeg_popup_post
 www.jewishhistory.org##.jnews_module_1707_0_628271cb9846a.jeg_col_2o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_22
 www.jewishhistory.org##.jeg_sharelist
@@ -125,34 +98,25 @@ www.jewishhistory.org##.jeg_prevnext_post
 www.jewishhistory.org##.comment-login
 www.jewishhistory.org##.elementor-section-height-default.elementor-section-boxed.elementor-element-f317844.elementor-element.elementor-top-section.elementor-section
 www.jewishhistory.org##.elementor-section-height-default.elementor-section-boxed.elementor-element-1664392.elementor-element.elementor-top-section.elementor-section
-
 ! 2022-05-16 https://www.jewishencyclopedia.com
-www.jewishencyclopedia.com###ft > .yui3-g
+www.jewishencyclopedia.com###ft &gt; .yui3-g
 www.jewishencyclopedia.com###ft
-
-! 2022-05-16 https://vu.nl
 vu.nl##.vuw-default-padding.vuw-bg-support-5.vuw-top
 vu.nl##.vuw-pt-l-6.vuw-pt-4.vuw-mt-l-12.vuw-mt-6.vuw-border-top-1.vuw-boder-support-5.small-12.cell
 vu.nl##.vuw-text-small.vuw-ph-m-0.vuw-pv-6.vuw-ph-4.vuw-bg-primary-1.vuw-bottom
-
 ! 2022-05-16 https://www.vox.com
 www.vox.com##.c-rock-list__items
-www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-www.vox.com##.c-article-footer
+www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed &gt; .l-col__sidebar
 www.vox.com##.c-compact-river
-www.vox.com##.l-col__main > .c-related-list
-www.vox.com##.c-nextclick > .c-related-list
+www.vox.com##.l-col__main &gt; .c-related-list
+www.vox.com##.c-nextclick &gt; .c-related-list
 www.vox.com##.main-social.c-social-buttons--popover.c-social-buttons
-
 ! 2022-05-16 https://slate.com
-slate.com##.global-footer__main
-slate.com##.ot-sdk-container > .ot-sdk-row
+slate.com##.ot-sdk-container &gt; .ot-sdk-row
 slate.com##.article__hr
-slate.com##.global-footer__legal
-slate.com##.article__content > .social-share
+slate.com##.article__content &gt; .social-share
 slate.com##.article__tags
 slate.com##.article__left-rail
-
 ! 2022-05-16 https://www.oberlo.com
 www.oberlo.com##.border-opacity-20.border-white-darker.border-t.text-white-light.bottom-0.w-full.full-width-row.z-50.fixed.bg-black
 www.oberlo.com##.xl\:block.xl\:pt-12.xl\:max-w-75.xl\:mb-12.hidden.relative
@@ -161,71 +125,54 @@ disqus.com
 www.oberlo.com##.gap-12.md\:grid-cols-3.grid-cols-1.grid.md\:container.md\:m-auto.md\:mb-24.m-8
 www.oberlo.com##.space-x-16.lg\:flex.hidden
 www.oberlo.com##.relative.text-white-light.bg-black.md\:px-0.sm\:px-16.px-8.py-6
-
 ! 2022-05-16 https://www.nerdwallet.com
 www.nerdwallet.com##._1hOZ19._2q_7oS._2dtDxA.RPy42B._23HyeX
 www.nerdwallet.com##.g5tmaz._2XSCxY._3Y_A7d._2FF6h5._37e6m-.XiPtYB._3iDZG6._1rfd32._3RCofZ.fyWLSM.OE0NEO
 www.nerdwallet.com##._3OPU_j.LQW3zN.FTDQoV
-www.nerdwallet.com##._26B2hu._1P8eDp > div > div > div > .FTDQoV > div
-www.nerdwallet.com##._2DOySB.global-footer
-www.nerdwallet.com##._26B2hu._1P8eDp > div > div > div > ._36DiN0
+www.nerdwallet.com##._26B2hu._1P8eDp &gt; div &gt; div &gt; div &gt; .FTDQoV &gt; div
+www.nerdwallet.com##._26B2hu._1P8eDp &gt; div &gt; div &gt; div &gt; ._36DiN0
 www.nerdwallet.com##.fyWLSM.OE0NEO._2rTX17._3J8UmC._1qND5S._3MntML._3Y_A7d
-
 ! 2022-05-16 https://animestock4amv.com
 animestock4amv.com##.nk-contacts-top
 animestock4amv.com##h3.nk-decorated-h-2:nth-of-type(2)
-
 ! 2022-05-16 https://apnews.com
 apnews.com##.ContentView-LeftRail
-apnews.com##.-footer.Component-footer-0-2-70
-
 ! 2022-05-16 https://www.thewrap.com
-www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article > .article-content > .entry-content > .tpd-read-more-container
-www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article > .article-content > .comments-section > .toggle
+www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article &gt; .article-content &gt; .entry-content &gt; .tpd-read-more-container
+www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article &gt; .article-content &gt; .comments-section &gt; .toggle
 www.thewrap.com##.widget-section
-www.thewrap.com###is-post-0 > .tpd-infinite-scroll-next
+www.thewrap.com###is-post-0 &gt; .tpd-infinite-scroll-next
 www.thewrap.com###tpd-contextual-ad-a
-www.thewrap.com##.site-footer
-
 ! 2022-05-17 https://www.schoolofmotion.com
 www.schoolofmotion.com##.wiz-download__wrapper
-
 ! 2022-05-18 https://forum.anonyshu.com
-forum.anonyshu.com###rb-newsletter-popup > .rb-newsletter > .rb-newsletter-inner
-forum.anonyshu.com###rb-newsletter-popup > .rb-newsletter
+forum.anonyshu.com###rb-newsletter-popup &gt; .rb-newsletter &gt; .rb-newsletter-inner
+forum.anonyshu.com###rb-newsletter-popup &gt; .rb-newsletter
 forum.anonyshu.com##.is-cover.mfp-animation.rb-newsletter-popup
 forum.anonyshu.com##.mfp-inline-holder.mfp-container
 forum.anonyshu.com##.mfp-ready.rb-popup-effect.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 forum.anonyshu.com##.mfp-ready.rb-popup-effect.mfp-bg
-
 ! 2022-05-19 https://www.pcgamer.com
-www.pcgamer.com###expanding-articles > div
+www.pcgamer.com###expanding-articles &gt; div
 www.pcgamer.com###expanding-articles
 www.pcgamer.com##.related-articles-wrap
 www.pcgamer.com###disqus_thread
-www.pcgamer.com###document-footer-content
 www.pcgamer.com###article-comments
 www.pcgamer.com##.author-block-with-borders.author-block
 www.pcgamer.com##.jump-to-comments
-www.pcgamer.com##.block-related.c012 > .more-heading.c015
+www.pcgamer.com##.block-related.c012 &gt; .more-heading.c015
 www.pcgamer.com##.block-related.c012
 www.pcgamer.com##.block-latest.c012
 www.pcgamer.com##.read-more-container
 www.pcgamer.com###sidebar
-
 ! 2022-05-19 https://ottsonic.bandcamp.com
 ottsonic.bandcamp.com##.tos-update.corpbanner
-
 ! 2022-05-19 https://www.itsasap.com
 ||f.hubspotusercontent30.net/hubfs/6124338/hub_generated/resized/4eaa8eca-af1d-4deb-84e6-c747c248876f.gif$image
-||f.hubspotusercontent30.net/hubfs/6124338/hub_generated/resized/4eaa8eca-af1d-4deb-84e6-c747c248876f.gif$image
-www.itsasap.com##.bop--single--social > ul > li
-www.itsasap.com##.tall--bottom.short--top.grid.blog--single--related > .hard--ends.one-whole.grid__item
+www.itsasap.com##.bop--single--social &gt; ul &gt; li
+www.itsasap.com##.tall--bottom.short--top.grid.blog--single--related &gt; .hard--ends.one-whole.grid__item
 www.itsasap.com##.tall--bottom.short--top.grid.blog--single--related
-www.itsasap.com##.footer--main
-www.itsasap.com##.footer--copyright
 www.itsasap.com##.relative.hard.one-whole.grid__item
-
 ! 2022-05-19 https://www.thumbtack.com
 www.thumbtack.com##.PWvusrO2v5lE8_-mgQZ_Z._2zVSJNJMzMOp9n-4Rwj7m1.bb.b-gray.pa3.z-1.bg-white.w-100.right-0.left-0.top-0.fixed
 www.thumbtack.com##div.formatted-content ._2QL-YImeg-hBMH5jOB-WHc.br3.pa5.mt4.relative
@@ -233,88 +180,62 @@ www.thumbtack.com##div.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb:nth-of-type(5)
 www.thumbtack.com##.how-tt-works
 www.thumbtack.com##div.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb:nth-of-type(6)
 www.thumbtack.com##.bn.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb
-www.thumbtack.com##.global-footer
-www.thumbtack.com##article > div > ._2QL-YImeg-hBMH5jOB-WHc.br3.pa5.mt4.relative
+www.thumbtack.com##article &gt; div &gt; ._2QL-YImeg-hBMH5jOB-WHc.br3.pa5.mt4.relative
 www.thumbtack.com##._1ZTO3eishlnrgUnVYkL6Gc
-
 ! 2022-05-19 https://www.iternalnetworks.com
 www.iternalnetworks.com##.widget_va_related_posts_widget.box
-www.iternalnetworks.com###sidebar > .widget_custom_html.box.widget_text
+www.iternalnetworks.com###sidebar &gt; .widget_custom_html.box.widget_text
 www.iternalnetworks.com##.gform_widget.box
-www.iternalnetworks.com###footerwrap
-
-! 2022-05-19 https://www.starterstory.com
-www.starterstory.com##.footer-bf
-www.starterstory.com##.footer-container.page-container
-
 ! 2022-05-19 https://www.ntiva.com
-www.ntiva.com##.footer.widget-type-cell.widget-span.span12 > .row-number-2.row-depth-1.row-fluid-wrapper > .row-fluid
 www.ntiva.com##.bottom-subscribe-form.widget-type-cell.widget-span.span12
 www.ntiva.com##.relatedPost
 www.ntiva.com###ucHubspotTopicDataPost
-||f.hubspotusercontent30.net/hubfs/3012736/hub_generated/resized/6039a404-8a75-4230-9356-530ec565e4e4.png$image
 ||f.hubspotusercontent30.net/hubfs/3012736/hub_generated/resized/6039a404-8a75-4230-9356-530ec565e4e4.png$image
 www.ntiva.com##p:nth-of-type(82)
 www.ntiva.com##p:nth-of-type(83)
 www.ntiva.com##p:nth-of-type(84)
 www.ntiva.com##p:nth-of-type(85)
 www.ntiva.com##p:nth-of-type(80)
-
 ! 2022-02-23 https://www.bbc.com
 www.bbc.com##.tp-modal
 www.bbc.com##.tp-active.tp-backdrop
-
 ! 2022-03-06 https://internettvdotcom.com
 internettvdotcom.com##.pum-active.click_open.auto_open.popmake-overlay.pum-theme-hello-box.pum-theme-7688.pum-overlay.pum
 internettvdotcom.com##.simplemodal-overlay
 ||internettvdotcom.com/how-to-videos/wp-content/uploads/2016/09/Background%20-%20Squares.jpg$image
-
 ! 2022-03-11 https://www.rockpapershotgun.com
 www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
 www.rockpapershotgun.com###onetrust-group-container
 www.rockpapershotgun.com###onetrust-button-group-parent
 www.rockpapershotgun.com##.supporters_promo
 www.rockpapershotgun.com##section.shelf
-www.rockpapershotgun.com###content_below > .page_content
-www.rockpapershotgun.com##.app_footer
-
+www.rockpapershotgun.com###content_below &gt; .page_content
 ! 2022-05-02 https://www.geeksforgeeks.org
-
 ! 2022-05-05 https://www.youtube.com
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-
+www.youtube.com##.ytd-rich-section-renderer.style-scope &gt; .ytd-rich-shelf-renderer.style-scope
+www.youtube.com###content &gt; .ytd-rich-section-renderer.style-scope
 ! 2022-05-19 https://www.duplichecker.com
 www.duplichecker.com##.s_fd_m_feedback-icon
-
 ! 2022-05-19 https://eproves.com
 eproves.com##.price__box
-eproves.com##.response__benefits > .wrap.response__box
-eproves.com##.response__music > .wrap.response__box
+eproves.com##.response__benefits &gt; .wrap.response__box
+eproves.com##.response__music &gt; .wrap.response__box
 eproves.com##.response__blog
 eproves.com##.response__price
 eproves.com##.response__how
 eproves.com##.partners
-eproves.com##footer
 eproves.com##.youtube__box
 eproves.com##.statistics
-
 ! 2022-05-20 https://www.safer-networking.org
 www.safer-networking.org##.float-shop.float
-
 ! 2022-05-20 https://macprovideo.com
 macprovideo.com##.px-4.py-12.bg-gray-100
-macprovideo.com##.gap-6.flex-col.flex.flex-grow > .rounded-md.p-3.bg-gray-100
+macprovideo.com##.gap-6.flex-col.flex.flex-grow &gt; .rounded-md.p-3.bg-gray-100
 macprovideo.com##.gap-y-2.flex-col.flex.flex-grow
 macprovideo.com##.gap-x-6.sm\:flex-row.flex-col.flex
 macprovideo.com##.flex-wrap.gap-2.flex
-
-! 2022-05-20 https://www.schoolofmotion.com
-www.schoolofmotion.com##.wf-section.s-footer
-
 ! 2022-05-21 https://techdirectarchive.com
 techdirectarchive.com##.th-px-base.sm\:th-px-lg.th-py-lg.sm\:th-py-xl.th-text-sm.widget-area.sidebar-area
-techdirectarchive.com##.th-stack-full--lg.th-pb-lg.sm\:th-px-base.th-flex-wrap.th-flex.footer-section.widget-area
 techdirectarchive.com##.th-stack--base.th-px-base.sm\:th-px-lg.th-py-base.th-items-center.th-flex-wrap.th-flex.footer-section.footer-top
 techdirectarchive.com##.th-stack-full--base.th-px-base.sm\:th-px-lg.th-pb-base.th-items-center.th-flex-wrap.th-flex.th-uppercase.footer-section.footer-bottom
 techdirectarchive.com##.nav-next
@@ -322,78 +243,59 @@ techdirectarchive.com##.post-navigation.navigation
 techdirectarchive.com##.wpd-comments-open.wpd-layout-1.wpd-default.wpdiscuz_unauth
 techdirectarchive.com##.jp-relatedposts
 techdirectarchive.com##.th-font-bolder.th-uppercase.entry-tags
-
 ! 2022-05-21 https://www.sciencedirect.com
 www.sciencedirect.com##section.u-margin-s-bottom.SidePanel:nth-of-type(1)
 www.sciencedirect.com##section.u-margin-s-bottom.SidePanel:nth-of-type(2)
-
 ! 2022-05-21 https://www.boston25news.com
 www.boston25news.com##.wrap-bottom.layout-section.ie-flex-100-percent-sm.right-article-section.col-lg-xl-4.col-sm-md-12
 www.boston25news.com##.wrap-bottom.layout-section.col-sm-xl-12
 www.boston25news.com##.container_row--desktop.container_row--tablet.container_column.padding-lg-all.justify_space_evenly.flex.\|.footer-body
 www.boston25news.com##.border_color_gray_17.border_solid.border_1_top.border.justify_center.align_items_center.flex.margin-lg-top.width_full.padding-lg-all.\|.footer-copyright.iMbduU.styled-sc-1vsisz3-0
 www.boston25news.com##.cmg-share-bar
-
 ! 2022-05-21 https://www.commondreams.org
 www.commondreams.org##.col-md-2.justify-content-center.d-flex.d-print-none.float-left
 www.commondreams.org##.py-5.bg-light.block.views-element-container
 www.commondreams.org##.d-print-none.py-5.bg-white
-www.commondreams.org##.text-white.bg-primary.page__footer.d-print-none
-www.commondreams.org##.d-print-none > .font-weight-bold.btn-block.btn-secondary.btn
+www.commondreams.org##.d-print-none &gt; .font-weight-bold.btn-block.btn-secondary.btn
 www.commondreams.org##.mb-4.text-tiny.text-center
 www.commondreams.org##div.d-print-none.col-md-2:nth-of-type(3)
 www.commondreams.org##.py-lg-2.py-4.col-lg-2.col-12.d-lg-block.d-none
 www.commondreams.org##.d-md-block.d-none.bg-primary
-
 ! 2022-05-23 https://streamlabs.com
 streamlabs.com##.top-nav-ukraine
-
 ! 2022-05-23 https://zyro.com
 zyro.com##.ribbon--purple.ribbon
 ||zyro.com/images/zyroBlog/blog-elements-V2.png$image
-||zyro.com/images/zyroBlog/blog-elements-V2.png$image
-||zyro.com/images/zyroBlog/blog-elements-V2.png$image
 zyro.com##.content-wrapper__promotion
 ||wpblog.zyro.com/cdn-cgi/image/w=700,q=85/wp-content/uploads/2021/03/Website-Builder-3-1*.png$image
-||wpblog.zyro.com/cdn-cgi/image/w=700,q=85/wp-content/uploads/2021/03/Website-Builder-3-1*.png$image
-
 ! 2022-05-23 https://www.themuse.com
 www.themuse.com##.sponsor--sidebar.sponsor
 www.themuse.com##.sponsor--midway.sponsor
-www.themuse.com##.mfe-footer
 www.themuse.com##.author--large.article-body__content-moduleauthor.author
 www.themuse.com##.sponsor--inline.sponsor.article-body__content-module
-
 ! 2022-05-23 http://www.foldmagazine.com
 ||tse1.mm.bing.net/th?q=Basic%20Resume%20Website$image
 www.foldmagazine.com##.pop-overlay
-
 ! 2022-05-23 https://www.ziprecruiter.com
 www.ziprecruiter.com##.survey_content
-
 ! 2022-05-23 https://knowledge.hubspot.com
 ||f.hubspotusercontent00.net/hubfs/53/hub_generated/resized/3ddc31b9-7998-4682-99e8-186559565df2.png$image
 ||app.hubspot.com/conversations-visitor/53/threads/utk/2d7a47a47b3d4ccda75764e72d7aee3c?uuid=59103dc5b2d849328323a44700c589b8&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=null&domain=knowledge.hubspot.com&inApp53=false&messagesUtk=2d7a47a47b3d4ccda75764e72d7aee3c&url=https%3A%2F%2Fknowledge.hubspot.com%2Fdomains-and-urls%2Fcreate-and-manage-url-redirects&inline=false&isFullscreen=false&globalCookieOptOut=null&isFirstVisitorSession=true&isAttachmentDisabled=false&enableWidgetCookieBanner=false&isInCMS=true$subdocument
-||app.hubspot.com/conversations-visitor/53/threads/utk/2d7a47a47b3d4ccda75764e72d7aee3c?uuid=59103dc5b2d849328323a44700c589b8&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=null&domain=knowledge.hubspot.com&inApp53=false&messagesUtk=2d7a47a47b3d4ccda75764e72d7aee3c&url=https%3A%2F%2Fknowledge.hubspot.com%2Fdomains-and-urls%2Fcreate-and-manage-url-redirects&inline=false&isFullscreen=false&globalCookieOptOut=null&isFirstVisitorSession=true&isAttachmentDisabled=false&enableWidgetCookieBanner=false&isInCMS=true$subdocument
-knowledge.hubspot.com##.kb-footer
-knowledge.hubspot.com###hs_cos_wrapper_module_15972702090764 > .related-articles
-knowledge.hubspot.com###page-feedback__form > .page-feedback__form-field
+knowledge.hubspot.com###hs_cos_wrapper_module_15972702090764 &gt; .related-articles
+knowledge.hubspot.com###page-feedback__form &gt; .page-feedback__form-field
 knowledge.hubspot.com##.page-feedback__disclaimer
-
 ! 2022-05-23 https://careerresumes.com
 ||careerresumes.com/wp-content/uploads/2017/11/free-critique-footer*.jpg$image
-careerresumes.com##p > [href="https://careerresumes.com/free-resume-critique/"]
-careerresumes.com##.fl-node-5feb45c313492.fl-row-bg-color.fl-row-full-width.fl-row > .fl-row-content-wrap
+careerresumes.com##p &gt; [href="https://careerresumes.com/free-resume-critique/"]
+careerresumes.com##.fl-node-5feb45c313492.fl-row-bg-color.fl-row-full-width.fl-row &gt; .fl-row-content-wrap
 careerresumes.com##.comment-respond
-careerresumes.com##.fl-node-5feb45c313487.fl-row-bg-color.fl-row-full-width.fl-row > .fl-row-content-wrap
-
+careerresumes.com##.fl-node-5feb45c313487.fl-row-bg-color.fl-row-full-width.fl-row &gt; .fl-row-content-wrap
 ! 2022-05-23 https://gizmodo.com
-gizmodo.com###sidebar_wrapper > .cySkyK.ynugv2-0
+gizmodo.com###sidebar_wrapper &gt; .cySkyK.ynugv2-0
 gizmodo.com##.kxHOoc.ynugv2-3
 gizmodo.com##.ffdijb.sc-101yw2y-5
 gizmodo.com##.jPPlae.sc-101yw2y-6.ynugv2-2
 gizmodo.com##.iUbJMS.jj9ppq-1
-
 ! 2022-05-29 https://www.makeuseof.com
 www.makeuseof.com##.col-1.clip-full.browse-grid.sentinel-article-sidebarTop
 www.makeuseof.com###secondary
@@ -401,613 +303,156 @@ www.makeuseof.com##.related-single
 www.makeuseof.com##.article-tags
 www.makeuseof.com##.w-article-author-bio-expand
 www.makeuseof.com##.w-article-related
-www.makeuseof.com##.w-footer
 www.makeuseof.com###disqus_thread
 www.makeuseof.com##.next-btn.sentinel-article-nextArticle
-
 ! 2022-05-29 https://www.digieffects.com
 www.digieffects.com##.wp-block-latest-posts.has-dates.wp-block-latest-posts__list
 www.digieffects.com##.sidebar.col-4
-www.digieffects.com##.cf.lower-footer
 www.digieffects.com##.saboxplugin-wrap
-
 ! 2022-05-29 https://linoxide.com
 linoxide.com##.inside-right-sidebar
 linoxide.com##.is-right-sidebar.sidebar.widget-area
 linoxide.com##.comment-form
-linoxide.com##.grid-container.footer-widgets-container
 linoxide.com##.comments-area
 linoxide.com##.site-info
 linoxide.com##.tags-links
-
 ! 2022-06-05 https://www.facebook.com
-www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05 > div > span
-
+www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 &gt; .cxgpxx05 &gt; div &gt; span
 ! 2022-06-05 https://www.nbcnews.com
 www.nbcnews.com##.share__container--article
 www.nbcnews.com##.dn-print.related
 www.nbcnews.com##.mt8.articleBylineContainer.expanded-byline-contributors
-www.nbcnews.com###content > .dn-print
+www.nbcnews.com###content &gt; .dn-print
 www.nbcnews.com##.styles_localNewsPackage__9HDGP.local-news-pkg
-
 ! 2022-06-05 https://www.azcentral.com
 www.azcentral.com##.gnt_em_vp__tavp.gnt_em
 www.azcentral.com##.gnt_rr
 www.azcentral.com##div.gnt_n_nc__hbn.gnt_n_sm:nth-of-type(3)
 www.azcentral.com##.gnt_n_nc__hbn.gnt_n_sm__ne.gnt_n_sm
 www.azcentral.com##.gnt_n_us_sb
-
 ! 2022-06-05 https://weather.com
 weather.com##.AccountLinks--tooltipPanel--3iOCM.Tooltip--bottom--ABguw.Tooltip--tooltip--3sx5y
 weather.com##.DaybreakLargeScreen--regionSidebar--2kFGB.regionSidebar.region-sidebar
 weather.com##.DaybreakLargeScreen--regionFooter--3zJxU.regionFooter.region-footer
-weather.com###WxuContentMedia-main-93e78c6f-fbe9-47e1-ae14-07a7ca30cac0 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-b1766804-9ab2-490e-888d-6e18caaf7134 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-09c1c236-6109-4bb1-8320-270ca13e32eb > .Card--card--HiWPW.Card--cardPadded--2oS21.card
+weather.com###WxuContentMedia-main-93e78c6f-fbe9-47e1-ae14-07a7ca30cac0 &gt; .Card--card--HiWPW.Card--cardPadded--2oS21.card
+weather.com###WxuContentMedia-main-b1766804-9ab2-490e-888d-6e18caaf7134 &gt; .Card--card--HiWPW.Card--cardPadded--2oS21.card
+weather.com###WxuContentMedia-main-09c1c236-6109-4bb1-8320-270ca13e32eb &gt; .Card--card--HiWPW.Card--cardPadded--2oS21.card
 weather.com##.AccountLinks--AccountLinks--3T5c9
-
 ! 2022-06-06 https://www.youtube.com
 www.youtube.com###secondary
 www.youtube.com###comments
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com###header &gt; .ytd-rich-grid-renderer.style-scope
 www.youtube.com###guide
 www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 www.youtube.com###guide-button
-
 ! 2022-06-06 https://successtms.com
 successtms.com##.default-sidebar.sidebar
-
 ! 2022-06-06 https://www.dropbox.com
 www.dropbox.com##.dig-Modal-overlay.ReactModal__Overlay--after-open.ReactModal__Overlay
-
 ! 2022-06-09 https://www.dropbox.com
 www.dropbox.com###consent-iframe
-
 ! 2022-06-10 https://abcnews.go.com
 abcnews.go.com##.xQgMU.otUPp.LGeIL.roSia.KFrHz
 abcnews.go.com##div.uJbEF.LKeu.vABDa.rNiFf.FYsKf.snXP
-
 ! 2022-06-10 https://www.purevpn.com
 www.purevpn.com##.widget-area.blog-sidebar
-
 ! 2022-06-10 https://www.npr.org
 www.npr.org###player-react-mount
-
 ! 2022-06-10 https://social-rise.com
 social-rise.com###exit-intent
 social-rise.com##div.modal:nth-of-type(11)
 social-rise.com##div.modal:nth-of-type(9)
-
 ! 2022-06-10 https://www.health.harvard.edu
 www.health.harvard.edu##.mx-auto.max-w-md-lg.sm\:pt-8.sm\:pb-16.sm\:px-16.relative.p-4.bg-white
-www.health.harvard.edu##body > div:nth-of-type(2)
-
+www.health.harvard.edu##body &gt; div:nth-of-type(2)
 ! 2022-06-11 https://www.rexegg.com
 www.rexegg.com##.fadein.rightcolumn
-
 ! 2022-06-11 https://regex-generator.olafneumann.org
 regex-generator.olafneumann.org###driver-popover-item
 regex-generator.olafneumann.org###driver-page-overlay
-
 ! 2022-06-11 https://dev.to
 dev.to###article-show-primary-sticky-nav
-
 ! 2022-06-13 https://www.shutterstock.com
 www.shutterstock.com##.jss358
-
 ! 2022-06-13 https://search.brave.com
 search.brave.com##.svelte-10n95qb.callout
-
 ! 2022-06-13 https://www.indeed.com
 www.indeed.com###jobsearch-JapanAppDownloadPromo
-
 ! 2022-06-13 https://www.monster.com
 www.monster.com##.jSwueS.sc-hKdnnL
 www.monster.com##.jDJomQ.ukraine-dismissible-bannerstyle__HeaderBannerOuter-sc-byjcya-0
 www.monster.com##.eQslhQ.hero-cardstyle__HeaderCardOuter-sc-8gb5fx-0
 www.monster.com##section.MuiContainer-maxWidthXl.MuiContainer-disableGutters.MuiContainer-root
-www.monster.com##.ds-footer.iPiEoh.sc-kjEcyX
-
-! 2022-05-09 https://flows.nodered.org
-flows.nodered.org###cm
-
-! 2022-05-09 https://sellbery.com
-sellbery.com##.cookies-container
-sellbery.com##.cookies-popup
-sellbery.com##div.sexy_red.blog_cta:nth-of-type(3)
-sellbery.com##.__ue__content
-sellbery.com##.__ue__footer
-
-! 2022-05-10 https://www.aliexpress.com
-||ae01.alicdn.com/kf/Se8d5705ceba74af2b93bfdd33ccd7fc8E.jpg_Q90.jpg_.webp$image
-www.aliexpress.com##._3KrBP
-
-! 2022-05-11 https://www.fiverr.com
-www.fiverr.com##.ba-survey--fade-in.box-shadow-z4.ba-survey
-www.fiverr.com##.flex-between.p-b-24.p-l-24.p-r-24.flex-col.flex
-www.fiverr.com##.flex-end.flex
-
-! 2022-05-11 https://www.isitwp.com
-www.isitwp.com##.Campaign--css.CampaignType--popup.Campaign.buffalo-campaign
-
-! 2022-05-11 https://stackoverflow.com
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm:p16.p32.sm:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-
-! 2022-05-12 https://chaturbate.com
-chaturbate.com##.RoomSignupPopup
-
-! 2022-05-13 https://www.tiktok.com
-www.tiktok.com##.e1l04njg0.tiktok-4gw84j-DivKeyboardShortcutContainer
-www.tiktok.com##.ejkrawn1.tiktok-zxo5ey-ButtonGetAppText
-
-! 2022-05-13 https://www.psypost.org
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .expanded.jeg_btn-facebook
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .expanded.jeg_btn-twitter
-www.psypost.org##.jeg_social_wrap > .square.socials_widget
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-email
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-qrcode
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-reddit
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-linkedin
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-pinterest
-www.psypost.org##.jeg_share_float_container > .jeg_sharelist > .jeg_btn-whatsapp
-www.psypost.org##.clearfix.share-bottom.jeg_share_button > .jeg_sharelist
 www.psypost.org##.clearfix.jeg_footer_secondary
-www.psypost.org##.jnews-cookie-law-policy
 www.psypost.org##.clearfix.jeg_footer_primary
-www.psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar
-
-! 2022-05-13 https://www.vegascreativesoftware.com
-www.vegascreativesoftware.com###onetrust-group-container
-www.vegascreativesoftware.com###onetrust-button-group-parent
-
-! 2022-05-13 https://dongknows.com
-dongknows.com##.chp_ads_blocker_detector-show.fadeInDown.chp_ads_block_modalmqm9xdhuk241i4qhmrez
-
-! 2022-05-14 https://www.vpnmentor.com
-www.vpnmentor.com##.aff-button.aff-btn-orange.btn-warning.btn-lg.btn
-www.vpnmentor.com##.top-vendors-wrap.side-block-wrap
-
-! 2022-05-14 https://www.magix.com
-www.magix.com###onetrust-group-container
-www.magix.com###onetrust-button-group-parent
-
-! 2022-05-14 https://creativecow.net
-creativecow.net##.SCK_BannerContainer
-creativecow.net##.advads-background
-creativecow.net##.bbpress-sidebar.widget-area
-creativecow.net###cowtracks-1095258688 > .cowtracks-target.bbcow-ad-interstitial-container
-creativecow.net##.is-sticky.advads-close.advads-background-click-close.advads-has-background.cowtracks-layer-onload.cowtracks-layer.cowtracks-target.bbcow-ad-interstitial-container.cowtracks-interstitial
-
-! 2022-05-15 https://www.geeksforgeeks.org
-www.geeksforgeeks.org###color_pick_click_box
-www.geeksforgeeks.org##.login-modal-div > .modal-content
-
-! 2022-05-15 https://lrepacks.net
-lrepacks.net##iframe:nth-of-type(2)
-
-! 2022-05-15 https://marcoramilli.com
-marcoramilli.com##rect
-marcoramilli.com###hu-bg-pattern
-marcoramilli.com###hu-background
-marcoramilli.com###hu-outer-wrapper
 ||marcoramilli.com/wp-content/uploads/2019/08/award-icon-06.png
-
 KaTeX parse error: Expected 'EOF', got '&' at position 77: …/tw-.png?w=1100&̲ssl=1
 image
 ||i0.wp.com/marcoramilli.com/wp-content/uploads/2019/01/tw-.png?w=1100&ssl=1
-KaTeX parse error: Expected 'EOF', got '&' at position 77: …/tw-.png?w=1100&̲ssl=1
-image
-! 2022-05-15 https://null-byte.wonderhowto.com
-null-byte.wonderhowto.com##.cta-newsletter.wht-cta
-
-! 2022-05-16 https://www.timesofisrael.com
-www.timesofisrael.com##.bg-yellow-green.in-article.crm-post-module
-
-! 2022-05-16 https://forward.com
 ||forward.com/wp-content/uploads/2022/04/engage-survey*.png
-
 KaTeX parse error: Expected 'EOF', got '&' at position 72: …?aid=6Z1jcPLepu&̲templateId=OTJH…
 subdocument
 ||buy.tinypass.com/checkout/template/cacheableShow?aid=6Z1jcPLepu&templateId=OTJHPW7V1HT3&offerId=fakeOfferId&experienceId=EXY3E12NMPEG&iframeId=offer_d58eccc3f3aee9ea8a68-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template&url=https%3A%2F%2Fforward.com
 KaTeX parse error: Expected 'EOF', got '&' at position 78: …?aid=6Z1jcPLepu&̲templateId=OTJH…
-subdocument
-tinypass.com
-forward.com##section.explore-module > .container
-forward.com##div.sticky-container:nth-of-type(1)
-forward.com##div.sticky-container:nth-of-type(2)
-forward.com##div.sticky-container:nth-of-type(3)
-forward.com##div.sticky-container:nth-of-type(4)
-forward.com##.sticky-rail
-! 2022-05-16 https://www.frontiersin.org
-www.frontiersin.org##.right-container.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.a
-www.frontiersin.org##.right-container-articles.related.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.c
-
-! 2022-05-16 https://vu.nl
-vu.nl##.vuw-cookie-scroll.vuw-card.auto.cell
-vu.nl##.vuw-bg-support-5.vuw-cookie.vuw-popup-bottom.grid-y
-vu.nl##.vuw-popup-wrapper-transparent
-
-! 2022-05-16 https://www.jewishhistory.org
-www.jewishhistory.org##.theiaStickySidebar > .elementor-element-populated.elementor-widget-wrap
-www.jewishhistory.org##.active.jeg_popup_post
-www.jewishhistory.org##.jnews_module_1707_0_628271cb9846a.jeg_col_2o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_22
-www.jewishhistory.org##.jeg_sharelist
-www.jewishhistory.org##.jeg_prevnext_post
-www.jewishhistory.org##.comment-login
-www.jewishhistory.org##.elementor-section-height-default.elementor-section-boxed.elementor-element-f317844.elementor-element.elementor-top-section.elementor-section
-www.jewishhistory.org##.elementor-section-height-default.elementor-section-boxed.elementor-element-1664392.elementor-element.elementor-top-section.elementor-section
-
-! 2022-05-16 https://www.jewishencyclopedia.com
-www.jewishencyclopedia.com###ft > .yui3-g
-www.jewishencyclopedia.com###ft
-
-! 2022-05-16 https://vu.nl
-vu.nl##.vuw-default-padding.vuw-bg-support-5.vuw-top
-vu.nl##.vuw-pt-l-6.vuw-pt-4.vuw-mt-l-12.vuw-mt-6.vuw-border-top-1.vuw-boder-support-5.small-12.cell
-vu.nl##.vuw-text-small.vuw-ph-m-0.vuw-pv-6.vuw-ph-4.vuw-bg-primary-1.vuw-bottom
-
-! 2022-05-16 https://www.vox.com
-www.vox.com##.c-rock-list__items
-www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-www.vox.com##.c-article-footer
-www.vox.com##.c-compact-river
-www.vox.com##.l-col__main > .c-related-list
-www.vox.com##.c-nextclick > .c-related-list
-www.vox.com##.main-social.c-social-buttons--popover.c-social-buttons
-
-! 2022-05-16 https://slate.com
-slate.com##.global-footer__main
-slate.com##.ot-sdk-container > .ot-sdk-row
-slate.com##.article__hr
-slate.com##.global-footer__legal
-slate.com##.article__content > .social-share
-slate.com##.article__tags
-slate.com##.article__left-rail
-
-! 2022-05-16 https://www.oberlo.com
-www.oberlo.com##.border-opacity-20.border-white-darker.border-t.text-white-light.bottom-0.w-full.full-width-row.z-50.fixed.bg-black
 www.oberlo.com##.xl:block.xl:pt-12.xl:max-w-75.xl:mb-12.hidden.relative
 www.oberlo.com##.relative.md:-mx-24.md:pl-16.my-12.-mx-8.px-8.bg-white
-disqus.com
 www.oberlo.com##.gap-12.md:grid-cols-3.grid-cols-1.grid.md:container.md:m-auto.md:mb-24.m-8
 www.oberlo.com##.space-x-16.lg:flex.hidden
 www.oberlo.com##.relative.text-white-light.bg-black.md:px-0.sm:px-16.px-8.py-6
-
-! 2022-05-16 https://www.nerdwallet.com
-www.nerdwallet.com##._1hOZ19._2q_7oS._2dtDxA.RPy42B._23HyeX
-www.nerdwallet.com##.g5tmaz._2XSCxY._3Y_A7d._2FF6h5._37e6m-.XiPtYB._3iDZG6._1rfd32._3RCofZ.fyWLSM.OE0NEO
-www.nerdwallet.com##._3OPU_j.LQW3zN.FTDQoV
-www.nerdwallet.com##._26B2hu._1P8eDp > div > div > div > .FTDQoV > div
-www.nerdwallet.com##._2DOySB.global-footer
-www.nerdwallet.com##._26B2hu._1P8eDp > div > div > div > ._36DiN0
-www.nerdwallet.com##.fyWLSM.OE0NEO._2rTX17._3J8UmC._1qND5S._3MntML._3Y_A7d
-
-! 2022-05-16 https://animestock4amv.com
-animestock4amv.com##.nk-contacts-top
-animestock4amv.com##h3.nk-decorated-h-2:nth-of-type(2)
-
-! 2022-05-16 https://apnews.com
-apnews.com##.ContentView-LeftRail
-apnews.com##.-footer.Component-footer-0-2-70
-
-! 2022-05-16 https://www.thewrap.com
-www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article > .article-content > .entry-content > .tpd-read-more-container
-www.thewrap.com##.tag-tv.tag-starz.tag-snoop_dogg.tag-50_cent.category-tv.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-5724073.single-article > .article-content > .comments-section > .toggle
-www.thewrap.com##.widget-section
-www.thewrap.com###is-post-0 > .tpd-infinite-scroll-next
-www.thewrap.com###tpd-contextual-ad-a
-www.thewrap.com##.site-footer
-
-! 2022-05-17 https://www.schoolofmotion.com
-www.schoolofmotion.com##.wiz-download__wrapper
-
-! 2022-05-18 https://forum.anonyshu.com
-forum.anonyshu.com###rb-newsletter-popup > .rb-newsletter > .rb-newsletter-inner
-forum.anonyshu.com###rb-newsletter-popup > .rb-newsletter
-forum.anonyshu.com##.is-cover.mfp-animation.rb-newsletter-popup
-forum.anonyshu.com##.mfp-inline-holder.mfp-container
-forum.anonyshu.com##.mfp-ready.rb-popup-effect.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
-forum.anonyshu.com##.mfp-ready.rb-popup-effect.mfp-bg
-
-! 2022-05-19 https://www.pcgamer.com
-www.pcgamer.com###expanding-articles > div
-www.pcgamer.com###expanding-articles
-www.pcgamer.com##.related-articles-wrap
-www.pcgamer.com###disqus_thread
-www.pcgamer.com###document-footer-content
-www.pcgamer.com###article-comments
-www.pcgamer.com##.author-block-with-borders.author-block
-www.pcgamer.com##.jump-to-comments
-www.pcgamer.com##.block-related.c012 > .more-heading.c015
-www.pcgamer.com##.block-related.c012
-www.pcgamer.com##.block-latest.c012
-www.pcgamer.com##.read-more-container
-www.pcgamer.com###sidebar
-
-! 2022-05-19 https://ottsonic.bandcamp.com
-ottsonic.bandcamp.com##.tos-update.corpbanner
-
-! 2022-05-19 https://www.itsasap.com
 ||f.hubspotusercontent30.net/hubfs/6124338/hub_generated/resized/4eaa8eca-af1d-4deb-84e6-c747c248876f.gifimage ||f.hubspotusercontent30.net/hubfs/6124338/hub_generated/resized/4eaa8eca-af1d-4deb-84e6-c747c248876f.gifimage∣∣f.hubspotusercontent30.net/hubfs/6124338/hub
 g
 ​
 enerated/resized/4eaa8eca−af1d−4deb−84e6−c747c248876f.gifimage
-www.itsasap.com##.bop--single--social > ul > li
-www.itsasap.com##.tall--bottom.short--top.grid.blog--single--related > .hard--ends.one-whole.grid__item
-www.itsasap.com##.tall--bottom.short--top.grid.blog--single--related
-www.itsasap.com##.footer--main
-www.itsasap.com##.footer--copyright
-www.itsasap.com##.relative.hard.one-whole.grid__item
-
-! 2022-05-19 https://www.thumbtack.com
-www.thumbtack.com##.PWvusrO2v5lE8_-mgQZ_Z._2zVSJNJMzMOp9n-4Rwj7m1.bb.b-gray.pa3.z-1.bg-white.w-100.right-0.left-0.top-0.fixed
-www.thumbtack.com##div.formatted-content ._2QL-YImeg-hBMH5jOB-WHc.br3.pa5.mt4.relative
-www.thumbtack.com##div.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb:nth-of-type(5)
-www.thumbtack.com##.how-tt-works
-www.thumbtack.com##div.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb:nth-of-type(6)
-www.thumbtack.com##.bn.m_pb6.m_pt6.pb5.pt5.bg-white.b-gray-300.bb
-www.thumbtack.com##.global-footer
-www.thumbtack.com##article > div > ._2QL-YImeg-hBMH5jOB-WHc.br3.pa5.mt4.relative
-www.thumbtack.com##._1ZTO3eishlnrgUnVYkL6Gc
-
-! 2022-05-19 https://www.iternalnetworks.com
-www.iternalnetworks.com##.widget_va_related_posts_widget.box
-www.iternalnetworks.com###sidebar > .widget_custom_html.box.widget_text
-www.iternalnetworks.com##.gform_widget.box
-www.iternalnetworks.com###footerwrap
-
-! 2022-05-19 https://www.starterstory.com
-www.starterstory.com##.footer-bf
-www.starterstory.com##.footer-container.page-container
-
-! 2022-05-19 https://www.ntiva.com
-www.ntiva.com##.footer.widget-type-cell.widget-span.span12 > .row-number-2.row-depth-1.row-fluid-wrapper > .row-fluid
-www.ntiva.com##.bottom-subscribe-form.widget-type-cell.widget-span.span12
-www.ntiva.com##.relatedPost
-www.ntiva.com###ucHubspotTopicDataPost
 ||f.hubspotusercontent30.net/hubfs/3012736/hub_generated/resized/6039a404-8a75-4230-9356-530ec565e4e4.pngimage ||f.hubspotusercontent30.net/hubfs/3012736/hub_generated/resized/6039a404-8a75-4230-9356-530ec565e4e4.pngimage∣∣f.hubspotusercontent30.net/hubfs/3012736/hub
-g
-​
 enerated/resized/6039a404−8a75−4230−9356−530ec565e4e4.pngimage
-www.ntiva.com##p:nth-of-type(82)
-www.ntiva.com##p:nth-of-type(83)
-www.ntiva.com##p:nth-of-type(84)
-www.ntiva.com##p:nth-of-type(85)
-www.ntiva.com##p:nth-of-type(80)
-
-! 2022-02-23 https://www.bbc.com
-www.bbc.com##.tp-modal
-www.bbc.com##.tp-active.tp-backdrop
-
-! 2022-03-06 https://internettvdotcom.com
-internettvdotcom.com##.pum-active.click_open.auto_open.popmake-overlay.pum-theme-hello-box.pum-theme-7688.pum-overlay.pum
-internettvdotcom.com##.simplemodal-overlay
-||internettvdotcom.com/how-to-videos/wp-content/uploads/2016/09/Background%20-%20Squares.jpg$image
-
-! 2022-03-11 https://www.rockpapershotgun.com
-www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
-www.rockpapershotgun.com###onetrust-group-container
-www.rockpapershotgun.com###onetrust-button-group-parent
-www.rockpapershotgun.com##.supporters_promo
-www.rockpapershotgun.com##section.shelf
-www.rockpapershotgun.com###content_below > .page_content
-www.rockpapershotgun.com##.app_footer
-
-! 2022-05-02 https://www.geeksforgeeks.org
-
-! 2022-05-05 https://www.youtube.com
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-
-! 2022-05-19 https://www.duplichecker.com
-www.duplichecker.com##.s_fd_m_feedback-icon
-
-! 2022-05-19 https://eproves.com
-eproves.com##.price__box
-eproves.com##.response__benefits > .wrap.response__box
-eproves.com##.response__music > .wrap.response__box
-eproves.com##.response__blog
-eproves.com##.response__price
-eproves.com##.response__how
-eproves.com##.partners
-eproves.com##footer
-eproves.com##.youtube__box
-eproves.com##.statistics
-
-! 2022-05-20 https://www.safer-networking.org
-www.safer-networking.org##.float-shop.float
-
-! 2022-05-20 https://macprovideo.com
-macprovideo.com##.px-4.py-12.bg-gray-100
-macprovideo.com##.gap-6.flex-col.flex.flex-grow > .rounded-md.p-3.bg-gray-100
-macprovideo.com##.gap-y-2.flex-col.flex.flex-grow
 macprovideo.com##.gap-x-6.sm:flex-row.flex-col.flex
-macprovideo.com##.flex-wrap.gap-2.flex
-
-! 2022-05-20 https://www.schoolofmotion.com
-www.schoolofmotion.com##.wf-section.s-footer
-
-! 2022-05-21 https://techdirectarchive.com
 techdirectarchive.com##.th-px-base.sm:th-px-lg.th-py-lg.sm:th-py-xl.th-text-sm.widget-area.sidebar-area
 techdirectarchive.com##.th-stack-full--lg.th-pb-lg.sm:th-px-base.th-flex-wrap.th-flex.footer-section.widget-area
 techdirectarchive.com##.th-stack--base.th-px-base.sm:th-px-lg.th-py-base.th-items-center.th-flex-wrap.th-flex.footer-section.footer-top
 techdirectarchive.com##.th-stack-full--base.th-px-base.sm:th-px-lg.th-pb-base.th-items-center.th-flex-wrap.th-flex.th-uppercase.footer-section.footer-bottom
-techdirectarchive.com##.nav-next
-techdirectarchive.com##.post-navigation.navigation
-techdirectarchive.com##.wpd-comments-open.wpd-layout-1.wpd-default.wpdiscuz_unauth
-techdirectarchive.com##.jp-relatedposts
-techdirectarchive.com##.th-font-bolder.th-uppercase.entry-tags
-
-! 2022-05-21 https://www.sciencedirect.com
-www.sciencedirect.com##section.u-margin-s-bottom.SidePanel:nth-of-type(1)
-www.sciencedirect.com##section.u-margin-s-bottom.SidePanel:nth-of-type(2)
-
-! 2022-05-21 https://www.boston25news.com
-www.boston25news.com##.wrap-bottom.layout-section.ie-flex-100-percent-sm.right-article-section.col-lg-xl-4.col-sm-md-12
-www.boston25news.com##.wrap-bottom.layout-section.col-sm-xl-12
 www.boston25news.com##.container_row--desktop.container_row--tablet.container_column.padding-lg-all.justify_space_evenly.flex.|.footer-body
 www.boston25news.com##.border_color_gray_17.border_solid.border_1_top.border.justify_center.align_items_center.flex.margin-lg-top.width_full.padding-lg-all.|.footer-copyright.iMbduU.styled-sc-1vsisz3-0
-www.boston25news.com##.cmg-share-bar
-
-! 2022-05-21 https://www.commondreams.org
-www.commondreams.org##.col-md-2.justify-content-center.d-flex.d-print-none.float-left
-www.commondreams.org##.py-5.bg-light.block.views-element-container
-www.commondreams.org##.d-print-none.py-5.bg-white
 www.commondreams.org##.text-white.bg-primary.page__footer.d-print-none
-www.commondreams.org##.d-print-none > .font-weight-bold.btn-block.btn-secondary.btn
-www.commondreams.org##.mb-4.text-tiny.text-center
-www.commondreams.org##div.d-print-none.col-md-2:nth-of-type(3)
-www.commondreams.org##.py-lg-2.py-4.col-lg-2.col-12.d-lg-block.d-none
-www.commondreams.org##.d-md-block.d-none.bg-primary
-
-! 2022-05-23 https://streamlabs.com
-streamlabs.com##.top-nav-ukraine
-
-! 2022-05-23 https://zyro.com
-zyro.com##.ribbon--purple.ribbon
 ||zyro.com/images/zyroBlog/blog-elements-V2.pngimage ||zyro.com/images/zyroBlog/blog-elements-V2.pngimage∣∣zyro.com/images/zyroBlog/blog−elements−V2.pngimage
 ||zyro.com/images/zyroBlog/blog-elements-V2.png
-
 KaTeX parse error: Expected 'EOF', got '#' at position 15: image zyro.com#̲#.content-wrapp…
-image
-||wpblog.zyro.com/cdn-cgi/image/w=700,q=85/wp-content/uploads/2021/03/Website-Builder-3-1*.png$image
-! 2022-05-23 https://www.themuse.com
-www.themuse.com##.sponsor--sidebar.sponsor
-www.themuse.com##.sponsor--midway.sponsor
 www.themuse.com##.mfe-footer
-www.themuse.com##.author--large.article-body__content-moduleauthor.author
-www.themuse.com##.sponsor--inline.sponsor.article-body__content-module
-
-! 2022-05-23 http://www.foldmagazine.com
-||tse1.mm.bing.net/th?q=Basic%20Resume%20Website$image
-www.foldmagazine.com##.pop-overlay
-
-! 2022-05-23 https://www.ziprecruiter.com
-www.ziprecruiter.com##.survey_content
-
-! 2022-05-23 https://knowledge.hubspot.com
 ||f.hubspotusercontent00.net/hubfs/53/hub_generated/resized/3ddc31b9-7998-4682-99e8-186559565df2.png
-
 KaTeX parse error: Expected 'EOF', got '&' at position 132: …323a44700c589b8&̲mobile=false&mo…
-subdocument
 ||app.hubspot.com/conversations-visitor/53/threads/utk/2d7a47a47b3d4ccda75764e72d7aee3c?uuid=59103dc5b2d849328323a44700c589b8&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=null&domain=knowledge.hubspot.com&inApp53=false&messagesUtk=2d7a47a47b3d4ccda75764e72d7aee3c&url=https%3A%2F%2Fknowledge.hubspot.com%2Fdomains-and-urls%2Fcreate-and-manage-url-redirects&inline=false&isFullscreen=false&globalCookieOptOut=null&isFirstVisitorSession=true&isAttachmentDisabled=false&enableWidgetCookieBanner=false&isInCMS=true
-
 KaTeX parse error: Expected 'EOF', got '#' at position 34: …dge.hubspot.com#̲#.kb-footer kno…
-
-image
-careerresumes.com##p > [href="https://careerresumes.com/free-resume-critique/"]
-careerresumes.com##.fl-node-5feb45c313492.fl-row-bg-color.fl-row-full-width.fl-row > .fl-row-content-wrap
-careerresumes.com##.comment-respond
-careerresumes.com##.fl-node-5feb45c313487.fl-row-bg-color.fl-row-full-width.fl-row > .fl-row-content-wrap
-
-! 2022-05-23 https://gizmodo.com
-gizmodo.com###sidebar_wrapper > .cySkyK.ynugv2-0
-gizmodo.com##.kxHOoc.ynugv2-3
-gizmodo.com##.ffdijb.sc-101yw2y-5
-gizmodo.com##.jPPlae.sc-101yw2y-6.ynugv2-2
-gizmodo.com##.iUbJMS.jj9ppq-1
-
-! 2022-05-29 https://www.makeuseof.com
-www.makeuseof.com##.col-1.clip-full.browse-grid.sentinel-article-sidebarTop
-www.makeuseof.com###secondary
-www.makeuseof.com##.related-single
-www.makeuseof.com##.article-tags
-www.makeuseof.com##.w-article-author-bio-expand
-www.makeuseof.com##.w-article-related
 www.makeuseof.com##.w-footer
-www.makeuseof.com###disqus_thread
-www.makeuseof.com##.next-btn.sentinel-article-nextArticle
-
-! 2022-05-29 https://www.digieffects.com
-www.digieffects.com##.wp-block-latest-posts.has-dates.wp-block-latest-posts__list
-www.digieffects.com##.sidebar.col-4
 www.digieffects.com##.cf.lower-footer
-www.digieffects.com##.saboxplugin-wrap
-
-! 2022-05-29 https://linoxide.com
-linoxide.com##.inside-right-sidebar
-linoxide.com##.is-right-sidebar.sidebar.widget-area
-linoxide.com##.comment-form
 linoxide.com##.grid-container.footer-widgets-container
-linoxide.com##.comments-area
-linoxide.com##.site-info
-linoxide.com##.tags-links
-
-! 2022-06-05 https://www.facebook.com
-www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05 > div > span
-
-! 2022-06-05 https://www.nbcnews.com
-www.nbcnews.com##.share__container--article
-www.nbcnews.com##.dn-print.related
-www.nbcnews.com##.mt8.articleBylineContainer.expanded-byline-contributors
-www.nbcnews.com###content > .dn-print
-www.nbcnews.com##.styles_localNewsPackage__9HDGP.local-news-pkg
-
-! 2022-06-05 https://www.azcentral.com
-www.azcentral.com##.gnt_em_vp__tavp.gnt_em
-www.azcentral.com##.gnt_rr
-www.azcentral.com##div.gnt_n_nc__hbn.gnt_n_sm:nth-of-type(3)
-www.azcentral.com##.gnt_n_nc__hbn.gnt_n_sm__ne.gnt_n_sm
-www.azcentral.com##.gnt_n_us_sb
-
-! 2022-06-05 https://weather.com
-weather.com##.AccountLinks--tooltipPanel--3iOCM.Tooltip--bottom--ABguw.Tooltip--tooltip--3sx5y
-weather.com##.DaybreakLargeScreen--regionSidebar--2kFGB.regionSidebar.region-sidebar
-weather.com##.DaybreakLargeScreen--regionFooter--3zJxU.regionFooter.region-footer
-weather.com###WxuContentMedia-main-93e78c6f-fbe9-47e1-ae14-07a7ca30cac0 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-b1766804-9ab2-490e-888d-6e18caaf7134 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-09c1c236-6109-4bb1-8320-270ca13e32eb > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com##.AccountLinks--AccountLinks--3T5c9
-
-! 2022-06-06 https://www.youtube.com
-www.youtube.com###secondary
-www.youtube.com###comments
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com###guide
-www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
-www.youtube.com###guide-button
-
-! 2022-06-06 https://successtms.com
-successtms.com##.default-sidebar.sidebar
-
-! 2022-06-06 https://www.dropbox.com
-www.dropbox.com##.dig-Modal-overlay.ReactModal__Overlay--after-open.ReactModal__Overlay
-
 ! 2022-06-13 https://www.zywave.com
 www.zywave.com##.sgpb-popup-dialog-main-div-wrapper
 www.zywave.com##.sgpb-popup-overlay.sgpb-popup-overlay-22687.sgpb-theme-6-overlay
-
 ! 2022-06-14 https://www.goodreads.com
 www.goodreads.com###smartbanner
 www.goodreads.com##.responsiveSiteFooter
-
 ! 2022-06-14 https://www.theguardian.com
 www.theguardian.com##.dcr-1aul2ye
 www.theguardian.com##.dcr-1k32900
 www.theguardian.com##gu-island
 www.theguardian.com##.dcr-il3bi2
 www.theguardian.com##.dcr-v339xn
-
 ! 2022-06-14 https://news.sky.com
 news.sky.com##.sdc-article-body-width-limiter.site-wrap-padding.site-component-vertical-margin.site-share-wrapper
-news.sky.com##.sdc-article-body--lead.sdc-article-body--story.sdc-article-body > .sdc-site-layout-sticky-region
+news.sky.com##.sdc-article-body--lead.sdc-article-body--story.sdc-article-body &gt; .sdc-site-layout-sticky-region
 news.sky.com##.sdc-news-footer
 news.sky.com##.site-wrap-padding.sdc-article-body-width-limiter.sdc-trust-project
-
 ! 2022-06-14 https://apnews.com
 apnews.com##.-nopadding.-scrolled.header-featured-wrapper
 apnews.com##.header-featured-wrapper
 apnews.com##.-footer.Component-footer-0-2-73
-
 ! 2022-06-14 https://abcnews.go.com
 abcnews.go.com##.VBCnz.nyToF.LGeIL.roSia.KFrHz
 abcnews.go.com##div.uJbEF.LKeu.vABDa.geuMB.alqtB.snXP
-abcnews.go.com##.HzcXo.nvbxj.tEEbE > div
+abcnews.go.com##.HzcXo.nvbxj.tEEbE &gt; div
 abcnews.go.com##.footer--shell.footer
-
 ! 2022-06-14 https://weather.com
 weather.com##.DaypartDetails--fifteenMinuteGating--1uy5w
-
 ! 2022-06-14 https://variety.com
 variety.com##.lrv-u-flex.lrv-u-align-items-center.social-share
 variety.com##.admz
@@ -1022,10 +467,8 @@ variety.com##.lrv-u-margin-tb-1.lrv-a-wrapper.//.newswire__wrapper
 variety.com##.u-background-color-accent-b.lrv-u-padding-lr-1.lrv-u-padding-tb-1.//.footer
 variety.com##.u-margin-lr-n050@mobile-max.lrv-u-padding-b-025
 variety.com##.lrv-u-position-relative.u-z-index-middle.js-Header.//.header
-
 ! 2022-06-14 https://github.com
 github.com##.flash-warn.js-notice.flash-full.flash
-
 ! 2022-06-14 https://whdh.com
 whdh.com##.article-header__share
 whdh.com##.wp-block-ad-slot
@@ -1036,17 +479,13 @@ whdh.com##p:nth-of-type(36)
 whdh.com##.featured-media__caption
 whdh.com##.featured-media-container
 whdh.com###leader_1
-
-! 2022-06-14 https://news.sky.com
 news.sky.com##.sdc-site-share--amp.sdc-site-share
 news.sky.com##div.sdc-article-widget.sdc-article-image--amp.sdc-article-image
 news.sky.com##.sdc-article-related-stories--thumbnails.sdc-article-related-stories.sdc-article-widget
-
 ! 2022-06-14 https://www.nbcnews.com
 www.nbcnews.com##.video-page__carousel
 www.nbcnews.com##.best-of-playlist.mv8.layout-grid-container
 www.nbcnews.com##.video-details__dek-read-more
-
 ! 2022-06-14 https://bc.ctvnews.ca
 bc.ctvnews.ca##.c-flyout
 bc.ctvnews.ca##.c-relatedStories
@@ -1054,11 +493,9 @@ bc.ctvnews.ca##.aem-GridColumn--offset--abovedefault--0.aem-GridColumn--abovedef
 bc.ctvnews.ca##.aem-GridColumn--offset--abovedefault--0.aem-GridColumn--abovedefault--3.aem-GridColumn--offset--default--0.aem-GridColumn--default--4.aem-GridColumn--offset--tabletlandscape--0.aem-GridColumn--tabletlandscape--12.aem-GridColumn--offset--tablet--0.aem-GridColumn--tablet--12.aem-GridColumn--offset--phonelandscape--0.aem-GridColumn--phonelandscape--12.aem-GridColumn--offset--phone--0.aem-GridColumn--phone--12.right-column.aem-GridColumn
 bc.ctvnews.ca##div.aem-GridColumn--default--12.aem-GridColumn.responsivegrid:nth-of-type(5)
 bc.ctvnews.ca##.c-bottom__container
-
 ! 2022-06-14 https://www.cnn.com
 www.cnn.com##.pg-rail-tall__rail.pg-rail
 www.cnn.com###cn-featured-c5dhgg
-
 ! 2022-06-14 https://www.sfgate.com
 www.sfgate.com###topZone
 www.sfgate.com##.articleHeader--shareTools
@@ -1067,13 +504,10 @@ www.sfgate.com##.inline-iframe.article--content-embed
 www.sfgate.com##.article--content-inline
 www.sfgate.com##.article--footer
 www.sfgate.com##.pageFooter
-
-! 2022-06-14 https://www.theguardian.com
 www.theguardian.com###bannerandheader
 www.theguardian.com##ul
 www.theguardian.com##.dcr-1o781fl
 www.theguardian.com##.dcr-4zleql
-
 ! 2022-06-14 https://www.reuters.com
 www.reuters.com##.article-header__buttons__1NoIL
 www.reuters.com##.regular-article-layout__header__calQs
@@ -1081,7 +515,6 @@ www.reuters.com##.regular-article-layout__related__kSJRx
 www.reuters.com##.regular-article-layout__footer__OafnM
 www.reuters.com##.spacing-container__max-width__zScFd.spacing-container__tablet-mobile-only__1Y3CR.spacing-container__t-spacing-single__1uXb9.spacing-container__container__2g5QT
 www.reuters.com##p.article-body__element__2p5pI.body__large_body__FV5_X.body__base__22dCE.text__large__nEccO.text__regular__2N1Xr.text__dark-grey__3Ml43.text__text__1FZLe:nth-of-type(7)
-
 ! 2022-06-14 https://www.spokesman.com
 www.spokesman.com##.mb4.pv0.ph0.list.flex.b--black-20.br2.ba
 www.spokesman.com##.cb.mb4.flex-l.pa3.br3.bg-near-white
@@ -1089,13 +522,10 @@ www.spokesman.com##.overflow-auto.mb3.ph4.pv4.br2.bg-black-10
 www.spokesman.com##.ad-column-l
 www.spokesman.com##.z-1.b--black-10.bw1.bt.center.mb6-ns.mb5.mw9.ph4-ns.ph3.pt4.mt4.cb
 www.spokesman.com##.relative.flex-wrap.flex
-
-! 2022-06-14 https://apnews.com
 apnews.com##.compressedEmbed-0-2-74.noBorderBottom-0-2-73.HubPeek.Component-hubPeekEmbed-0-2-71
 apnews.com##.-footer.Component-footer-0-2-101
 apnews.com##.Header
 apnews.com##.header-placeholder
-
 ! 2022-06-14 https://www.freepressjournal.in
 www.freepressjournal.in##div.mb-10.ad-slots
 www.freepressjournal.in##header
@@ -1106,7 +536,6 @@ www.freepressjournal.in##footer
 www.freepressjournal.in##.also-read
 www.freepressjournal.in##div:nth-of-type(3)
 www.freepressjournal.in##p:nth-of-type(21)
-
 ! 2022-06-14 https://www.cbsnews.com
 www.cbsnews.com###smart-banner-download
 www.cbsnews.com##.content__meta-wrapper
@@ -1116,7 +545,6 @@ www.cbsnews.com##.component--type-recirculation.recirculation.list.component
 www.cbsnews.com##.site-footer
 www.cbsnews.com##.content-author
 www.cbsnews.com##.content__footer
-
 ! 2022-06-14 https://www.dr.dk
 www.dr.dk##.dre-section--padded.dre-section
 www.dr.dk##.hydra-latest-news
@@ -1125,7 +553,6 @@ www.dr.dk##.dre-teaser
 www.dr.dk###hydra-news-overview
 www.dr.dk##.dre-container--margin-bottom.dre-container--margin-top.dre-container
 www.dr.dk##.dre-navigation-auto-hide-container
-
 ! 2022-06-14 https://english.alarabiya.net
 english.alarabiya.net##.headingInfo_services
 english.alarabiya.net##.hide-in-desktop.ad25.box.bottom-margin.top-margin.advertisement-wrapper
@@ -1137,7 +564,6 @@ english.alarabiya.net##.footer-ex3
 english.alarabiya.net##.vod-theme.vod-home
 english.alarabiya.net##.en.tags
 english.alarabiya.net##header
-
 ! 2022-06-14 https://www.cnbc.com
 www.cnbc.com###GlobalFooter
 www.cnbc.com##.PageBuilder-sidebar.SidebarArticle-sidebar
@@ -1147,7 +573,6 @@ www.cnbc.com##.PlaceHolder-wrapper
 www.cnbc.com##p:nth-of-type(5)
 www.cnbc.com##.CNBCGlobalNav-mobileNavMenu
 www.cnbc.com##div.group:nth-of-type(5)
-
 ! 2022-06-14 https://www.bbc.com
 www.bbc.com##.e1xue1i83.ssrcss-5i1hhv-LinksComponentWrapper
 www.bbc.com##.e1xue1i810.ssrcss-18mjolk-ComponentWrapper
@@ -1157,11 +582,9 @@ www.bbc.com##.e1nh2i2l2.ssrcss-2z3pjz-SectionWrapper
 www.bbc.com###dotcom-leaderboard
 www.bbc.com###header-content
 www.bbc.com##.e5tfeyi0.ssrcss-1o5f7ft-BulletListContainer
-
 ! 2022-06-14 https://www.bbc.co.uk
 www.bbc.co.uk##.essoxwk0.bbc-1151pbn
 www.bbc.co.uk##.e18siw4o1.bbc-h3s0b6
-
 ! 2022-06-14 https://www.bloomberg.com
 www.bloomberg.com###outstream-video-2-RD9UHJDWX2Q901
 www.bloomberg.com###in-article-1-RD9UHJDWX2Q901
@@ -1169,11 +592,9 @@ www.bloomberg.com###in-article-2-RD9UHJDWX2Q901
 www.bloomberg.com##.display.hide_on_large_desktop.hide_on_small_desktop.hide_on_tablet.page-ad.in-article
 www.bloomberg.com##.mobile-left-rail__f926b225
 www.bloomberg.com##.bottom-left-rail__d396a26c
-
 ! 2022-06-14 https://www.latimes.com
 www.latimes.com##.sticky-top.contextual-navigation
 www.latimes.com##.page-header-custom-element
-
 ! 2022-06-14 https://www.ctvnews.ca
 www.ctvnews.ca##.aem-Grid--phone--12.aem-Grid--phonelandscape--12.aem-Grid--tablet--10.aem-Grid--tabletlandscape--8.aem-Grid--abovedefault--9.aem-Grid--default--8.aem-Grid
 www.ctvnews.ca##.aem-GridColumn--offset--abovedefault--0.aem-GridColumn--abovedefault--12.aem-GridColumn--offset--default--0.aem-GridColumn--default--12.aem-GridColumn--offset--tabletlandscape--0.aem-GridColumn--tabletlandscape--12.aem-GridColumn--offset--tablet--0.aem-GridColumn--tablet--12.aem-GridColumn--offset--phonelandscape--0.aem-GridColumn--phonelandscape--12.aem-GridColumn--offset--phone--0.aem-GridColumn--phone--12.aem-GridColumn
@@ -1183,7 +604,6 @@ www.ctvnews.ca##.c-relatedImg
 www.ctvnews.ca##.c-relatedLinks.c-relatedStories
 www.ctvnews.ca##div.c-relatedStories
 www.ctvnews.ca##.aem-GridColumn--offset--abovedefault--0.aem-GridColumn--abovedefault--3.aem-GridColumn--offset--default--0.aem-GridColumn--default--4.aem-GridColumn--offset--tabletlandscape--0.aem-GridColumn--tabletlandscape--12.aem-GridColumn--offset--tablet--0.aem-GridColumn--tablet--12.aem-GridColumn--offset--phonelandscape--0.aem-GridColumn--phonelandscape--12.aem-GridColumn--offset--phone--0.aem-GridColumn--phone--12.right-column.aem-GridColumn
-
 ! 2022-06-14 https://www.opendemocracy.net
 www.opendemocracy.net##.cc-bottom.cc-theme-block.cc-type-opt-out.cc-floating.cc-window
 www.opendemocracy.net###top-donation-banner
@@ -1194,7 +614,6 @@ www.opendemocracy.net##.footer
 www.opendemocracy.net##.comment-section
 www.opendemocracy.net##.article-footer
 www.opendemocracy.net##.inlaysignup-container
-
 ! 2022-06-14 https://www.complex.com
 www.complex.com##.social-follow-buttons
 www.complex.com##.related-articles
@@ -1202,74 +621,26 @@ www.complex.com##.push-notification--show.push-notification
 www.complex.com##.openweb-container
 www.complex.com##.page-tail.main-container--padded.main-container
 www.complex.com##.article-tags
-
 ! 2022-06-14 https://news.berkeley.edu
 news.berkeley.edu##.orbisius_simple_notice_container
 news.berkeley.edu###secondary
 news.berkeley.edu##ul
 news.berkeley.edu##.footer-featured
 news.berkeley.edu###colophon
-
 ! 2022-06-14 https://www.theverge.com
 www.theverge.com##.main-social.c-social-buttons--popover.c-social-buttons
 www.theverge.com##.c-nextclick
 www.theverge.com##.c-footer
 www.theverge.com###comments
 www.theverge.com##.remixd-wrapper
-
 ! 2022-06-14 https://www.vice.com
 www.vice.com##.abc__article_embed
 www.vice.com##.recirc-footer
-
-! 2022-06-05 https://www.facebook.com
-www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05 > div > span
-
-! 2022-06-05 https://www.nbcnews.com
-www.nbcnews.com##.share__container--article
-www.nbcnews.com##.dn-print.related
-www.nbcnews.com##.mt8.articleBylineContainer.expanded-byline-contributors
-www.nbcnews.com###content > .dn-print
-www.nbcnews.com##.styles_localNewsPackage__9HDGP.local-news-pkg
-
-! 2022-06-05 https://www.azcentral.com
-www.azcentral.com##.gnt_em_vp__tavp.gnt_em
-www.azcentral.com##.gnt_rr
-www.azcentral.com##div.gnt_n_nc__hbn.gnt_n_sm:nth-of-type(3)
-www.azcentral.com##.gnt_n_nc__hbn.gnt_n_sm__ne.gnt_n_sm
-www.azcentral.com##.gnt_n_us_sb
-
-! 2022-06-05 https://weather.com
-weather.com##.AccountLinks--tooltipPanel--3iOCM.Tooltip--bottom--ABguw.Tooltip--tooltip--3sx5y
-weather.com##.DaybreakLargeScreen--regionSidebar--2kFGB.regionSidebar.region-sidebar
-weather.com##.DaybreakLargeScreen--regionFooter--3zJxU.regionFooter.region-footer
-weather.com###WxuContentMedia-main-93e78c6f-fbe9-47e1-ae14-07a7ca30cac0 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-b1766804-9ab2-490e-888d-6e18caaf7134 > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com###WxuContentMedia-main-09c1c236-6109-4bb1-8320-270ca13e32eb > .Card--card--HiWPW.Card--cardPadded--2oS21.card
-weather.com##.AccountLinks--AccountLinks--3T5c9
-
-! 2022-06-06 https://www.youtube.com
-www.youtube.com###secondary
-www.youtube.com###comments
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com###guide
-www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
-www.youtube.com###guide-button
-
-! 2022-06-06 https://successtms.com
-successtms.com##.default-sidebar.sidebar
-
-! 2022-06-06 https://www.dropbox.com
-www.dropbox.com##.dig-Modal-overlay.ReactModal__Overlay--after-open.ReactModal__Overlay
-
 ! 2022-06-07 https://www.regain.us
 www.regain.us###onetrust-consent-sdk
-
 ! 2022-06-14 https://search.brave.com
 search.brave.com##.footer
-
-! 2022-06-14 https://www.cnbc.com
 www.cnbc.com##.TransporterSection-transporterWrapper
-
 ! 2022-06-14 https://www.levernews.com
 www.levernews.com##.col-lg-3.col-xs-12
 www.levernews.com##.kg-product-card.kg-card
@@ -1278,27 +649,22 @@ www.levernews.com###comments
 www.levernews.com##.kg-image-card.kg-card
 www.levernews.com##p:nth-of-type(41)
 www.levernews.com##.footer
-
 ! 2022-06-16 https://www.salemnews.com
-www.salemnews.com##.asset-body > div:nth-of-type(3)
+www.salemnews.com##.asset-body &gt; div:nth-of-type(3)
 www.salemnews.com###asset-below
 www.salemnews.com##.hidden-print.col-md-5.col-lg-4.main-sidebar
 ||static.cnhionline.com/ksherman/images/rtj_ad.gif$image
 www.salemnews.com##.hidden-print
-
 ! 2022-06-16 https://www.cnn.com
 www.cnn.com##.ticker-ribbon
 www.cnn.com###cn-featured-133n2zx
 www.cnn.com##.el__embedded--standard.el__embedded
 www.cnn.com##div:nth-of-type(6)
-
 ! 2022-06-16 https://www.buzz.ie
 www.buzz.ie##.sharebar
-
 ! 2022-06-16 https://www.reuters.com
 www.reuters.com##.heading__heading_4__3yjho.heading__base__2T28j.text__heading_4__14ZqK.text__medium__1kbOh.text__dark-grey__3Ml43.text__text__1FZLe
 www.reuters.com##p.article-body__element__2p5pI.body__large_body__FV5_X.body__base__22dCE.text__large__nEccO.text__regular__2N1Xr.text__dark-grey__3Ml43.text__text__1FZLe:nth-of-type(15)
-
 ! 2022-06-16 https://www.wlbt.com
 www.wlbt.com##div.mb-0.\|.flex-feature-feed:nth-of-type(4)
 www.wlbt.com##.flex-lg-fill.flex-column.d-flex.ml-lg-3.rail.\|.right-rail
@@ -1309,12 +675,10 @@ www.wlbt.com##.h-100.align-items-end.flex-column.d-none.\|.side-drawer-container
 www.wlbt.com###main
 www.wlbt.com##.w-100.\|.navigation
 www.wlbt.com##.w-100.\|.leaderboard
-
 ! 2022-06-16 https://www.cbssports.com
 www.cbssports.com##.LatestNewsBox
 www.cbssports.com##.cbs-site-footer
 www.cbssports.com##.skybox-spacer
-
 ! 2022-06-16 https://abc7.com
 abc7.com##.horizontal.social-icons
 abc7.com##.breaking-news
@@ -1324,34 +688,26 @@ abc7.com##.taboolaArticle
 abc7.com##.footer
 abc7.com##.taxonomy
 abc7.com##.report-typo
-abc7.com##.type-videoClip.video.featured-media > div
-
+abc7.com##.type-videoClip.video.featured-media &gt; div
 ! 2022-06-16 https://www.heraldtribune.com
 www.heraldtribune.com##.gnt_mol_oy
-
 ! 2022-06-22 https://srinimf.com
 srinimf.com###site-sidebar
 srinimf.com###colophon
-
 ! 2022-06-24 https://stackoverflow.com
 stackoverflow.com###launch-popover
-
 ! 2022-06-24 https://finance.yahoo.com
 finance.yahoo.com###myLightboxContainer
 finance.yahoo.com##.YDC-Overlay
-
 ! 2022-06-24 https://www.newsweek.com
 www.newsweek.com##.fA.block-ibtg-article.block
 www.newsweek.com##div.page-bottom
 www.newsweek.com##.block-ibtmedia-facebook.block
 www.newsweek.com##.col-md-4.page-sidebar
-
 ! 2022-06-24 https://apnews.com
 apnews.com###se0\:3ac00990-dbe0-11ec-c164-a1a4c1ab7ff8
-
 ! 2022-06-25 https://www.makeuseof.com
 www.makeuseof.com##div.landscape.body-img
-
 
 ! Block all footers
 *##.footer-widgets.widget-area
@@ -1360,3 +716,28 @@ www.makeuseof.com##div.landscape.body-img
 *##.footer
 *##.clearfix.jeg_footer_secondary
 *##.clearfix.jeg_footer_primary
+*##.global-footer__main
+*##.c-article-footer
+*##.global-footer__legal
+*##._2DOySB.global-footer
+*##.-footer.Component-footer-0-2-70
+*##.site-footer
+*###document-footer-content
+*##.footer--main
+*##.footer--copyright
+*##.global-footer
+*###footerwrap
+*##.footer-bf
+*##.footer-container.page-container
+*##.footer.widget-type-cell.widget-span.span12 &gt; .row-number-2.row-depth-1.row-fluid-wrapper &gt; .row-fluid
+*##.app_footer
+*##footer
+*##.wf-section.s-footer
+*##.th-stack-full--lg.th-pb-lg.sm\:th-px-base.th-flex-wrap.th-flex.footer-section.widget-area
+*##.text-white.bg-primary.page__footer.d-print-none
+*##.mfe-footer
+*##.kb-footer
+*##.w-footer
+*##.cf.lower-footer
+*##.grid-container.footer-widgets-container
+*##.ds-footer.iPiEoh.sc-kjEcyX
