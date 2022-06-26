@@ -1351,3 +1351,12 @@ apnews.com###se0\:3ac00990-dbe0-11ec-c164-a1a4c1ab7ff8
 
 ! 2022-06-25 https://www.makeuseof.com
 www.makeuseof.com##div.landscape.body-img
+
+
+! Block all footers
+*##.footer-widgets.widget-area
+*##.__ue__footer
+*##.l-footer
+*##.footer
+*##.clearfix.jeg_footer_secondary
+*##.clearfix.jeg_footer_primary
