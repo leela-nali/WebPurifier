@@ -1,0 +1,5 @@
+! Title: 0x7C2f Blocklist
+! Expires: 2 Days (Update Frequency)
+! Description: 0x7C2f Personal Blocklist 
+! Homepage: https://github.com/0x7C2f/uBlock-Repository
+! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
