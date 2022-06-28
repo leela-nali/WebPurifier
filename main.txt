@@ -5,39 +5,8 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
 
-! Block all footers
-*##.footer-widgets.widget-area
-*##.__ue__footer
-*##.l-footer
-*##.network-footer
-*##.footer
-*##.clearfix.jeg_footer_secondary
-*##.clearfix.jeg_footer_primary
-*##.global-footer__main
-*##.c-article-footer
-*##.global-footer__legal
-*##._2DOySB.global-footer
-*##.-footer.Component-footer-0-2-70
-*##.site-footer
-*###document-footer-content
-*##.footer--main
-*##.footer--copyright
-*##.global-footer
-*###footerwrap
-*##.footer-bf
-*##.footer-container.page-container
-*##.footer.widget-type-cell.widget-span.span12 &gt; .row-number-2.row-depth-1.row-fluid-wrapper &gt; .row-fluid
-*##.app_footer
-*##footer
-*##.wf-section.s-footer
-*##.th-stack-full--lg.th-pb-lg.sm\:th-px-base.th-flex-wrap.th-flex.footer-section.widget-area
-*##.text-white.bg-primary.page__footer.d-print-none
-*##.mfe-footer
-*##.kb-footer
-*##.w-footer
-*##.cf.lower-footer
-*##.grid-container.footer-widgets-container
-*##.ds-footer.iPiEoh.sc-kjEcyX
+! Includes
+!#include
 
 flows.nodered.org###cm
 ! 2022-05-09 https://sellbery.com
