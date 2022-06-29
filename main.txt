@@ -4,9 +4,6 @@
 ! Homepage: https://github.com/0x7C2f/uBlock-Repository
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
-
-!#include Sensitive%20lists/AntiAstrologyList.txt
-
 flows.nodered.org###cm
 ! 2022-05-09 https://sellbery.com
 sellbery.com##.cookies-container
