@@ -5,6 +5,18 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
 
+! includes
+!#include AnnoyancesList-2ndDivision.txt
+!#include AntiNonNewsList.txt
+!#if !env_mobile
+!#include Anti-'Christmas%20carols'%20List.txt
+!#endif
+!#include HaveIBeenPwnedPasteRemover.txt
+!#include WordPressTranslatorAssistant.txt
+!#include AntiKpopSpammersTwitter.txt
+!#include AntiPorkMeatOnRestaurantMenusList.txt
+
+
 flows.nodered.org###cm
 ! 2022-05-09 https://sellbery.com
 sellbery.com##.cookies-container
