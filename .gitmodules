@@ -1,3 +1,6 @@
 [submodule "submodules/uAssets"]
 	path = submodules/uAssets
 	url = git@github.com:uBlockOrigin/uAssets.git
+[submodule "submodules/adfilt"]
+	path = submodules/adfilt
+	url = git@github.com:DandelionSprout/adfilt.git
