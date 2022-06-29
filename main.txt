@@ -2193,19 +2193,12 @@ vg.no#?#.offer-details:-abp-contains(Vis tilbud)
 ||hotdeals.com^$document
 ||coupert.com^$document
 ||rabattkodendin.com^$document
-
-! ——— Unnecessarily obtrusive premium service banners ———
-! If a banner is in this category, it means that those who still do want to buy into their premium services, can do so through the user settings without having to see the obtrusive banners.
-!#if !env_mobile
 pixiv.net##._premium-lead-popular-d-body
 pixiv.net##._premium-lead-tag-search-bar > a[href^="/premium.php"]
 pixiv.net#?#div:-abp-has(> aside + a[href^="/premium/lead/"])
 pixiv.net#?#div > div + section:-abp-has(a[href^="/premium/lead/"])
-!#endif
-!#if env_mobile
 pixiv.net##.premium-lead
 soundcloud.com##.statsBadge__upsell
-!#endif
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-691479377
 ###dakapoinfeed
 ###dakapotopbar
@@ -4623,9 +4616,6 @@ zwaveproducts.com###livechat-compact-container
 ##*[class*="accessLog"]
 ##div[id*="accessLog"]
 ##div[class*="accessLog"]
-!誤検出多発につき、disable。
-!##div[class*="log"]
-!! 2.ferret系
 ##script[src^="http://kaiseki.ferret-plus.com"]
 ||read-scope.com^
 !! 3.kan-net系
@@ -4685,12 +4675,9 @@ zwaveproducts.com###livechat-compact-container
 !! 2.headline
 ! divタグに関しては停止。他は様子見。
 /(H|h)(EADLINE|eadline)\.(html|htm|php|js)
-!##div[id*="headline"]
-!##div[class*="headline"]
 ##script[src*="headline"]
 ##iframe[src*="headline"]
 ##iframe[src*="Headline"]
-!! 3.feednews
 /feednews\.(html|htm|php|js)
 ##div[id*="feednews"]
 ##div[class*="feednews"]
@@ -6099,32 +6086,18 @@ iq-servers.com##html
 /i2i\.(com|jp)/
 ||i2i.com
 i2i.com##html
-!##A[href*="i2i.com"]
-!##SCRIPT[src*="i2i.com"]
 ||i2i.jp
 i2i.jp##html
-!##A[href*="i2i.jp"]
-!##IFRAME[src*="i2i.jp"]
-!##SCRIPT[src*="i2i.jp"]
-!##IMG[title*="i2i.jp"]
 /i2iserv\.(com|jp)/
 ||i2iserv.com
 i2iserv.com##html
-!##A[href*="i2iserv.com"]
-!##SCRIPT[src*="i2iserv.com"]l
 ||i2iserv.jp
 i2iserv.jp##html
-!##A[href*="i2iserv.jp"]
-!##SCRIPT[src*="i2iserv.jp"]
 /i2idata\.(com|jp)/
 ||i2idata.com
 i2idata.com##html
-!##A[href*="i2idata.com"]
-!##SCRIPT[src*="i2idata.com"]
 ||i2idata.jp
 i2idata.jp##html
-!##A[href*="i2idata.jp"]
-!##SCRIPT[src*="i2idata.jp"]
 /rentalurl\.(com|net|jp)/
 ##a[href*="rentalurl"]
 ##SCRIPT[src*="rentalurl"]
