@@ -1,0 +1,84 @@
+# Web Purifier
+
+## This list contains the following filters:
+- AdGuardHomeDisallowedIPs
+- AdRemovalListForUnusualAds.txt
+- Android Scum Class — Fake notification counters.txt
+- AnnoyancesList
+- AnnoyancesList-2ndDivision.txt
+- AnnoyingBannersAndOverlays.txt
+- Anti-'Battle Royale' List.txt
+- Anti-'Battle Royale' List.txt
+- Anti-'Christmas carols' List.txt
+- Anti-'Custom cursors' List.txt
+- Anti-'Google Hangouts' List.txt
+- Anti-Elsagate List.txt
+- Anti-Futa List.txt
+- Anti-FіМ List.txt
+- Anti-IMDB List.txt
+- Anti-Skype List.txt
+- AntiAbusePorn.txt
+- AntiAdoptablesList.txt
+- AntiAdventureTimeList.txt
+- AntiAmazonListForTwitch.txt
+- AntiAnthroCombatWaifuList.txt
+- AntiAwfulCommentsList.txt
+- AntiBadCapitalismList.txt
+- AntiCartoonHipsterList.txt
+- AntiCelebBirthList
+- AntiGachaAndKnockoffGamesList.txt
+- AntiHivemindCartoonTrashingList.txt
+- AntiKpopSpammersTwitter.txt
+- AntiMacroList.txt
+- AntiNonNewsList.txt
+- AntiOwlHouseList.txt
+- AntiPCPriceHiderList.txt
+- AntiPPGList.txt
+- AntiPepeList.txt
+- AntiPorkMeatOnRestaurantMenusList.txt
+- AntiRacismList.txt
+- AntiSnowMarketingList.txt
+- AntiStevenUniverseList.txt
+- AntiSubmissiveEroticaList.txt
+- BrowseWebsitesWithoutLoggingIn.txt
+- DailyMotionSimplicity.txt
+- Dandelion Sprout's Anti-Malware List.txt
+- Dandelion Sprout's Website Stretcher.txt
+- DeadServerGamePingList.txt
+- EmptyPaddingRemover.txt
+- ExtremelyCondensedList.txt
+- FalukorvList.txt
+- GameConsoleAdblockList.txt
+- HaveIBeenPwnedPasteRemover.txt
+- IHateOverpromotedGames.txt
+- ImgurPureImageryExperience.txt
+- KnowYourMemePureBrowsingExperience.txt
+- LegitimateURLShortener-AffiliateTagAllowlist.txt
+- LegitimateURLShortener.txt
+- ListForOldPeople.txt
+- MeWe Pink Theme.txt
+- MeWeHappyTimeFunClub.txt
+- MediaPlayerGradientRemover.txt
+- NorwegianCashbackAssistantReborn.txt
+- NorwegianList.txt
+- PokémonNoGOZone.txt
+- Pro-LED List.txt
+- RedditTrashRemovalService.txt
+- RickrollLinkIdentifier.txt
+- SerboCroatianList.txt
+- SocialShareList.txt
+- StopAutoplayOnYouTube.txt
+- TwitchEvenMorePureViewingExperience.txt
+- TwitchPureViewingExperience.txt
+- TwitterPureReadingExperience.txt
+- UndertaleRemoverForSoundCloud.txt
+- Username Hider for Compilation Creators.txt
+- VeryThoroughWebsiteCleaner.txt
+- WebsiteStretcher4K.txt
+- WebsiteStretcherVertical.txt
+- WikiaPureBrowsingExperience.txt
+- WordPressTranslatorAssistant.txt
+- YouTubeEvenMorePureVideoExperience.txt
+- YouTubeYetEvenMorePureVideoExperience.txt
+- a — AdGuard Home Miscellaneous.txt
+- a.txt
