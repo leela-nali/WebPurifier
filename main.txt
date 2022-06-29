@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/0x7C2f/uBlock-Repository
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
+! START A LIST
 finn.no#?#.ads__unit:-abp-contains(Emirates Airline)
 !!!finn.no#?#.ads__unit:-abp-has(a[href*="/job/"]):-abp-contains(selger)
 metacritic.com###primary_menu_item_games
@@ -1779,6 +1780,7 @@ google.*##.g,div[data-ow]:has(a[href*="theyayapocalypse.fandom.com"])
 google.*##.g,div[data-ow]:has(a[href*="the-secret-world-of-the-animated-characters.fandom.com"])
 google.*##.g,div[data-ow]:has(a[href*="theherooftomorrow.blogspot.com"])
 google.*##.g,div[data-ow]:has(a[href*="terribletvshows.miraheze.org"])
+! START ORIGINAL
 burgerking.*#?#.food-item:-abp-contains(Bacon)
 burgerking.*#?#.food-item:-abp-contains( BLT)
 whopperlab.*#?#.product-wrapper:-abp-contains(Bacon)
