@@ -5,4 +5,4 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 
 ! Includes
-!#include adfilt/a.txt
+!#include a.txt
