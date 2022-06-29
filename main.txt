@@ -5,74 +5,44 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
 
-! includes
-!#include AnnoyancesList-2ndDivision.txt
-!#include AntiNonNewsList.txt
-!#if !env_mobile
-!#include Anti-'Christmas%20carols'%20List.txt
-!#endif
-!#include HaveIBeenPwnedPasteRemover.txt
-!#include WordPressTranslatorAssistant.txt
-!#include AntiKpopSpammersTwitter.txt
-!#include AntiPorkMeatOnRestaurantMenusList.txt
-
-[Adblock Plus 3.6]
-! Title: 🛶 Anti-'Pork meat on restaurant menus' List
-! Version: 16May2022v1-Alpha
-! Expires: 7 days
-! Description: Do you feel that bacon and pork tastes really icky and sourly greasy, yet half of all things you'll find in restaurants have pork in them, and there's 30 different terms for pork to keep track of to avoid unpleasant surprises? If so, then this list has saved your taste buds and stomach.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-
-! ——— 🌎 Global ———
-! https://www.burgerking.no/menu/flame-grilled-burgers
 burgerking.*#?#.food-item:-abp-contains(Bacon)
 burgerking.*#?#.food-item:-abp-contains( BLT)
 whopperlab.*#?#.product-wrapper:-abp-contains(Bacon)
 whopperlab.*#?#.product-wrapper:-abp-contains(The Wild Bar'B'Que)
-! https://www.mcdonalds.com/no/nb-no/meny/hamburgere.html
 mcdonalds.com#?#.categories-list-item:-abp-contains(Bacon)
 mcdonalds.com#?#.categories-list-item:-abp-contains(Homestyle Crave Beef)
 mcdonalds.com#?#.categories-list-item:-abp-contains(McToast)
 mcdonalds.com#?#.categories-list-item:-abp-contains(Smokey BBQ)
 mcdonalds.com#?#.categories-list-item:-abp-contains(Spicy McWrap):not(:-abp-contains(Vegetar))
-!! 16th of May 2022
 mcdonalds.com#?#.cmp-category__item:-abp-contains(Bacon)
 mcdonalds.com#?#.cmp-category__item:-abp-contains(Homestyle Crave Beef)
 mcdonalds.com#?#.cmp-category__item:-abp-contains(McToast)
 mcdonalds.com#?#.cmp-category__item:-abp-contains(Smokey BBQ)
 mcdonalds.com#?#.cmp-category__item:-abp-contains(Spicy McWrap):not(:-abp-contains(Vegetar))
-! https://www.subway.com/nb-NO/MenuNutrition/Menu/All
 subway.com#?#.menu-category-item:-abp-has(img[src$="-ham.jpg"])
 subway.com#?#.menu-category-item:-abp-has(img[src$="-blt.jpg"])
 subway.com#?#.menu-category-item:-abp-has(img[src$="-BMT.jpg"])
 subway.com#?#.menu-category-item:-abp-has(img[src$="andham.jpg"])
 subway.com#?#.menu-category-item:-abp-contains(Subway Melt™)
 subway.com#?#.menu-category-item:-abp-contains(Bacon)
-! https://www.dominos.no/menu/lerkendal#pizzas
 dominos.*#?#.product_item:-abp-contains(bacon)
 dominos.*,~dominos.it#?#.product_item:-abp-contains(pepperoni)
-! https://arbys.ca/our-menu/featured
 ##.pork
-! https://arbys.com/our-menu/market-fresh
 arbys.*#?#.col-sm-8:-abp-has(.product-item[class*=bacon])
 arbys.*#?#.col-sm-8:-abp-has(.product-item[class*=club-])
 arbys.*#?#.col-sm-8:-abp-has(.product-item[class*=loaded])
 arbys.*#?#.col-sm-8:-abp-has(.product-item[class*=-ham-])
 arbys.*#?#.col-sm-8:-abp-has(.product-item[class*=pizza-slider])
-! https://www.hooters.com/menu/wings/
 hooters.com#?#.menu-item-tile:-abp-contains(bacon)
-! https://www.fiveguys.com/menu
 fiveguys.*#?#.menu-popup-link[data-target*=Dog]:not([data-target*=Kosher], [data-target*=Beef])
 fiveguys.*#?#.menu-popup-link[data-target*=Bacon i]
 fiveguys.*#?#.menu-popup-link[data-target*=BLT]
-! https://www.maxhamburger.no/var-meny/meny/
 max.se,maxhamburger.no,max.dk,maxpremiumburgers.pl#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=bacon])
 max.se,maxhamburger.no,max.dk,maxpremiumburgers.pl#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=frisco])
 max.se,maxhamburger.no#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=kycklingmeny-classic])
 maxhamburger.no#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=kyllingburger-classic])
 maxpremiumburgers.pl#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=sausage])
 maxpremiumburgers.pl#?#.o-product-list__item:-abp-has(.m-product-card__link[href*=breakfast-toast])
-! Just Eat
 just-eat.*,menulog.*,justeat.it#?#.product:-abp-contains(/salami/i)
 just-eat.*,menulog.*,justeat.it#?#.product:-abp-contains(/salsiccia/i)
 just-eat.*,menulog.*,justeat.it#?#.product:-abp-contains(/bacon/i)
@@ -85,7 +55,6 @@ just-eat.*,menulog.*#?#.product:-abp-contains(/pepperoni/i)
 just-eat.no,just-eat.dk#?#.product:-abp-contains(/pølse/i)
 just-eat.no,just-eat.dk#?#.product:-abp-contains(/skinke/i)
 just-eat.no#?#.product:-abp-contains(/ribbe/i)
-! egon.futureordering.com
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Bacon/i)
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Parma/i)
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Pork/i)
@@ -96,8 +65,6 @@ futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Korv/i)
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Sparerib/i)
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Svin/i)
 futureordering.com,bestill.egon.no#?#li[id^=product]:-abp-contains(/Ribbe/i)
-! https://pizzabakeren.no/lunsj-tilbud
-!#if !adguard
 pizzabakeren.no,pizzabaker.ie,pizzabaker.co.uk,pizza-baker.com#?#.prod_item,.pizza_item:-abp-contains(/pepperoni/i)
 pizzabakeren.no,pizzabaker.ie,pizzabaker.co.uk,pizza-baker.com#?#.prod_item,.pizza_item:-abp-contains(/bacon/i)
 pizzabakeren.no,pizzabaker.ie,pizzabaker.co.uk,pizza-baker.com#?#.prod_item,.pizza_item:-abp-contains(/chorizo/i)
@@ -105,8 +72,6 @@ pizzabakeren.no,pizzabaker.ie,pizzabaker.co.uk,pizza-baker.com#?#.prod_item,.piz
 pizzabakeren.no#?#.prod_item,.pizza_item:-abp-contains(/svin/i)
 pizzabakeren.no#?#.prod_item,.pizza_item:-abp-contains(/skinke/i)
 pizzabaker.ie,pizzabaker.co.uk,pizza-baker.com#?#.prod_item,.pizza_item:-abp-contains(/ham[, ]/i)
-!#endif
-! https://www.ikea.com/no/no/stores/restaurant/#f1b2a02b-5bd1-11eb-8f61-53ccc1e0abc9
 ikea.com#?#html:not([lang*=it]) div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/pepperoni/i)
 ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/hot dog/i)
 ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/pork/i)
@@ -115,7 +80,6 @@ ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > 
 ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/korv/i)
 ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/kinkku/i)
 ikea.com#?#div[data-pub-type] > div[class*=" "] > div[class]:not([class=" "]) > div[class*=" "]:-abp-contains(/savukink/i)
-! https://wolt.com/nb/nor/trondheim/restaurant/kona-bar-restaurant-midtbyen
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/skinke/i)
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/bacon/i)
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/pepperoni/i)
@@ -136,7 +100,6 @@ wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/Sausage/i)
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/Ribbe/i)
 wolt.com#?#div[class^=MenuItem-module__contentBorderContainer___]:-abp-contains(/Porcetta/i)
-! Just Eat
 just-eat.*,lieferando.*,menulog.*,takeaway.com,10bis.co.il,pyszne.pl,skipthedishes.com,thuisbezorgd.nl#?#div[menu-item-id]:-abp-contains(/Pepperoni/i)
 just-eat.*,lieferando.*,menulog.*,takeaway.com,10bis.co.il,pyszne.pl,skipthedishes.com,thuisbezorgd.nl#?#div[menu-item-id]:-abp-contains(/Bacon/i)
 just-eat.*,lieferando.*,menulog.*,takeaway.com,10bis.co.il,pyszne.pl,skipthedishes.com,thuisbezorgd.nl#?#div[menu-item-id]:-abp-contains(/Salam[ie]/i)
@@ -153,21 +116,15 @@ just-eat.*,lieferando.*,menulog.*,takeaway.com,10bis.co.il,pyszne.pl,skipthedish
 just-eat.*#?#div[menu-item-id]:-abp-contains(/Skinke/i)
 just-eat.*#?#div[menu-item-id]:-abp-contains(/Pølse/i)
 just-eat.*#?#div[menu-item-id]:-abp-contains(/Ribbe/i)
-! Hesburger
 sv.hesburger.fi,hesburger.com,hesburger.de#?#.product:-abp-contains(/bacon/i)
 hesburger.ru,hesburger.ua,hesburger.by,hesburger.bg#?#.product:-abp-contains(/Бекон/i)
-! Bojangles
 bojangles.com#?#.menu-item:-abp-contains(/sausage/i)
 bojangles.com#?#.menu-item:-abp-contains(Southern Gravy )
-
-! ——— 🇺🇸 United States ———
-! https://www.whitecastle.com/menu
 whitecastle.com#?#.category__list__item:-abp-has(a[href*=bacon])
 whitecastle.com#?#.category__list__item:-abp-has(a[href*=belgian-waffle-slider])
 whitecastle.com#?#.category__list__item:-abp-has(a[href*=sandwich])
 whitecastle.com#?#.category__list__item:-abp-has(a[href*=breakfast-slider])
 whitecastle.com#?#.category__list__item:-abp-has(a[href*=loaded])
-! https://www.carlsjr.com/menu
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*=bacon])
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href$=biscuit])
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*="/biscuit"])
@@ -175,10 +132,8 @@ carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*=breakfast-burger])
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*=-breakfast-burrito])
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*=angus])
 carlsjr.com#?#.product-list > ul > li:-abp-has(a[href*=club-])
-! https://smashburger.com/menu/
 smashburger.com#?#.wpb_column:-abp-contains(/bacon/i)
 smashburger.com#?#.wpb_column:-abp-has(+ .wpb_column:-abp-contains(/bacon/i))
-! https://www.jackinthebox.com/food/burgers
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=bacon])
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=sriracha-burger])
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=sourdough-jack])
@@ -190,10 +145,6 @@ jackinthebox.com#?#.menu-item:-abp-has(a[href*=-breakfast-])
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=croissant])
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=sourdough-swiss])
 jackinthebox.com#?#.menu-item:-abp-has(a[href*=chick-n-tater])
-
-! ——— 🇳🇴🇸🇪🇩🇰 Scandinavia (multi-country) - Skandinavia (Flernasjons) ———
-! https://egon.no/menyen
-!#if !adguard
 egon.*#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/(^| |a)skink/i)
 egon.*#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/bacon/i)
 egon.*#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/pepperoni/i)
@@ -203,9 +154,7 @@ egon.no#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/(^| )svin/i
 egon.no#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/chistorra/i)
 egon.no#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/pølse/i):not(:-abp-contains(ENGLISH BREAKFAST))
 egon.no#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/ribbe/i)
-! https://www.egon.se/meny+2019
 egon.se#?#.menu-item-wrap,.recommendedItems-container:-abp-contains(/revben/i)
-! Foodora
 foodora.*#?#.dish-card,.product-topping-item:-abp-contains(/bacon/i)
 foodora.*#?#.dish-card,.product-topping-item:-abp-contains(/salami/i)
 foodora.*#?#.dish-card,.product-topping-item:-abp-contains(/pancetta/i)
@@ -223,30 +172,20 @@ foodora.no#?#.dish-card,.product-topping-item:-abp-contains(/skinke/i)
 foodora.no#?#.dish-card,.product-topping-item:-abp-contains(/svin/i)
 foodora.se#?#.dish-card,.product-topping-item:-abp-contains(/korv/i)
 foodora.se#?#.dish-card,.product-topping-item:-abp-contains(/ribbe/i)
-!#endif
-! https://pinchonation.no/menu?id=no-oslo-fred-olsens
-! https://www.pinchos.se/menu?id=se-ostersund-thomegrand
 pinchos.se,pinchonation.*#?#.products li:-abp-contains(/BACON/i)
 pinchos.se,pinchonation.*#?#.products li:-abp-contains(/SERRANO/i)
 pinchos.se,pinchonation.*#?#.products li:-abp-contains(/GYROS/i)
 pinchos.se,pinchonation.*#?#.products li:-abp-contains(/FLÄSK/i)
 pinchonation.*##.products li:-abp-contains(/SVIN/i)
 pinchos.se,pinchonation.*#?#.products li:-abp-contains(/PORK/i)
-
-! ——— 🇳🇴 Norway (National) - Norge (Nasjonalt) ———
-! https://www.dominos.no/menu/lerkendal#pizzas
 dominos.no#?#.product_item:-abp-contains(skinke)
-! https://www.dolly.no/meny/pizza
 dolly.no#?#.grid__elm:-abp-contains(bacon)
 dolly.no#?#.grid__elm:-abp-contains(/Skinke/i)
 dolly.no#?#.grid__elm:-abp-contains(/Pepperoni/i)
-! https://kompisrestauranter.no/Meny
 kompisrestauranter.no#?#.menu-category-content .col-lg-4:-abp-contains(/Bacon/i)
 kompisrestauranter.no#?#.menu-category-content .col-lg-4:-abp-contains(/Parma/i)
 kompisrestauranter.no#?#.menu-category-content .col-lg-4:-abp-contains(/Skinke/i)
 kompisrestauranter.no#?#.menu-category-content .col-lg-4:-abp-contains(/Pepperoni/i)
-! https://ordr.no/edoramen
-!#if !adguard
 ordr.no#?#.dish-card,menu-item:-abp-contains(/bacon/i)
 ordr.no#?#.dish-card,menu-item:-abp-contains(/salami/i)
 ordr.no#?#.dish-card,menu-item:-abp-contains(/pancetta/i)
@@ -260,14 +199,11 @@ ordr.no#?#.dish-card,menu-item:-abp-contains(/skinke/i)
 ordr.no#?#.dish-card,menu-item:-abp-contains(/korv/i)
 ordr.no#?#.dish-card,menu-item:-abp-contains(/svin/i)
 ordr.no#?#.dish-card,menu-item:-abp-contains(/ribbe/i)
-!#endif
-! https://oliviarestauranter.no/meny/
 oliviarestauranter.no#?#.rett:-abp-contains(/bacon/i)
 oliviarestauranter.no#?#.rett:-abp-contains(/guanciale/i)
 oliviarestauranter.no#?#.rett:-abp-contains(/salami/i)
 oliviarestauranter.no#?#.rett:-abp-contains(/skinke/i)
 oliviarestauranter.no#?#.rett:-abp-contains(/nduja/i)
-! https://order.weorder.com/
 order.weorder.com#?#.list-item:-abp-contains(/svin/i)
 order.weorder.com#?#.list-item:-abp-contains(/skinke/i)
 order.weorder.com#?#.list-item:-abp-contains(/pølse/i)
@@ -275,12 +211,10 @@ order.weorder.com#?#.list-item:-abp-contains(/Bacon/i)
 order.weorder.com#?#.list-item:-abp-contains(/Gris/i)
 order.weorder.com#?#.list-item:-abp-contains(/Ribbe/i)
 order.weorder.com#?#.list-item:-abp-contains(/Pepperoni/i)
-! https://favrit.com/nb-no/menu/location/LyJB6agZgq2
 favrit.com#?#section > article:-abp-contains(/svin/i)
 favrit.com#?#section > article:-abp-contains(/skinke/i)
 favrit.com#?#section > article:-abp-contains(/pølse/i)
 favrit.com#?#section > article:-abp-contains(/ribbe/i)
-! https://meny.no/varer/middag/middagshermetikk
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(Flesk)
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(Bog)
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(Jædersylte)
@@ -309,70 +243,54 @@ meny.no#?#.ws-product-list-vertical__item:-abp-contains(Ham')
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(Diavola)
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(Billys)
 meny.no#?#.ws-product-list-vertical__item:-abp-contains(/Ribbe/i)
-! SJ Nord
 sj.meny.togservice.no#?#.bigview.product:-abp-contains(/skinke/i)
 sj.meny.togservice.no#?#.bigview.product:-abp-contains(/bacon/i)
 sj.meny.togservice.no#?#.bigview.product:-abp-contains(/pølse/i)
-! https://www.bigbite.no/var-meny
 bigbite.no#?#.bb-menu-product:-abp-contains(/Skinke/i)
 bigbite.no#?#.bb-menu-product:-abp-contains(/Salami/i)
 bigbite.no#?#.bb-menu-product:-abp-contains(/Pork/i)
 bigbite.no#?#.bb-menu-product:-abp-contains(/Bacon/i)
-! https://www.jordbarpikene.no/var-meny
 jordbarpikene.no#?#.product:-abp-contains(/Bacon/i)
 jordbarpikene.no#?#.product:-abp-contains(/Skinke/i)
 jordbarpikene.no#?#.product:-abp-contains(/Leverpostei/i)
-! Peppes Pizza
 peppes.no#?#.expanded:-abp-contains(/Skinke/i)
 peppes.no#?#.expanded:-abp-contains(/Bacon/i)
 peppes.no#?#.expanded:-abp-contains(/Pepperoni/i)
 peppes.no#?#.expanded:-abp-contains(/Salami/i)
 peppes.no#?#.expanded:-abp-contains(/Pølse/i)
 peppes.no#?#.expanded:-abp-contains(/Ventricina/i)
-! https://brasilia.no/our-menu-meat/
 brasilia.no#?#.valign_middle.vc_row:-abp-contains(/Sausage/i)
 brasilia.no#?#.valign_middle.vc_row:-abp-contains(/Pork/i)
 brasilia.no#?#.valign_middle.vc_row:-abp-contains(/Bacon/i)
-
-! ——— 🇳🇴 Norway (Trondheim) - Norge (Trondheim) ———
-! https://bellaitalia.no/meny/pasta
 bellaitalia.no#?#li:-abp-contains(SKINKE)
 bellaitalia.no#?#li:-abp-contains(BACON)
 bellaitalia.no#?#li:-abp-contains(PEPPERONI)
-! https://www.frati.no/
 frati.no#?#.category > .item:-abp-contains(skinke)
 frati.no#?#.category > .item:-abp-contains(salam)
 frati.no#?#.category > .item:-abp-contains(salsiccia)
 frati.no#?#.category > .item:-abp-contains(svinenakke)
 frati.no#?#.category > .item:-abp-contains(pølse)
 frati.no#?#.category > .item:-abp-contains(pancetta)
-! http://asiahouse.no/lunsj/
 asiahouse.no#?#.one-column > li:-abp-contains(/svinefilet/i)
 asiahouse.no#?#.one-column > li:-abp-contains(/svineribbe/i)
 ###svinekjøtt
-! https://www.konabar.no/midtbyen/
 konabar.no#?#.layoutArea > .column > p:-abp-contains(/svin/i)
-! San Sebastian Solsiden
 sansebastian.no#?#.menu-item:-abp-contains(/Chorizo/i)
 sansebastian.no#?#.menu-item:-abp-contains(/Jamón/i)
 sansebastian.no#?#.menu-item:-abp-contains(/Sparerib/i)
 sansebastian.no#?#.menu-item:-abp-contains(/Serrano/i)
 sansebastian.no,bojangles.com#?#.menu-item:-abp-contains(/Bacon/i)
-! http://selmabar.no/
 selmabar.no#?#.food-item:-abp-contains(pølse)
 selmabar.no#?#.food-item:-abp-contains(salami)
 selmabar.no#?#.food-item:-abp-contains(skinke)
 selmabar.no#?#.food-item:-abp-contains(pancetta)
 selmabar.no#?#.food-item:-abp-contains(salciccia)
 selmabar.no#?#.food-item:-abp-contains(svin)
-! Una Pizzeria
 unapizzeria.no#?#.menu-segment > .item:-abp-contains(salam)
 unapizzeria.no#?#.menu-segment > .item:-abp-contains(skinke)
 unapizzeria.no#?#.menu-segment > .item:-abp-contains(pølse)
 unapizzeria.no#?#.menu-segment > .item:-abp-contains(bacon)
 unapizzeria.no#?#.menu-segment > .item:-abp-contains(/coppa di parma/i)
-! https://grano.no/middag/
-!#if !adguard
 grano.no#?#p,h6:-abp-contains(/skinke/i)
 grano.no#?#p,h6:-abp-contains(/pølse/i)
 grano.no#?#p,h6:-abp-contains(/salami/i)
@@ -381,52 +299,36 @@ grano.no#?#p,h6:-abp-contains(/ventricina/i)
 grano.no#?#p,h6:-abp-contains(/guanciale/i)
 grano.no#?#p,h6:-abp-contains(/mortadella/i)
 grano.no#?#p,h6:-abp-contains(/speck/i)
-!#endif
-! http://www.lillethailand-trondheim.no/lille-thailand-elgeseter/
 lillethailand-trondheim.no#?#.elementor-price-list-item:-abp-contains( svin)
 lillethailand-trondheim.no#?#.elementor-price-list-item:-abp-contains(Svin)
-! https://nimuser.no/mat/
 nimuser.no#?#.cols-md-responsive:-abp-contains(/bacon/i)
-! https://emilieseld.no/a-la-carte-meny/
 emilieseld.no#?#.wpb_wrapper:-abp-contains(/Chorizo/i)
-! https://cafedublin.no/signaturretter/
 cafedublin.no#?#p:-abp-contains(/Spareribs/i)
 cafedublin.no#?#p:-abp-contains(/Chorizo/i)
 cafedublin.no#?#p:-abp-contains(/Svin/i)
 cafedublin.no#?#p:-abp-contains(/Speke/i)
-! https://www.dognvillburger.no/meny/
 dognvillburger.no#?#.menu-block__menu-item:-abp-contains(/bacon/i)
 dognvillburger.no#?#.menu-block__menu-item:-abp-contains(/pork/i)
 dognvillburger.no#?#.menu-block__menu-item:-abp-contains(/svin/i)
-! https://www.hevd.no/no/meny
 hevd.no#?#.food-item:-abp-contains(/skinke/i)
 hevd.no#?#.food-item:-abp-contains(/bacon/i)
-! taqueros.no
 taqueros.no,sansebastian.no#?#.menu-item:-abp-contains(/svin/i)
-! http://restaurantfrida.no/hovedretter/
 restaurantfrida.no#?#.ppb_header_content > p:-abp-contains(/svin/i)
 restaurantfrida.no#?#.ppb_header_content > p:-abp-contains(/pølse/i)
-! https://www.romolsliapizza.com/
 romolsliapizza.com#?#.productcontainer:-abp-contains(/Pepperoni/i)
 romolsliapizza.com#?#.productcontainer:-abp-contains(/Skinke/i)
 romolsliapizza.com#?#.productcontainer:-abp-contains(/Salami/i)
 romolsliapizza.com#?#.productcontainer:-abp-contains(/Bacon/i)
-! https://www.romantica.no/
 romantica.no#?#.menu-restaurant:-abp-contains(/skinke/i)
 romantica.no#?#.menu-restaurant:-abp-contains(/bacon/i)
 romantica.no#?#.menu-restaurant:-abp-contains(/pepperoni/i)
-! http://www.oska.no/menu.php?showbytopping=U2tpbmtl
 oska.no#?#.product-row:-abp-contains(/Pepperoni/i)
 oska.no#?#.product-row:-abp-contains(/Skinke/i)
 oska.no#?#.product-row:-abp-contains(/Bacon/i)
-! https://palermotrondheim.no/meny/salater/
 palermotrondheim.no#?#tr:-abp-contains(/skinke/i)
 palermotrondheim.no#?#tr:-abp-contains(/bacon/i)
 palermotrondheim.no#?#tr:-abp-contains(/salami/i)
 palermotrondheim.no#?#tr:-abp-contains(/Pølse/i)
-
-! ——— 🇸🇪 Sweden - Sverige ———
-! https://www.pizzabakeren.se/Pizzor
 pizzabakeren.se#?#.pizza:-abp-contains(/bacon/i)
 pizzabakeren.se#?#.pizza:-abp-contains(/bacon/i) + .price
 pizzabakeren.se#?#.pizza:-abp-contains(/bacon/i) + .price + .price
@@ -447,42 +349,24 @@ pizzabakeren.se#?#.pizza:-abp-contains(/pepperoni/i) + .price
 pizzabakeren.se#?#.pizza:-abp-contains(/pepperoni/i) + .price + .price
 pizzabakeren.se#?#.pizza:-abp-contains(/pepperoni/i) + .price + .price + .price
 pizzabakeren.se#?#.pizza:-abp-contains(/pepperoni/i) + .price + .price + .price + .price
-
-! ——— 🇮🇪 Ireland ———
-! https://papajohns.ie/papajohns-food/
 papajohns.*#?#.menu-product:-abp-contains(Pepperoni)
 papajohns.*#?#.menu-product:-abp-contains(All the Meats)
 papajohns.*#?#.menu-product:-abp-contains(The Works)
 papajohns.*#?#.menu-product:-abp-contains(Chicken BBQ)
 papajohns.*#?#.menu-product:-abp-contains(Hawaiian)
-
-! ——— 🇵🇭 Philippines - Pilipinas ———
-! https://timhortons.ph/menu
 timhortons.ph#?#.slick-slide:-abp-has(a[href*="/ham-"])
 timhortons.ph#?#.slick-slide:-abp-has(a[href*=sausage])
 timhortons.ph#?#.slick-slide:-abp-has(a[href*=bacon])
 timhortons.ph#?#.slick-slide:-abp-has(a[href*=italiano])
 timhortons.ph#?#.slick-slide:-abp-has(a[href*=-belt-])
-
-! ——— 🇲🇽 México ———
-! http://www.timhortons.com.mx/es/menu.html
 timhortons.com.mx#?#.menu-items > .box:-abp-contains(Jamón)
 timhortons.com.mx#?#.menu-items > .box:-abp-contains(Tocino)
 timhortons.com.mx#?#.menu-items > .box:-abp-contains(Italiano)
 timhortons.com.mx#?#.menu-items > .box:-abp-contains(Salchicha)
-
-! ——— 🇨🇾 Cyprus - Κύπρος ———
-! https://www.papajohns.com.cy/pizzas.html
 papajohns.*#?#.menuItem:-abp-contains(Ham )
 papajohns.*#?#.menuItem:-abp-contains(Pepperoni)
 papajohns.*#?#.menuItem:-abp-contains(Bacon)
 papajohns.*#?#.menuItem:-abp-contains(Sausage)
-[Adblock Plus 3.4]
-! Title: 🪑 Anti-'K-pop spammers on Twitter' List
-! Version: 16October2021v1-Alpha
-! Expires: 7 days
-! Description: This list aims to remove thread comments that promote K-pop, that are in threads whose OPs have absolutely nothing whatsoever to do with K-pop (e.g. Struggle Tweets, Poorly Aged Things).
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/Jungkook/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/Monkook/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/BTS_twt/i)
@@ -509,15 +393,6 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/junkyu/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/junghyun/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[style*="position: absolute; "]:not([class]):-abp-contains(/Hyolyn/i)
-[Adblock Plus 3.6]
-! Title: 🏖️ Anti-'Christmas carols' List
-! Version: 23December2021v1-Alpha
-! Expires: 2 days
-! Description: Do you use music streaming services, and have grown really tired of how the same few songs are covered every year by every band and artist that have ever existed (and some that haven't)? Now you can let your eyes get a break from coming across just those songs.
-! Note that this list very likely doesn't edit the play queue itself, so some caution should be taken when browsing through winter albums and playlists nevertheless.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-
-! Deezer
 deezer.com#?#div[draggable]:-abp-contains(/Holly Jolly Christmas/i)
 deezer.com#?#div[draggable]:-abp-contains(/All I Want for Christmas/i)
 deezer.com#?#div[draggable]:-abp-contains(Angels We Have Heard)
@@ -632,8 +507,6 @@ deezer.com#?#div[draggable]:-abp-contains(/Joseph/i):-abp-contains(/Carol/i)
 deezer.com#?#div[draggable]:-abp-contains(/Jesus/i):-abp-contains(/Baby/i)
 deezer.com#?#div[draggable]:-abp-has(span[itemprop=name]:-abp-contains(Emmanuel))
 deezer.com#?#.thumbnail-col:-abp-contains(Christmas):-abp-contains(Mariah Carey)
-
-! Spotify
 spotify.com#?#.tracklist-row:-abp-contains(/Holly Jolly Christmas/i)
 spotify.com#?#.tracklist-row:-abp-contains(/All I Want for Christmas/i)
 spotify.com#?#.tracklist-row:-abp-contains(Angels We Have Heard)
@@ -746,8 +619,6 @@ spotify.com#?#.tracklist-row:-abp-contains(/born/i):-abp-contains(/Christmas Day
 spotify.com#?#.tracklist-row:-abp-contains(/Stille Nacht/i)
 spotify.com#?#.tracklist-row:-abp-contains(/Joseph/i):-abp-contains(/Carol/i)
 spotify.com#?#.tracklist-row:-abp-contains(/Jesus/i):-abp-contains(/Baby/i)
-
-! TIDAL
 tidal.com#?#.track-items:-abp-contains(/Holly Jolly Christmas/i)
 tidal.com#?#.track-items:-abp-contains(/All I Want for Christmas/i)
 tidal.com#?#.track-items:-abp-contains(Angels We Have Heard)
@@ -860,113 +731,42 @@ tidal.com#?#.track-items:-abp-contains(/born/i):-abp-contains(/Christmas Day/i)
 tidal.com#?#.track-items:-abp-contains(/Stille Nacht/i)
 tidal.com#?#.track-items:-abp-contains(/Joseph/i):-abp-contains(/Carol/i)
 tidal.com#?#.track-items:-abp-contains(/Jesus/i):-abp-contains(/Baby/i)
-! Title: 👨‍👨‍👧‍👦 Dandelion Sprout's Annoyances List 2nd Division Bachelors
-! Version: 10April2022v1-Alpha-Compilation
-! Expires: 3 days
-! Description: This compilation include lists that are maintained as properly and proudly as those in the main Annoyances List, but which have unresolved matters about overblocking, unusual topics, or potential regional legal issues (primarily in the Middle East), that would've caused the AdGuard Filters Registry team to raise eyebrows until resolvements have been agreed on.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-
-!#if env_chromium
-! Makes Windows 11 emotes show up correctly when used in Discord usernames
 discord.com#?#span[id^=message-username-] > span[class^=username-]:style(font-weight: 599.9999 !important)
-!#endif
-
-! Marks prescriptions on Norway's official prescription info site as all-red if they're expired
 tjenester.helsenorge.no#?#.legemiddel__block:-abp-contains(/Utekspedert|Utløpt|seponert/) .legemiddel__container__block:style(background-color: #ea7b7b !important)
 tjenester.helsenorge.no#?#.legemiddel__block:-abp-contains(/Utekspedert|Utløpt|seponert/) .legemiddel__delivery:style(background-color: #ea7b7b !important)
-
-!#if !env_mobile
-! 3-year old item trade DMs are kinda scary, especially on 2560px tall monitors where they're normally shown for many years
 finn.no##div[msg-test]:style(max-height: 700px !important)
-!#endif
-
-! Pixiv presumably counts as social media, and thus shouldn't have its notifications be blocked by anti-notification lists
 @@||onesignal.com^$domain=pixiv.net
 @@/onesignalsdkworker.$domain=pixiv.net
 @@/webpush/*$domain=pixiv.net
-
-! Osu!
 osu.ppy.sh#?#.beatmapsets__item:-abp-contains(Christmas)
-
-! http://www.myklebustbrannsikring.com/
-/SoundLoops/Xmas_WeWish.mp3
-
-! ——— 🇬🇧 United Kingdom ———
-! https://timhortons.co.uk/menu.php
 timhortons.co.uk#?#.menu-items > .box:-abp-contains(Bacon)
 timhortons.co.uk#?#.menu-items > .box:-abp-contains(Ham):not(:-abp-contains(burger))
 timhortons.co.uk#?#.menu-items > .box:-abp-contains(Sausage):not(:-abp-contains(Veggie))
-! Title: 🥒 Anti-'Non-news' List
-! Version: 28June2021v1-Alpha-Compilation
-! Expires: 5 days
-! Description: For those who prefer for newssites to cover actual news, and not odd distractions or conspiracy theories.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-! To-Do: Find a way to add entries against Bitcoin scam sites to this list, if there's any demand for it.
-
-! Extraordinary amounts of bot-generated estate sale articles
 op.se,ltz.se#?#.teaser:-abp-contains(/Nya? ägare/i)
 op.se,ltz.se#?#.teaser:-abp-contains(/fastighet/i)
 op.se,ltz.se#?#.teaser:-abp-contains(/för tomt/i)
 op.se,ltz.se#?#.teaser:-abp-contains(/kvadratmeter/i)
-
-! Football/skiing fantasy games
 tv2.no#?#.article,.lp-a,.col-sm-12,article.column:-abp-contains(/-fantasy/i)
-
-! Incel-hosted podcasts that also promote society pressure about getting babies
 adressa.no##a[href*=Singelkrisa]
 adressa.no#?#.polarisStories:-abp-contains(Singelkrisa)
-
-! Boring unfunny strip comics for boring adults on non-comics sites
 adressa.no##.cartoon
 vg.no##.comics
 ekstrabladet.dk##.oo-left.eb-row-item
 at.no#?#.row:-abp-has(a[href*="at.no/tegneserie/"])
 ||sykepleien.no/sites/default/files/styles/cartoon_image^$image
-
-! ——— 🇰🇬 Kyrgyzstan - Кыргызстан ———
-! http://www.papajohns.ky/users/menus/index.html
 papajohns.*#?#.menu_items_list > ul > li:-abp-contains(/Pepperoni/i)
 papajohns.*#?#.menu_items_list > ul > li:-abp-contains(Sausage)
 papajohns.*#?#.menu_items_list > ul > li:-abp-contains(/bacon/i)
-
-! ——— 🇷🇺 Russia - Россия ———
-! https://www.papajohns.ru/
 papajohns.ru#?#.OCoeO-38:-abp-contains(бекон)
 papajohns.ru#?#.OCoeO-38:-abp-contains(/пепперони/i)
-
-! ——— 🇮🇹 Italy - Italia ———
-! KFC
 kfc.it#?#ul[style] > li:-abp-contains(Kiss Burger)
 kfc.it#?#ul[style] > li:-abp-contains(Colonel's Burger)
-
-! ——— 🇮🇸 Iceland - Ísland ———
-! https://www.ikea.is/veitingasvid/veitingastadur
 ikea.is#?#.aller-item:-abp-contains(/hangikjöti/i)
-
-! ——— 🇩🇪 Germany - Deutschland ———
-! KFC
 kfc.de#?#.item-card:-abp-contains(/Bacon/i)
-
-! ——— 🇫🇮 Finland - Suomi ———
-! Hesburger
 www.hesburger.fi#?#.product:-abp-contains(/pekoni/i)
-
-! ——— 🇪🇪 Estonia - Eesti ———
 hesburger.ee#?#.product:-abp-contains(/Peekoni/i)
-
-! ——— 🇱🇻 Latvia - Latvija ———
 hesburger.lv#?#.product:-abp-contains(/Bekona/i)
-
-! ——— 🇱🇹 Lithuania - Litueva ———
 hesburger.lt#?#.product:-abp-contains(/šonine/i)
-
-[Adblock Plus 3.6]
-! Title: 🧥 Anti-"Weeb boob games on Steam" List
-! Version: 12November2020v1-Beta
-! Expires: 15 days
-! Description: In contrast to the more curated webstores Epic Store and GOG.com, Steam has for some years now been stuffed full of very-low-effort "games" (Mostly visual novels) whose entire 10€ production budget was spent on catgirls in bikinis looking at you meekly. If you are not interested in catgirls in bikinis looking at you meekly, but want to focus more on videogames, then this list is for you.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-! Tag ID codes, as used below: 12095 = Sexual Content; 6650 = Nudity; 3799 = Visual Novel; 4085 = Anime; 4434 = JRPG; 4150 = World War II?; 9130 = Hentai
 store.steampowered.com##a[data-ds-tagids*="12095"][data-ds-tagids*="6650"]
 store.steampowered.com##a[data-ds-tagids*="12095"][data-ds-tagids*="3799"]
 store.steampowered.com##a[data-ds-tagids*="6650"][data-ds-tagids*="3799"]
@@ -982,40 +782,25 @@ store.steampowered.com##a[data-ds-appid][href*="/NEKO_" i]
 store.steampowered.com##a[data-ds-appid][href*=Waifu i]
 store.steampowered.com##a[data-ds-appid][href*=Seek_Girl i]
 store.steampowered.com##.top_new_releases
-
-! Increases the size of checkboxes in the translation interface, to make it easier to hit the buttons (Especially convenient for validators going through backlogs and validator reports).
 translate.wordpress.com,translate.wordpress.org##.checkbox > input:style(height: 25px !important; width: 25px !important)
 translate.wordpress.com,translate.wordpress.org##.checkbox:style(padding: 0 !important)
-
-! On language-specific COM overviews, for instance https://translate.wordpress.com/languages/no/, it removes listings that are above the 85% treshold for when theme translations are shown to end-users.
 translate.wordpress.com##tr:has(a[href^="/projects/wpcom/themes/"]):has(.percent-completed:has-text(/^8[5-9]|9[0-9]|100/))
-
-! Makes the ORG translation interface wider
 translate.wordpress.org##.gp-content:style(max-width: 1600px !important)
-
 flows.nodered.org###cm
-! 2022-05-09 https://sellbery.com
 sellbery.com##.cookies-container
 sellbery.com##.cookies-popup
 sellbery.com##div.sexy_red.blog_cta:nth-of-type(3)
 sellbery.com##.__ue__content
-! 2022-05-10 https://www.aliexpress.com
 ||ae01.alicdn.com/kf/Se8d5705ceba74af2b93bfdd33ccd7fc8E.jpg_Q90.jpg_.webp$image
 www.aliexpress.com##._3KrBP
-! 2022-05-11 https://www.fiverr.com
 www.fiverr.com##.ba-survey--fade-in.box-shadow-z4.ba-survey
 www.fiverr.com##.flex-between.p-b-24.p-l-24.p-r-24.flex-col.flex
 www.fiverr.com##.flex-end.flex
-! 2022-05-11 https://www.isitwp.com
 www.isitwp.com##.Campaign--css.CampaignType--popup.Campaign.buffalo-campaign
-! 2022-05-11 https://stackoverflow.com
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-! 2022-05-12 https://chaturbate.com
 chaturbate.com##.RoomSignupPopup
-! 2022-05-13 https://www.tiktok.com
 www.tiktok.com##.e1l04njg0.tiktok-4gw84j-DivKeyboardShortcutContainer
 www.tiktok.com##.ejkrawn1.tiktok-zxo5ey-ButtonGetAppText
-! 2022-05-13 https://www.psypost.org
 www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .expanded.jeg_btn-facebook
 www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .expanded.jeg_btn-twitter
 www.psypost.org##.jeg_social_wrap &gt; .square.socials_widget
@@ -1028,40 +813,29 @@ www.psypost.org##.jeg_share_float_container &gt; .jeg_sharelist &gt; .jeg_btn-wh
 www.psypost.org##.clearfix.share-bottom.jeg_share_button &gt; .jeg_sharelist
 www.psypost.org##.jnews-cookie-law-policy
 www.psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar &gt; .jegStickyHolder &gt; .theiaStickySidebar
-! 2022-05-13 https://www.vegascreativesoftware.com
 www.vegascreativesoftware.com###onetrust-group-container
 www.vegascreativesoftware.com###onetrust-button-group-parent
-! 2022-05-13 https://dongknows.com
 dongknows.com##.chp_ads_blocker_detector-show.fadeInDown.chp_ads_block_modalmqm9xdhuk241i4qhmrez
-! 2022-05-14 https://www.vpnmentor.com
 www.vpnmentor.com##.aff-button.aff-btn-orange.btn-warning.btn-lg.btn
 www.vpnmentor.com##.top-vendors-wrap.side-block-wrap
-! 2022-05-14 https://www.magix.com
 www.magix.com###onetrust-group-container
 www.magix.com###onetrust-button-group-parent
-! 2022-05-14 https://creativecow.net
 creativecow.net##.SCK_BannerContainer
 creativecow.net##.advads-background
 creativecow.net##.bbpress-sidebar.widget-area
 creativecow.net###cowtracks-1095258688 &gt; .cowtracks-target.bbcow-ad-interstitial-container
 creativecow.net##.is-sticky.advads-close.advads-background-click-close.advads-has-background.cowtracks-layer-onload.cowtracks-layer.cowtracks-target.bbcow-ad-interstitial-container.cowtracks-interstitial
-! 2022-05-15 https://www.geeksforgeeks.org
 www.geeksforgeeks.org###color_pick_click_box
 www.geeksforgeeks.org##.login-modal-div &gt; .modal-content
-! 2022-05-15 https://lrepacks.net
 lrepacks.net##iframe:nth-of-type(2)
-! 2022-05-15 https://marcoramilli.com
 marcoramilli.com##rect
 marcoramilli.com###hu-bg-pattern
 marcoramilli.com###hu-background
 marcoramilli.com###hu-outer-wrapper
 ||marcoramilli.com/wp-content/uploads/2019/08/award-icon-06.png$image
 ||i0.wp.com/marcoramilli.com/wp-content/uploads/2019/01/tw-.png?w=1100&ssl=1$image
-! 2022-05-15 https://null-byte.wonderhowto.com
 null-byte.wonderhowto.com##.cta-newsletter.wht-cta
-! 2022-05-16 https://www.timesofisrael.com
 www.timesofisrael.com##.bg-yellow-green.in-article.crm-post-module
-! 2022-05-16 https://forward.com
 ||forward.com/wp-content/uploads/2022/04/engage-survey*.png$image
 ||buy.tinypass.com/checkout/template/cacheableShow?aid=6Z1jcPLepu&templateId=OTJHPW7V1HT3&offerId=fakeOfferId&experienceId=EXY3E12NMPEG&iframeId=offer_d58eccc3f3aee9ea8a68-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template&url=https%3A%2F%2Fforward.com$subdocument
 tinypass.com
@@ -1071,14 +845,11 @@ forward.com##div.sticky-container:nth-of-type(2)
 forward.com##div.sticky-container:nth-of-type(3)
 forward.com##div.sticky-container:nth-of-type(4)
 forward.com##.sticky-rail
-! 2022-05-16 https://www.frontiersin.org
 www.frontiersin.org##.right-container.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.a
 www.frontiersin.org##.right-container-articles.related.side-article.pull-right.col-md-3.col-lg-2.col-sm-12.col-xs-12.c
-! 2022-05-16 https://vu.nl
 vu.nl##.vuw-cookie-scroll.vuw-card.auto.cell
 vu.nl##.vuw-bg-support-5.vuw-cookie.vuw-popup-bottom.grid-y
 vu.nl##.vuw-popup-wrapper-transparent
-! 2022-05-16 https://www.jewishhistory.org
 www.jewishhistory.org##.theiaStickySidebar &gt; .elementor-element-populated.elementor-widget-wrap
 www.jewishhistory.org##.active.jeg_popup_post
 www.jewishhistory.org##.jnews_module_1707_0_628271cb9846a.jeg_col_2o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_22
@@ -1630,7 +1401,6 @@ www.regain.us###onetrust-consent-sdk
 ! 2022-06-14 https://search.brave.com
 search.brave.com##.footer
 www.cnbc.com##.TransporterSection-transporterWrapper
-! 2022-06-14 https://www.levernews.com
 www.levernews.com##.col-lg-3.col-xs-12
 www.levernews.com##.kg-product-card.kg-card
 www.levernews.com##div.kg-align-center.kg-button-card.kg-card
@@ -1638,23 +1408,18 @@ www.levernews.com###comments
 www.levernews.com##.kg-image-card.kg-card
 www.levernews.com##p:nth-of-type(41)
 www.levernews.com##.footer
-! 2022-06-16 https://www.salemnews.com
 www.salemnews.com##.asset-body &gt; div:nth-of-type(3)
 www.salemnews.com###asset-below
 www.salemnews.com##.hidden-print.col-md-5.col-lg-4.main-sidebar
 ||static.cnhionline.com/ksherman/images/rtj_ad.gif$image
 www.salemnews.com##.hidden-print
-! 2022-06-16 https://www.cnn.com
 www.cnn.com##.ticker-ribbon
 www.cnn.com###cn-featured-133n2zx
 www.cnn.com##.el__embedded--standard.el__embedded
 www.cnn.com##div:nth-of-type(6)
-! 2022-06-16 https://www.buzz.ie
 www.buzz.ie##.sharebar
-! 2022-06-16 https://www.reuters.com
 www.reuters.com##.heading__heading_4__3yjho.heading__base__2T28j.text__heading_4__14ZqK.text__medium__1kbOh.text__dark-grey__3Ml43.text__text__1FZLe
 www.reuters.com##p.article-body__element__2p5pI.body__large_body__FV5_X.body__base__22dCE.text__large__nEccO.text__regular__2N1Xr.text__dark-grey__3Ml43.text__text__1FZLe:nth-of-type(15)
-! 2022-06-16 https://www.wlbt.com
 www.wlbt.com##div.mb-0.\|.flex-feature-feed:nth-of-type(4)
 www.wlbt.com##.flex-lg-fill.flex-column.d-flex.ml-lg-3.rail.\|.right-rail
 www.wlbt.com##.col-12.\|.sharebar
@@ -1664,11 +1429,9 @@ www.wlbt.com##.h-100.align-items-end.flex-column.d-none.\|.side-drawer-container
 www.wlbt.com###main
 www.wlbt.com##.w-100.\|.navigation
 www.wlbt.com##.w-100.\|.leaderboard
-! 2022-06-16 https://www.cbssports.com
 www.cbssports.com##.LatestNewsBox
 www.cbssports.com##.cbs-site-footer
 www.cbssports.com##.skybox-spacer
-! 2022-06-16 https://abc7.com
 abc7.com##.horizontal.social-icons
 abc7.com##.breaking-news
 abc7.com##div.adRectangle-pos-small-inline
@@ -1678,22 +1441,15 @@ abc7.com##.footer
 abc7.com##.taxonomy
 abc7.com##.report-typo
 abc7.com##.type-videoClip.video.featured-media &gt; div
-! 2022-06-16 https://www.heraldtribune.com
 www.heraldtribune.com##.gnt_mol_oy
-! 2022-06-22 https://srinimf.com
 srinimf.com###site-sidebar
 srinimf.com###colophon
-! 2022-06-24 https://stackoverflow.com
 stackoverflow.com###launch-popover
-! 2022-06-24 https://finance.yahoo.com
 finance.yahoo.com###myLightboxContainer
 finance.yahoo.com##.YDC-Overlay
-! 2022-06-24 https://www.newsweek.com
 www.newsweek.com##.fA.block-ibtg-article.block
 www.newsweek.com##div.page-bottom
 www.newsweek.com##.block-ibtmedia-facebook.block
 www.newsweek.com##.col-md-4.page-sidebar
-! 2022-06-24 https://apnews.com
 apnews.com###se0\:3ac00990-dbe0-11ec-c164-a1a4c1ab7ff8
-! 2022-06-25 https://www.makeuseof.com
 www.makeuseof.com##div.landscape.body-img
