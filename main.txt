@@ -5,119 +5,6 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
 
-://adbrbk.$doc
-://adbrbk.$document
-://disordgift.$all
-://disordgift.$empty,important
-://disordgift.$popup
-://hullcitytigers.com^$doc
-://hullcitytigers.com^$document
-://linkvertise.com/23001/OxygenU^$doc
-://linkvertise.com/23001/OxygenU^$document
-://ups-dk.$denyallow=dk|nu|se|no|fo|gl|ups.com
-://ups-dk.$doc,denyallow=dk|nu|se|no|fo|gl|ups.com
-://ups-dk.$document,denyallow=dk|nu|se|no|fo|gl|ups.com
-://ww10.$doc
-://ww10.$document
-://ww11.$doc
-://ww11.$document
-://ww12.$doc
-://ww12.$document
-://ww13.$doc
-://ww13.$document
-://ww14.$doc
-://ww14.$document
-://ww15.$denyallow=ww15.nl
-://ww15.$doc,domain=~ww15.nl
-://ww15.$document,domain=~ww15.nl
-://ww16.$doc
-://ww16.$document
-://ww17.$doc
-://ww17.$document
-://ww18.$doc
-://ww18.$document
-://ww19.$doc
-://ww19.$document
-://ww20.$doc
-://ww20.$document
-://ww21.$doc
-://ww21.$document
-://ww22.$doc
-://ww22.$document
-://ww23.$doc
-://ww23.$document
-://ww24.$doc
-://ww24.$document
-://ww25.$doc
-://ww25.$document
-://ww26.$doc
-://ww26.$document
-://ww27.$doc
-://ww27.$document
-://ww28.$doc
-://ww28.$document
-://ww29.$doc
-://ww29.$document
-://ww30.$doc
-://ww30.$document
-://ww31.$doc
-://ww31.$document
-://ww32.$doc
-://ww32.$document
-://ww33.$doc
-://ww33.$document
-://ww34.$doc
-://ww34.$document
-://ww35.$doc
-://ww35.$document
-://ww36.$doc
-://ww36.$document
-://ww37.$doc
-://ww37.$document
-://ww38.$doc
-://ww38.$document
-://ww39.$doc
-://ww39.$document
-://ww4.$denyallow=ww4.ikea.com
-://ww4.$doc,domain=~ww4.ikea.com
-://ww4.$document,domain=~ww4.ikea.com
-://ww40.$doc
-://ww40.$document
-://ww41.$doc
-://ww41.$document
-://ww42.$doc
-://ww42.$document
-://ww43.$doc
-://ww43.$document
-://ww44.$doc
-://ww44.$document
-://ww45.$doc
-://ww45.$document
-://ww46.$doc
-://ww46.$document
-://ww47.$doc
-://ww47.$document
-://ww48.$doc
-://ww48.$document
-://ww49.$doc
-://ww49.$document
-://ww5.$denyallow=ww5.ikea.com|ww5.msu.ac.zw
-://ww5.$doc,domain=~ww5.ikea.com|~ww5.msu.ac.zw
-://ww5.$document,domain=~ww5.ikea.com|~ww5.msu.ac.zw
-://ww50.$doc
-://ww50.$document
-://ww6.$denyallow=ww6.generali.pt
-://ww6.$doc,domain=~ww6.generali.pt
-://ww6.$document,domain=~ww6.generali.pt
-://ww7.$denyallow=ww7.be|ww7.readsnk.com
-://ww7.$doc,domain=~ww7.be|~ww7.readsnk.com
-://ww7.$document,domain=~ww7.be|~ww7.readsnk.com
-://ww8.$denyallow=ww8.co|ww8.ikea.com|ww8.tiki.ne.jp|ww8.erovoice.us|ww8.anyanime.com|ww8.bakushpal.az|ww8.tokyoghoulre.com|ww8.readonepiece.com
-://ww8.$doc,domain=~ww8.co|~ww8.ikea.com|~ww8.tiki.ne.jp|~ww8.erovoice.us|~ww8.anyanime.com|~ww8.bakushpal.az|~ww8.tokyoghoulre.com|~ww8.readonepiece.com
-://ww8.$document,domain=~ww8.co|~ww8.ikea.com|~ww8.tiki.ne.jp|~ww8.erovoice.us|~ww8.anyanime.com|~ww8.bakushpal.az|~ww8.tokyoghoulre.com|~ww8.readonepiece.com
-://ww9.$denyallow=ww9.ikea.com|ww9.tiki.ne.jp|ww9.sakura.ne.jp|ww9.generali.pt|ww9.itau.com.br
-://ww9.$doc,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br
-://ww9.$document,domain=~ww9.ikea.com|~ww9.tiki.ne.jp|~ww9.sakura.ne.jp|~ww9.generali.pt|~ww9.itau.com.br
 #@#div[itemtype="http://schema.org/WPAdBlock"]
 ##._ning_outer._ning_jss_zone:not(body):not(html)
 ##.aa_app_widget:not(html, body)
@@ -206,7 +93,6 @@
 ##.app-store-banner:not(html, body)
 ##.app-teaser:not(html, body)
 ##.appBanner:not(html, body)
-##.AppBanner:not(html, body)
 ##.AppBannerContainer:not(html, body)
 ##.appdl_header:not(html, body)
 ##.appdownload-panel:not(html, body)
@@ -671,7 +557,6 @@
 ##.smartbanner_new:not(html, body)
 ##.smartBanner-container:not(html, body)
 ##.smartbanner:not(html, body)
-##.SmartBanner:not(html, body)
 ##.SmartBannerContainer:not(html, body)
 ##.SnowFlakesBg:not(html, body)
 ##.sns:not(html, body)
@@ -751,7 +636,6 @@
 ##.undirsidaad:not(html):not(body)
 ##.vertical-x1-ad > .column--big
 ##.view-astroloji:not(html, body)
-##.view-Astroloji:not(html, body)
 ##.ViewInAppLink:not(html, body)
 ##.waktu-solat-block:not(html, body)
 ##.wallpaper > .horseshoe
@@ -1045,7 +929,6 @@
 ##a[href*="-astrologi."]
 ##a[href*="://plus.google.com/share?url="]
 ##A[href*="?ad="]
-##A[href*="?AD="]
 ##a[href*=".app.link/"]
 ##a[href*=".cmd=addShare"]
 ##a[href*=".downloadprovider.me/"]
@@ -1062,7 +945,6 @@
 ##a[href*="/click.adrecord"] img
 ##a[href*="/click.linksynergy"] img
 ##A[href*="/click/"]
-##A[href*="/Click/"]
 ##a[href*="/clickthrgh.asp?"]
 ##a[href*="/cvasino.se/"] img
 ##a[href*="/delivery.adnuntius.com"]
@@ -1097,7 +979,6 @@
 ##A[href*="accesstrade.net/"]
 ##A[href*="acnt.biz"]
 ##A[href*="adclick"]
-##A[href*="ADCLICK"]
 ##a[href*="addtoany.com/add_to/"]
 ##A[href*="AdID="]
 ##A[href*="adimg.net"]
@@ -1395,8 +1276,6 @@
 ##div[class*=_share_button]
 ##div[class*=-ad-container]
 ##DIV[class*="/ad"]
-##DIV[class*="/Ad"]
-##DIV[class*="/AD"]
 ##DIV[class*="adBlock"]
 ##DIV[class*="adbox"]
 ##DIV[class*="AdContainer"]
@@ -1408,7 +1287,6 @@
 ##DIV[class*="autopagerize_insert_before"]
 ##div[class*="azlink-box"]
 ##DIV[class*="banner"]
-##DIV[class*="Banner"]
 ##DIV[class*="become"]
 ##DIV[class*="blogcampaign"]
 ##DIV[class*="bpbox_text"]
@@ -1519,8 +1397,6 @@
 ##div[href*="plus.google.com/share?url="]
 ##div[id*=_ad_native]
 ##DIV[id*="/ad"]
-##DIV[id*="/Ad"]
-##DIV[id*="/AD"]
 ##div[id*="accessLog"]
 ##DIV[id*="adBlock"]
 ##DIV[id*="adbox"]
@@ -1531,7 +1407,6 @@
 ##div[id*="amazlet"]
 ##DIV[id*="autopagerize_insert_before"]
 ##DIV[id*="banner"]
-##DIV[id*="Banner"]
 ##DIV[id*="become"]
 ##DIV[id*="blogcampaign"]
 ##DIV[id*="bpbox_text"]
@@ -1661,7 +1536,6 @@
 ##IFRAME[src*="facebook.com/plugins/"]
 ##iframe[src*="feednews"]
 ##iframe[src*="headline"]
-##iframe[src*="Headline"]
 ##iframe[src*="headrank"]
 ##IFRAME[src*="i2i."]
 ##IFRAME[src*="i2idata."]
@@ -32292,7 +32166,6 @@
 ||kitchencafeso.com^$empty,important
 ||kitchencafeso.com^$popup
 ||kitchenhub.club^$~image
-||kitchentime.no^$document,domain=~ Dra til https://viatrumf.no/cashback/kitchentimetrumf for ViaTrumf-listetesting; eller trykk Midlertidig-knappen under for ignorering eller om du allerede er i Kickback-modus.
 ||kitcousins.com^
 ||kitcousins.com^$all
 ||kitcousins.com^$empty,important
@@ -32533,7 +32406,6 @@
 ||kompuyinok.com^$popup
 ||komuxoe.ru^
 ||koncbabae.com^
-||kondomeriet.no^$document,domain=~ Dra til https://viatrumf.no/cashback/kondomeriet-trumf for ViaTrumf-listetesting; eller trykk Midlertidig-knappen under for ignorering eller om du allerede er i Kickback-modus.
 ||kongeparken.com-*$doc
 ||kongeparken.com-*$document
 ||konopelski.biz^
@@ -71248,15 +71120,10 @@ iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kaupallinen
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kaupallinenyht])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky_ i])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky_])
-iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=Ky_])
-iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=KY_])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky- i])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky-])
-iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=Ky-])
-iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=KY-])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kyi_ i])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kyi_])
-iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=Kyi_])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=mainosnauha i])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=mainosnauha])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi/asuminen_vattenfall_palkki"])
@@ -73358,8 +73225,6 @@ mainichi.jp##div[class="Campaign"]
 mainichi.jp##div[class="SR"]
 mainichi.jp##div[class$="Ad"]
 mainichi.jp##div[id*="ad"]
-mainichi.jp##div[id*="Ad"]
-mainichi.jp##div[id*="AD"]
 mainichi.jp##divclass="SubContentsB"]
 mainichi.jp##iframe[src^="http://rcm-jp.amazon.co.jp/"]
 mainland.press
@@ -74454,7 +74319,6 @@ nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Bernie ?Bro/i)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Bernie[ -]/)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Beto[ .,!?]/)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Biden[ .,;!?=']/)
-nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/BIDEN[ .,;!?=']/)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Bill of Rights/i)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Black ?Lie/i)
 nitter.net,nitter.42l.fr#?#.timeline-item:-abp-contains(/Blackpill/i)
@@ -76422,7 +76286,6 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=long i][alt*=
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Lumity])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=macro i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=maheswaran i])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Maheswaran i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=mahmapuu i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Malachite i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=marceline i])
@@ -76439,7 +76302,6 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=odor i][alt*=
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=owl_house i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=owlhouse i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=padapardscha i])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Padapardscha i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=papper i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Pearl i][alt*=Lapis i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Pearl i][alt*=Methyst i])
@@ -76459,7 +76321,6 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Princess i][a
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Quartz i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=R-15G])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Rape])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=RAPE])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=rape][alt*=daughter])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=rape][alt*=forced])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=rowdyruff i])
@@ -76467,7 +76328,6 @@ pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Ryona i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=sagging i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Sagittarius i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=sardonyx i])
-pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Sardonyx i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Scorpio- i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=Sedusa])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=shota i][alt*=bizarre i])
@@ -78378,7 +78238,6 @@ samnytt.se##.c-wysiwyg, a.c-news-post[href*=jackpott], a.c-news-post[href*=-casi
 sankakucomplex.com##+js(aopr, BetterJsPop)
 sankei.jp.msn.com##*[src*="rad.msn.com"]
 sankei.jp.msn.com##div[class*="ad"]
-sankei.jp.msn.com##div[class*="Ad"]
 sankei.jp.msn.com##div[class*="parent chrome"]
 sankei.jp.msn.com##DIV[class="contentDisplayFix"] > DIV[id="ModuleTitle"] > H3[class="blue"]
 sankei.jp.msn.com##div[class="ECmodule"]
@@ -80890,7 +80749,6 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#art
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Bernie[ -]/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Beto[ .,!?]/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Biden[ .,;!?=']/)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/BIDEN[ .,;!?=']/)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Bill of Rights/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Black ?Lie/i)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article:-abp-contains(/Blackpill/i)
@@ -82458,7 +82316,6 @@ weasyl.com#?#.item:has-text(Gilda:)
 weasyl.com#?#.item:has-text(goattrain)
 weasyl.com#?#.item:has-text(LunarShine)
 weasyl.com#?#.item:has-text(Mlp)
-weasyl.com#?#.item:has-text(MLP)
 weasyl.com#?#.item:has-text(Parcly Taxel)
 weasyl.com#?#.item:has-text(Ponk)
 weasyl.com#?#.item:has-text(Pronk)
@@ -83740,7 +83597,6 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name=CODE1]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=colpeaL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Copege]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Copium]
-www.twitch.tv##button[data-tooltip-type=emote][data-name=COPIUM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=coronaJAM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=CRONCH]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Crungo]
