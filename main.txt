@@ -54305,17 +54305,7 @@ Banner468x60
 ! html/image popups (without php)
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 ||pics.ch4s4np1c5.site
-! *** easylistspanish:easylistspanish_adult/adult_specific_block_popup.txt ***
-!------------------------Specific element hiding rules------------------------!
-! *** easylistspanish:easylistspanish/easylistspanish_specific_hide.txt ***
-! *** easylistspanish:easylistspanish_adult/adult_specific_hide.txt ***
-!-----------------------Allowlists to fix broken sites------------------------!
-! *** easylistspanish:easylistspanish/easylistspanish_allowlist.txt ***
 @@||live.streamtheworld.com^
-! *** easylistspanish:easylistspanish/easylistspanish_allowlist_dimensions.txt ***
-! *** easylistspanish:easylistspanish/easylistspanish_allowlist_popup.txt ***
-! *** easylistspanish:easylistspanish_adult/adult_allowlist.txt ***
-! *** easylistspanish:easylistspanish_adult/adult_allowlist_popup.txt ***
 /rentalurl\.(com|net|jp)/
 ##a[href*="rentalurl"]
 ##SCRIPT[src*="rentalurl"]
