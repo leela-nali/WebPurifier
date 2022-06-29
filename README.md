@@ -1,1 +1,17 @@
-# Web Purifier
+# Whats Included
+- filters/uAssets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt
+- filters/uAssets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt
+- filters/uAssets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt
+- filters/uAssets/filters/filters-2021.txt
+- filters/uAssets/filters/resource-abuse.txt
+- filters/uAssets/filters/unbreak.txt
+- filters/uAssets/filters/quick-fixes.txt
+- filters/uAssets/filters/annoyances.txt
+- filters/uAssets/filters/filters.txt
+- filters/uAssets/filters/badlists.txt
+- filters/uAssets/filters/filters-2022.txt
+- filters/uAssets/filters/legacy.txt
+- filters/uAssets/filters/privacy.txt
+- filters/uAssets/filters/badware.txt
+- filters/uAssets/filters/filters-2020.txt
+- filters/uAssets/filters/lan-block.txt
