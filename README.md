@@ -1,17 +1,1 @@
 # Whats Included
-- easyprivacy.txt
-- easylist.txt
-- urlhaus-filter-online.txt
-- filters-2021.txt
-- resource-abuse.txt
-- unbreak.txt
-- quick-fixes.txt
-- annoyances.txt
-- filters.txt
-- badlists.txt
-- filters-2022.txt
-- legacy.txt
-- privacy.txt
-- badware.txt
-- filters-2020.txt
-- lan-block.txt

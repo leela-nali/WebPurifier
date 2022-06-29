@@ -3,4 +3,3 @@
 ! Description: See through my eyes
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
-!#include test.txt
