@@ -142,6 +142,7 @@
 - AntiSubmissiveEroticaList.txt
 - AntiMalwareHosts.txt
 - Snaevar87's Icelandic filter.txt
+- Anti-'Christmas carols' List.txt
 - DummyList.txt
 - I Don't Want to Download Your Browser.txt
 - YouTubeEvenMorePureVideoExperience.txt
