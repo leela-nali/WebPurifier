@@ -1,3 +1,3 @@
-[submodule "filters/adfilt"]
-	path = filters/adfilt
-	url = git@github.com:DandelionSprout/adfilt.git
+[submodule "filters/uAssets"]
+	path = filters/uAssets
+	url = git@github.com:uBlockOrigin/uAssets.git
