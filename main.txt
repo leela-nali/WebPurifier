@@ -5,6 +5,57 @@
 ! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
 ! 2022-05-09 https://flows.nodered.org
 
+@@||settings.crashlytics.com^
+@@||app-measurement.com^
+@@||mobileapptracking.com^
+@@||pixapi.net^
+|cn.pool.ntp.org^$dnsrewrite=tw.pool.ntp.org
+|0.cn.pool.ntp.org^$dnsrewrite=0.tw.pool.ntp.org
+|1.cn.pool.ntp.org^$dnsrewrite=1.tw.pool.ntp.org
+|2.cn.pool.ntp.org^$dnsrewrite=2.tw.pool.ntp.org
+|3.cn.pool.ntp.org^$dnsrewrite=3.tw.pool.ntp.org
+yahoo.com$ctag=device_tv
+||sun.hac.lp1.d4c.nintendo.net^$ctag=user_regular
+||scsi-download.lp1.scsi.srv.nintendo.net^$ctag=user_regular
+||google.com^$client='Imres LG 43UH603V 108cm-TV'
+facebook.com$client='Imres LG 43UH603V 108cm-TV'
+avs.na.amazonalexa.com$client='Imres Yamaha RX-V685'
+||ngfts.lge.com^$client='Imres LG 43UH603V 108cm-TV'
+||nrk.no^$1p
+||nrk.no^$3p
+||nrk.no^$all
+||nrk.no^$document
+||nrk.no^$dom
+||nrk.no^$empty
+||nrk.no^$first-party
+||nrk.no^$font
+||nrk.no^$frame
+||nrk.no^$image
+||nrk.no^$media
+||nrk.no^$object
+||nrk.no^$object-subrequest
+||nrk.no^$other
+||nrk.no^$popunder
+||nrk.no^$popup
+||nrk.no^$script
+||nrk.no^$stylesheet
+||nrk.no^$subdocument
+||nrk.no^$third-party
+||nrk.no^$websocket
+||nrk.no^$xhr
+||nrk.no^$xmlhttprequest
+||nrk.no^$~1p
+||nrk.no^$~3p
+||nrk.no^$~all
+||nrk.no^$~document
+||nrk.no^$~dom
+||nrk.no^$~empty
+||nrk.no^$~first-party
+||nrk.no^$~frame
+||nrk.no^$~object-subrequest
+||nrk.no^$~popunder
+||nrk.no^$~third-party
+||nrk.no^$~xhr
 ! START A LIST
 finn.no#?#.ads__unit:-abp-contains(Emirates Airline)
 !!!finn.no#?#.ads__unit:-abp-has(a[href*="/job/"]):-abp-contains(selger)
