@@ -147,7 +147,6 @@
 !#include filters/AntiSubmissiveEroticaList.txt
 !#include filters/AntiMalwareHosts.txt
 !#include filters/Snaevar87%27s%20Icelandic%20filter.txt
-!#include filters/Anti-%27Christmas%20carols%27%20List.txt
 !#include filters/DummyList.txt
 !#include filters/I%20Don%27t%20Want%20to%20Download%20Your%20Browser.txt
 !#include filters/YouTubeEvenMorePureVideoExperience.txt
