@@ -403,7 +403,6 @@ _Cursor1.png^
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
 
 ! —— YouTube on desktop browsers, including "Disable Polymer" mode and TV mode ——
-!#if !adguard
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(Nursery)
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(/Finger Family/i)
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(/Family Finger/i)
@@ -460,8 +459,6 @@ www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-til
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(Learn Colors)
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 www.youtube.com#?##dismissable,[lockup],ytd-metadata-row-renderer,.watchable-tile:-abp-contains(SONIC):-abp-contains(BABY)
-!#endif
-
 ! —— YouTube on mobile browsers ——
 m.youtube.com#?#.compact-media-item:-abp-contains(Nursery)
 m.youtube.com#?#.compact-media-item:-abp-contains(/Finger Family/i)
@@ -519,9 +516,6 @@ m.youtube.com#?#.compact-media-item:-abp-contains(طفل ميكي ماوس)
 m.youtube.com#?#.compact-media-item:-abp-contains(Learn Colors)
 m.youtube.com#?#.compact-media-item:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 m.youtube.com#?#.compact-media-item:-abp-contains(SONIC):-abp-contains(BABY)
-
-! YouTube in "Kids" mode
-!#if !adguard
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(Nursery)
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(/Finger Family/i)
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(/Family Finger/i)
@@ -578,7 +572,6 @@ youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#r
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(Learn Colors)
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 youtubekids.com#?#.ytk-item-section-renderer[id^=ytk-compact-video-renderer-],#related > ytk-compact-video-renderer:-abp-contains(SONIC):-abp-contains(BABY)
-!#endif
 
 ! —— Prevents autoplay on YouTube ——
 /watch_autoplayrenderer.js$script,domain=youtube.com
@@ -640,9 +633,6 @@ dailymotion.com#?#[class*=__videoCard___]:-abp-contains(طفل ميكي ماوس
 dailymotion.com#?#[class*=__videoCard___]:-abp-contains(Learn Colors)
 dailymotion.com#?#[class*=__videoCard___]:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 dailymotion.com#?#[class*=__videoCard___]:-abp-contains(SONIC):-abp-contains(BABY)
-
-! —— Vimeo on browsers ——
-!#if !adguard
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(Nursery)
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(/Finger Family/i)
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(/Family Finger/i)
@@ -699,7 +689,6 @@ vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-a
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(Learn Colors)
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:-abp-contains(SONIC):-abp-contains(BABY)
-!#endif
 
 ! —— Prevents curious children from inadvertently downloading the Vimeo app, which'd bypass this list ——
 vimeo.com#?#.js-app_banner.app_banner
@@ -933,9 +922,6 @@ hooktube.com#?#.mb-2.row:-abp-contains(طفل ميكي ماوس)
 hooktube.com#?#.mb-2.row:-abp-contains(Learn Colors)
 hooktube.com#?#.mb-2.row:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 hooktube.com#?#.mb-2.row:-abp-contains(SONIC):-abp-contains(BABY)
-
-! —— Invidio.us ——
-!#if !adguard
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(Nursery)
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(/Finger Family/i)
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(/Family Finger/i)
@@ -992,28 +978,21 @@ invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(Learn Colors)
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(/PAW Patrol/i):-abp-contains(/Horror/i)
 invidious.snopyta.org,yewtu.be,invidious.tube,invidious.kavin.rocks,tube.connect.cafe,invidious.zapashcanon.fr,invidious.fdn.fr,invidiou.site,vid.mint.lgbt,invidious.site,invidious.048596.xyz,invidious.zee.li,vid.puffyan.us,c7hqkpkpemu6e7emz5b4vyz7idjgdvgaaa3dyimmeojqbgpea3xqjoid.onion,w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion,kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion,invidious.3o7z6yfxhbw7n3za4rss6l434kmv55cgw2vuziwuigpwegswvwzqipyd.onion,grwp24hodrefzvjjuccrkw3mjq4tzhaaq32amf33dzpmuxe7ilepcmad.onion#?#.pure-u-md-1-4,.pure-u-lg-1-5 a[href^="/watch"]:-abp-contains(SONIC):-abp-contains(BABY)
-!#endif
-
-! Adobe Flash and HTML5 "game" "sites"
 ||mygames4girls.com^$document
 ||dressupwho.com^$document
 ||crazygames.no^$document
 ||poki.no^$document
 ||desura.com^$document
 ||friv5online.com^$document
-!#if false
 ||mygames4girls.com^
 ||dressupwho.com^
 ||crazygames.no^
 ||poki.no^
 ||desura.com^
 ||friv5online.com^
-!#endif
 gamepix.com##a[href*=doctor]
 ||gamepix.com/*doctor$document
-!#if false
 ||gamepix.com/*doctor
-!#endif
 
 ! Google Web Store (Entries are largely only necessary if both AdGuard for Windows/Mac _and_ a Chrome OS user agent is used)
 ! I offer a 10€ bounty to anyone who know how to make the entries work within their intended browsers with regular browser extensions (e.g. Chrome Web Store in Chrome with (uBO|AdGuard Browser Extension|ABP); Mozilla Add-ons in Firefox)
@@ -1033,30 +1012,6 @@ chrome.google.com##a[href*=hospital]
 ||chrome.google.com/*surgery$document
 ||chrome.google.com/*doctor*game$document
 ||chrome.google.com/*hospital$document
-[Adblock Plus 3.6]
-! Title: 🤗 Anti-'Abuse porn' list
-! Version: 26June2022v1
-! Description: So, say that you're looking for imagery of consensual and pleasurable sex on various semi-major artsites (e.g. Pixiv, R34X³, E621, Inkbunny, etc.), and then you stumble across a crying Daniel Tiger with a corset being strapped to a bench in a diaper? Now such scenarios won't occur nearly as often as they did before!
-! Note that this list presumes you're smart enough to keep "R-18G" turned off on Pixiv. If you turn on that setting, you're pretty much on your own.
-! Special shoutout to and condolences to Duffy, whose story from 2010 of being kidnapped and raped for 4 weeks was essentially an abuse-porn comic played out IRL. My deepest sympathies are with her.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-
-! This list currently deals with:
-! • Physical abuse (incl. syringe injections, violence against submissives, spanking of minors, branding rods, acts of amputation, open wounds, nipple claws connected to elsewhere, being atomised through a grater)
-! • Fluid-based abuse (incl. blood, farting, scat, vomiting, force-feeding, unhygienic use of urine or snots, bacterial infections, unwashed feet, unwashed armpits, smegma, body odors, enema, large amounts of petrol or motor oil, transforming into underwear)
-! • Uncomfortable bondage (incl. insects crawling on the subjects, the subject being horrified for their life, the subject being very angry with their mistreatment, visibly painful use of electricity, extraordinarily excessive bondage, metal/medical clamps)
-! • Death or shortly incoming death (incl. drowning, asphyxiation, corpses, sexualised murders in progress, hanging, being partway or fully through being cooked)
-! • Mistreated rubber dolls
-! • Slaves
-! • Breathplay
-! • Diapers
-! • Extreme mockery of human respect (incl. mistreating women as being inferior non-humans)
-! • Nazi propaganda (Very mild forms from e.g. Panzer Und Girls or Hetalia are exempt)
-! • Chastity tools used in bondage (because what's even the point of sex if you're forcibly prevented from coming?)
-! • Pixivのセクションは、ほとんどが英語のウェブサイト言語に集中しています。日本語版を作るには、数週間のノンストップの調査が必要です。
-
-!#if !env_mobile
-! Desktop browser mode
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=diaper i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=diarrhea i])
 pixiv.net#?#li[class*=" "]:-abp-has(a[href*="/artworks/"] img[alt*=" fart" i])
@@ -1387,9 +1342,6 @@ pixiv.net#?#ul > li > div:last-of-type:nth-of-type(2):-abp-contains(/Wounds/i)
 pixiv.net#?#h2:-abp-contains(Recommended users):upward(5)
 ! Promotion cards on some user galleries
 pixiv.net#?#ul > li > div:last-of-type:nth-of-type(2):-abp-contains(/suffocat/i)
-!#endif
-!#if env_mobile
-! Smartphone browser mode
 pixiv.net#?#.works-item:-abp-has(img[alt*=diaper i])
 pixiv.net#?#.works-item:-abp-has(img[alt*=diarrhea i])
 pixiv.net#?#.works-item:-abp-has(img[alt*=" fart" i])
@@ -1596,10 +1548,6 @@ pixiv.net#?#.works-item:-abp-has(img[alt*=便器])
 pixiv.net#?#.works-item:-abp-has(img[alt*=産卵プレイ])
 pixiv.net#?#.works-item:-abp-has(img[alt*=potty i][alt*=pig i])
 pixiv.net#?#.works-item:-abp-has(img[alt*=DAZ][alt*=child i])
-!#endif
-
-! Rule34.xxx
-! Paheal is added to extremely crucial entries only, as its tagging system is atrocious garbage and I don't visit it much anymore because of that. The same treatment is given to Rule34Hentai.net.
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:-abp-has(img[title*=diaper i])
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:-abp-has(img[title*=torture i]:not([title*=pleasure]):not([title*=orgasm_torture]))
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,megabooru.com,zombooru.com,zumki.ru,kusubooru.com,tentaclerape.net,wh40kart.im,rule34.paheal.net,rule34hentai.net#?#.thumb:-abp-has(img[title*=peskybatfish])
