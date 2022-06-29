@@ -1,0 +1,3 @@
+[submodule "adfilt"]
+	path = adfilt
+	url = git@github.com:DandelionSprout/adfilt.git
