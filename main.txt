@@ -54277,18 +54277,7 @@ Banner468x60
 ||rvv.emol.com^
 ||static.playspace.com^
 ||yaiser.com
-! *** easylistspanish:easylistspanish/easylistspanish_thirdparty_popup.txt ***
 ||streams.lerroyje.xyz^
-! *** easylistspanish:easylistspanish_adult/adult_thirdparty.txt ***
-! *** easylistspanish:easylistspanish_adult/adult_thirdparty_popup.txt ***
-! *** easylistspanish:easylistspanish/easylistspanish_specific_block.txt ***
-! Webrtc ads
-! Websocket ads
-! blob ads
-! CSP ads
-! RegEx filters
-! Third party script
-! Specific ads
 ||bannersweb.s3.amazonaws.com^
 ||cxrbw.aquipelis.net^
 ||stact.megawarez.org^
@@ -54302,8 +54291,6 @@ Banner468x60
 ||bang-4-buck.com^
 ||pornmediaxxx.net^
 ||rontent.pouvideo.cc^
-! html/image popups (without php)
-! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 ||pics.ch4s4np1c5.site
 @@||live.streamtheworld.com^
 /rentalurl\.(com|net|jp)/
