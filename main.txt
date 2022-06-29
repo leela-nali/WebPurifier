@@ -1,8 +1,8 @@
 ! Title: Web Purifier
 ! Expires: 1 Days (Update Frequency)
-! Description: 0x7C2f Personal Blocklist
-! Homepage: https://github.com/0x7C2f/uBlock-Repository
-! Issues: https://github.com/0x7C2f/uBlock-Repository/issues
+! Description: See through my eyes
+! Homepage: https://github.com/0x7C2f/WebPurifier
+! Issues: https://github.com/0x7C2f/WebPurifier/issues
 !#include filters/uAssets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt
 !#include filters/uAssets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt
 !#include filters/uAssets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt
