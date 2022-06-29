@@ -14,6 +14,7 @@
 - Anti-'Google Hangouts' List.txt
 - Anti-Elsagate List.txt
 - Anti-Futa List.txt
+-  StopAutoplayOnYouTube-uBOExtension.txt 
 - Anti-FіМ List.txt
 - Anti-IMDB List.txt
 - Anti-Skype List.txt
