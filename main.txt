@@ -254,30 +254,17 @@ netzkino.de#?#.list-inline > li:has-text(Bewertung)
 ! United States
 kissanime.*##.rating
 kissanime.*##a[href*="kissanime."][href$="/imdb/"]
-[Adblock Plus 3.6]
-! Title: 🧘 Anti-PUBG and -Fortnite List
-! Version: 16February2021v1-Deprecated
-! Expires: 6 days
-! Description: The "Battle Royale" videogame genre has escalated in popularity. And with such popularity, comes annoying promotions, hopeless copycats, and questionable fandoms. If you need a breather from such things, this is a list for you.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
-
-! Steam
-! For full removal, go to https://store.steampowered.com/account/preferences/ → 'Tags to filter out', and type "Battle Royale" into it. This list does have a few entries of its own, but will probably not remove them fully.
 steampowered.com##a[href*=PLAYERUNKNOWNS]
 steampowered.com##.match.ds_collapse_flag[href*=PLAYERUNKNOWNS]
 steampowered.com#?#.focus.app_impression_tracked:-abp-contains(PLAYERUNKNOWN'S)
 steampowered.com#?#a.app_impression_tracked.ds_collapse_flag.search_result_row:-abp-contains(PLAYERUNKNOWN'S)
 steampowered.com#?#a.tab_item:-abp-contains(PLAYERUNKNOWN'S)
 steampowered.com#?#.hero_capsule:-abp-has(a[href*=PLAYERUNKNOWN])
-
-! Other gaming stores
 humblebundle.com#?#.full-tile-view:-abp-has(a[href^="/store/playerunknowns-battlegrounds"])
 humblebundle.com#?#.js-entity.entity:-abp-has(span[title="PLAYERUNKNOWN'S BATTLEGROUNDS"])
 epicgames.com#?#div[class*=CardGrid-cardPortrait_]:-abp-contains(Battle Royale)
 epicgames.com#?#div[class*=BrowseGrid-card_]:-abp-contains(Battle Royale)
 epicgames.com#?#.footerLinks > li:-abp-contains(Fortnite)
-
-! Gaming-specific newssites
 eurogamer.*#?#.list-item:-abp-contains(Fortnite)
 eurogamer.*#?#.list-item:-abp-contains(PUBG)
 gamereactor.*#?#.grtv-belt-item:-abp-contains(Fortnite)
