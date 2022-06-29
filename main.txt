@@ -21,12 +21,8 @@
 /utm.(js|gif|jpg)/
 */affiliate.htm*
 /banner*\.(jpg|gif)/
-!! 拡張予定
 */adv/rakuten/
-!! 例外処理
 @@/load\.(js|php)/
-!! 2.div記述
-!! id
 ##DIV[id*="adBlock"]
 ##DIV[id*="adbox"]
 ##DIV[id*="AdContainer"]
@@ -50,8 +46,6 @@
 ##DIV[id*="module-adsense module"]
 ##DIV[id*="newsFooter"]
 ##DIV[id*="partner-box"]
-! ##DIV[id*="pickup"]
-! ##DIV[id*="promo"]
 ##DIV[id*="showAdv"]
 ##DIV[id*="slidead"]
 ##DIV[id*="squareAd"]
@@ -62,8 +56,6 @@
 ##DIV[id^="adtext"]
 ##DIV[id^="advertise"]
 ##DIV[id^="advertising"]
-
-!! class記述
 ##DIV[class*="adBlock"]
 ##DIV[class*="adbox"]
 ##DIV[class*="AdContainer"]
@@ -88,8 +80,6 @@
 ##DIV[class*="module-adsense module"]
 ##DIV[class*="newsFooter"]
 ##DIV[class*="partner-box"]
-! ##DIV[class*="pickup"]
-! ##DIV[class*="promo"]
 ##DIV[class*="showAdv"]
 ##DIV[class*="slidead"]
 ##DIV[class*="squareAd"]
@@ -100,7 +90,6 @@
 ##DIV[class^="adTitle"]
 ##DIV[class^="advertise"]
 ##DIV[class^="advertising"]
-!! 改修予定
 ##DIV[id*="/AD"]
 ##DIV[id*="/Ad"]
 ##DIV[id*="/ad"]
@@ -121,10 +110,8 @@
 ##DIV[class$="_ads"]
 ##DIV[class^="ad-"]
 ##DIV[class^="ad_"]
-!! 3.script記述
 ##SCRIPT[src*="ad_common.js"]
 ##SCRIPT[src*="ad_parts.js"]
-!! 4.iframe記述
 ##IFRAME[src*="/ad.htm"]
 ##IFRAME[src*="/ad0.htm"]
 ##IFRAME[src*="/ad1.htm"]
@@ -142,7 +129,6 @@
 ##IFRAME[src^="http://ads."]
 ##IFRAME[src^="https://ad."]
 ##IFRAME[src^="https://ads."]
-!! 5.ハイパーリンク指定
 ##A[href*="/Click/"]
 ##A[href*="/click/"]
 ##A[href*="/link/?"]
@@ -159,12 +145,9 @@
 ##A[href^="http://ad."]
 ##A[href*="http://ads."]
 ##A[href*="affiliate"]
-!! 6.その他表記
 ##DIV[id*="buyPremium"]
 ##DIV[id*="sponsered_contents"]
 /ad*.php
-!!! 2:特定ドメイン直
-!! amazon
 ||amazon.co.jp/widgets/*
 ||amazon.co.jp/gp/associates/previews/*
 ||assoc-amazon.jp/s/link-enhancer?*
@@ -173,8 +156,6 @@
 ||ecx.images-amazon.com^
 ||g-ec*.images-amazon.com^
 ||z-ecx.images-amazon.com^
-! 後日確認の上リリース
-! /(ecx|g-ec*|z-ecx)\.images-amazon\.com/
 ##IFRAME[src*="/inc/amazon.php"]
 ##IFRAME[src^="http://rcm-jp.amazon.co.jp/e/cm"]
 ##DIV[class^="amazon"]
@@ -182,11 +163,8 @@
 ##A[href^="http://www.amazon.co.jp/gp/product/"][href*="-22"]
 ##A[href^="http://www.amazon.co.jp/exec/obidos/ASIN/"][href*="-22"]
 ##A[href^="http://amazon.co.jp/o/ASIN/"][href*="-22"]
-!! pitta.ne.jp
 ||ad.pitta.ne.jp^
-!! advertising.com
 ||advertising.com^
-!! adlantis
 ##DIV[id*="adlantis"]
 ##DIV[class*="adlantis"]
 ##LI[id*="adlantis"]
