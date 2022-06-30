@@ -46,11 +46,11 @@ def toggle(file):
     cur.execute(read, (file,))
     filters = cur.fetchall()
     status='disabled'
-    delete = "UPDATE filters SET filter_status='disabled' WHERE filter_name='?';"
+    delete = "UPDATE filters SET filter_status=(?) WHERE filter_name=(?);"
     for i in range(len(filters)):
         for filt in filters[i]:
             print(filt)
-            cur.execute(delete,(status,file,))
+            cur.execute(delete,('{status}','{file}',))
             if(file in filt):
                 return True
             else:
