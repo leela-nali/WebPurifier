@@ -42,13 +42,6 @@ def whitelist(file):
     connection.close()
 
 def isWhitelisted(file):
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
-    add = """INSERT INTO whitelist(filter_name) VALUES(?);"""
-    cur.execute(add, (file,))
-    connection.commit()
-    connection.close()
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
@@ -57,6 +50,13 @@ def isWhitelisted(file):
             return False
         whitelist.close()
 def isBlacklisted(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    add = """INSERT INTO blacklist(filter_name) VALUES(?);"""
+    cur.execute(add, (file,))
+    connection.commit()
+    connection.close()
     with open('json/blacklist.json', 'r') as blacklist:
         bl_data = json.load(blacklist)
         if(file in bl_data):
