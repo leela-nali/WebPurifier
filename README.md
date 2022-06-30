@@ -14,3 +14,4 @@
 - filters-2020.txt
 - easylist.txt
 - urlhaus-filter-online.txt
+- ExtremelyCondensedList.txt
