@@ -31,6 +31,7 @@ def blacklist(file):
     cur.execute(add, (file,))
     connection.commit()
     connection.close()
+    cur.close()
 
 def whitelist(file):
     database = 'database/filters.db'
@@ -40,6 +41,8 @@ def whitelist(file):
     cur.execute(add, (file,))
     connection.commit()
     connection.close()
+    cur.close()
+
 
 def isWhitelisted(file):
     database = 'database/filters.db'
@@ -49,10 +52,14 @@ def isWhitelisted(file):
     cur.execute(read)
     filters = cur.fetchall()
     if(file in filters):
+        print('whitelist TRUE')
         return True
     else:
+        print('whitelist FALSE')
         return False
     connection.close()
+    cur.close()
+
 
 def isBlacklisted(file):
     database = 'database/filters.db'
@@ -62,8 +69,12 @@ def isBlacklisted(file):
     cur.execute(read)
     filters = cur.fetchall()
     if(file in filters):
+        print('blacklist TRUE')
         return True
     else:
+        print('blacklist FALSE')
         return False
     connection.close()
+    cur.close()
+
 main()
