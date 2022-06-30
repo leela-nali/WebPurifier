@@ -50,7 +50,7 @@ def toggle(file):
     for i in range(len(filters)):
         for filt in filters[i]:
             print(filt)
-            cur.execute(delete,('{status}',{file},))
+            cur.execute(delete,('{status}',file,))
             if(file in filt):
                 return True
             else:
