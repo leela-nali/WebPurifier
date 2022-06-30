@@ -1,5 +1,4 @@
 # Whats Included
-- AnnoyingBannersAndOverlays.txt
 - easyprivacy.txt
 - filters-2021.txt
 - filters.txt
