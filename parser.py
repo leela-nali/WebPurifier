@@ -4,9 +4,6 @@ import json
 import mysql.connector
 
 class Filters:
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
     def main():
         with open('README.md', 'a') as readme:
             readme.write("# Whats Included")
@@ -28,6 +25,9 @@ class Filters:
                         
 
     def blacklist(file):
+        database = 'database/filters.db'
+        connection = sqlite3.connect(database)
+        cur = connection.cursor()
         database = 'database/filters.db'
         connection = sqlite3.connect(database)
         cur = connection.cursor()
