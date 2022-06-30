@@ -46,7 +46,7 @@ def isWhitelisted(file):
     connection = sqlite3.connect(database)
     cur = connection.cursor()
     for row in cur.fetchall():
-    print('row = %r' % (row,))
+        print('row = %r' % (row,))
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
