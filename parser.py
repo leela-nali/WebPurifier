@@ -32,6 +32,7 @@ def blacklist(file):
     cur.execute(add, file)
     cur.execute(delete, file)
     connection.close()
+
 def whitelist(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
@@ -41,6 +42,7 @@ def whitelist(file):
     cur.execute(add, file)
     cur.execute(delete, file)
     connection.close()
+
 def isWhitelisted(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
@@ -48,6 +50,7 @@ def isWhitelisted(file):
     for row in cur.fetchall():
         print('row = %r' % (row,))
     connection.close()
+
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
@@ -63,5 +66,4 @@ def isBlacklisted(file):
         else:
             return False
         blacklist.close()
-        
 main()
