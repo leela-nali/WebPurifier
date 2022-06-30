@@ -1,5 +1,6 @@
 [
-  "badlists.txt",
+  "badlists.txt"
+  "Adblock list template -Novice-.txt",
   "Anti-'Christmas carols' List.txt",
   "TwitchPureViewingExperience.txt",
   "WikiaPureBrowsingExperienceDomains.txt",
@@ -35,7 +36,6 @@
   "DailyMotionSimplicity.txt",
   "deviantART Sanity Test List.txt",
   "AntiPPGList.txt",
-  "Adblock list template -Novice-.txt",
   "AntiStevenUniverseListDomains.txt",
   "hash.txt",
   "NordicFiltersPiHole.txt",
@@ -44,7 +44,6 @@
   "AntiAbusePorn.txt",
   "WordPressTranslatorAssistant.txt",
   "AntiWeebBoobGamesList.txt",
-  "AntiMalwareDomains.txt",
   "YouTubeYetEvenMorePureVideoExperience.txt",
   "Dandelion Sprout's Anti-Malware List.txt",
   "NordicFiltersPrivacy.txt",
