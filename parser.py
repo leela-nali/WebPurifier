@@ -25,18 +25,18 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 stage(file)
-                    if (isDisabled(file) == True):
-                        disable(file)
-                    elif(isEnabled(file) == True):
-                        enable(file)
-                        output = os.path.join(root, file)
-                        encoded = urllib.parse.quote(output)
-                        with open('main.txt', 'a') as main:
-                            main.write("\n!#include " + encoded)
-                        with open('README.md', 'a') as readme:
-                            readme.write("\n- "+file)
-                    else:
-                        print("No data on the list ¯\_(ツ)_/¯")
+                if (isDisabled(file) == True):
+                    disable(file)
+                elif(isEnabled(file) == True):
+                    enable(file)
+                    output = os.path.join(root, file)
+                    encoded = urllib.parse.quote(output)
+                    with open('main.txt', 'a') as main:
+                        main.write("\n!#include " + encoded)
+                    with open('README.md', 'a') as readme:
+                        readme.write("\n- "+file)
+                else:
+                    print("No data on the list ¯\_(ツ)_/¯")
 def stage(file):
     try:
         database = 'database/filters.db'
