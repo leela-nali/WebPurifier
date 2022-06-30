@@ -1,4 +1,5 @@
-import mysql.connector
+import mysql
+
 
 database = 'database/filters.db'
 connection = sqlite3.connect(database)
