@@ -8,7 +8,6 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                try:
                     if (isBlacklisted(file) == True):
                         print("🔴 List is blacklisted")
                     elif(isWhitelisted(file) == True):
@@ -21,8 +20,6 @@ def main():
                             readme.write("\n- "+file)
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
-                except:
-                  print("ERROR")
                     
 
 def blacklist(file):
