@@ -47,7 +47,7 @@ def stage(file):
         connection.close()
     except:
         print("List is already staged")
-def disable(file):
+def toggle(file):
     try:
         database = 'database/filters.db'
         connection = sqlite3.connect(database)
