@@ -44,12 +44,12 @@ def whitelist(file):
     connection.close()
 
 def isWhitelisted(file):
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
-    for row in cur.fetchall():
-        print('row = %r' % (row,))
-    connection.close()
+#    database = 'database/filters.db'
+#    connection = sqlite3.connect(database)
+#    cur = connection.cursor()
+#    for row in cur.fetchall():
+#        print('row = %r' % (row,))
+#    connection.close()
 
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)

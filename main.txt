@@ -4,3 +4,21 @@
 ! Description: See through my eyes
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
+!#include filters/filters-2021.txt
+!#include filters/resource-abuse.txt
+!#include filters/unbreak.txt
+!#include filters/quick-fixes.txt
+!#include filters/SocialShareList.txt
+!#include filters/annoyances.txt
+!#include filters/easyprivacy.txt
+!#include filters/filters.txt
+!#include filters/filters-2022.txt
+!#include filters/legacy.txt
+!#include filters/privacy.txt
+!#include filters/badware.txt
+!#include filters/filters-2020.txt
+!#include filters/easylist.txt
+!#include filters/urlhaus-filter-online.txt
+!#include filters/YouTubeEvenMorePureVideoExperience.txt
+!#include filters/ExtremelyCondensedList.txt
+!#include filters/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
