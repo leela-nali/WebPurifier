@@ -51,11 +51,13 @@ def toggle(file):
                 enable = "UPDATE filters SET filter_status='enabled' WHERE filter_name=(?);"
                 cur.execute(enable,(file,))
                 connection.commit()
+                print(filt + "is now enabled")
                 connection.close()
             elif(filt == "enabled"):
                 disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
                 cur.execute(disable,(file,))
                 connection.commit()
+                print(filt + "is now disabled")
                 connection.close()
 def enable(file):
     try:
