@@ -29,18 +29,9 @@ def main():
                     
 
 def blacklist(file):
-    with open("json/whitelist.json", "r") as whitelist:
-      data = json.load(whitelist)
-      for element in data:
-        element.pop(file, None)
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
-    with open("json/blacklist.json", "r") as blacklist:
-       data = json.load(blacklist)
-       file.split()
-       for element in data:
-         element.pop(file.split(), None)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
