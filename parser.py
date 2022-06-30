@@ -47,6 +47,7 @@ def isWhitelisted(file):
     cur = connection.cursor()
     for row in cur.fetchall():
         print('row = %r' % (row,))
+    connection.close()
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
