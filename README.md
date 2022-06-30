@@ -10,6 +10,7 @@
 - filters-2022.txt
 - legacy.txt
 - privacy.txt
+- Anti-Skype List.txt
 - badware.txt
 - filters-2020.txt
 - easylist.txt
