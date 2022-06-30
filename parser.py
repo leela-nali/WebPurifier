@@ -36,7 +36,7 @@ def main():
                     with open('README.md', 'a') as readme:
                         readme.write("\n- "+file)
                 else:
-                    print("No data on the list {file}")
+                    print("No data on the list "+ file)
 
 def toggle(file):
     database = 'database/filters.db'
