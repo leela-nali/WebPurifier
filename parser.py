@@ -45,8 +45,8 @@ def toggle(file):
     cur.execute(read, (file,))
     filters = cur.fetchall()
     print(filters)
-    delete = "UPDATE filters SET filter_status=? WHERE filter_name=?;"
-    cur.execute(delete,(file,))
+    delete = "UPDATE filters SET filter_status=disabled WHERE filter_name=?;"
+    cur.execute(delete,(status,file,))
 
 def enable(file):
     try:
