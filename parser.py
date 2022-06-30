@@ -37,6 +37,8 @@ def main():
                         readme.write("\n- "+file)
                 else:
                     print("No data on the list ¯\_(ツ)_/¯")
+        else:
+            print("No text files present...")
 def toggle(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
