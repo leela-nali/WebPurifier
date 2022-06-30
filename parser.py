@@ -40,7 +40,7 @@ def whitelist(file):
        data = json.load(blacklist)
        file.split()
        for element in data:
-         element.pop(file, None)
+         element.pop(file.split(), None)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
