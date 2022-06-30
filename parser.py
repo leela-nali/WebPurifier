@@ -37,8 +37,7 @@ def main():
                         readme.write("\n- "+file)
                 else:
                     print("No data on the list ¯\_(ツ)_/¯")
-        else:
-            print("No text files present...")
+
 def toggle(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
@@ -47,7 +46,7 @@ def toggle(file):
     cur.execute(read, (file,))
     filters = cur.fetchall()
     status='disabled'
-    delete = "UPDATE filters SET filter_status=(?) WHERE filter_name=(?);"
+    delete = "UPDATE filters SET filter_status=(?) WHERE filter_name='(?)';"
     for i in range(len(filters)):
         for filt in filters[i]:
             print(filt)
