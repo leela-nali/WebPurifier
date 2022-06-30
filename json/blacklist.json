@@ -1,6 +1,5 @@
 [
-  "badlists.txt"
-  "Adblock list template -Novice-.txt",
+  "badlists.txt",
   "Anti-'Christmas carols' List.txt",
   "TwitchPureViewingExperience.txt",
   "WikiaPureBrowsingExperienceDomains.txt",
@@ -36,6 +35,7 @@
   "DailyMotionSimplicity.txt",
   "deviantART Sanity Test List.txt",
   "AntiPPGList.txt",
+  "Adblock list template -Novice-.txt",
   "AntiStevenUniverseListDomains.txt",
   "hash.txt",
   "NordicFiltersPiHole.txt",
