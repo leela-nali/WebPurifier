@@ -3,7 +3,7 @@ import urllib.parse
 import json
 import mysql.connector
 
-filter = filter.Filter()
+filter = Filter()
 
 
 def main():
