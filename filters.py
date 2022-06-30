@@ -1,4 +1,4 @@
-import mysql
+import mysql.connector
 
 
 database = 'database/filters.db'
