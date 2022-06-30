@@ -4,8 +4,19 @@ import json
 import sqlite3
 import sys
 
-for arg in sys.argv:
-    print(arg)
+#switcher = {
+#    add: addList(),
+#    delete: deleteList(),
+#    whitelist: whitelist(),
+#    blacklist: blacklist(),
+#    update: update()
+#    }
+
+#def switch(command):
+#    return switcher.get(command, default)()
+
+#for arg in sys.argv:
+#    switch(arg)
 
 def main():
     with open('README.md', 'a') as readme:
@@ -13,12 +24,10 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                    if (isBlacklisted(file) == True):
-                        print("🔴 List is blacklisted")
-                        blacklist(file)
-                    elif(isWhitelisted(file) == True):
-                        print("✅List is whitelisted")
-                        whitelist(file)
+                    if (isDisabled(file) == True):
+                        disable(file)
+                    elif(isEnabled(file) == True):
+                        enable(file)
                         output = os.path.join(root, file)
                         encoded = urllib.parse.quote(output)
                         with open('main.txt', 'a') as main:
@@ -27,39 +36,38 @@ def main():
                             readme.write("\n- "+file)
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
-                    
 
-def blacklist(file):
+def disable(file):
     try:
         database = 'database/filters.db'
         connection = sqlite3.connect(database)
         cur = connection.cursor()
-        delete = "DELETE FROM whitelist(filter_name) VALUES(?);"
-        add = "INSERT INTO blacklist(filter_name) VALUES(?);"
+        delete = "DELETE FROM enabled(filter_name) VALUES(?);"
+        add = "INSERT INTO disabled(filter_name) VALUES(?);"
         cur.execute(add, (file,))
         connection.commit()
         connection.close()
     except:
-        print("List is already blacklisted")
+        print("List is already disabled")
 
-def whitelist(file):
+def enable(file):
     try:
         database = 'database/filters.db'
         connection = sqlite3.connect(database)
         cur = connection.cursor()
-        delete = "DELETE FROM blacklist(filter_name) VALUES(?);"
-        add = "INSERT INTO whitelist(filter_name) VALUES(?);"
+        delete = "DELETE FROM disabled(filter_name) VALUES(?);"
+        add = "INSERT INTO enabled(filter_name) VALUES(?);"
         cur.execute(add, (file,))
         connection.commit()
         connection.close()
     except:
-        print("List is already whitelisted")
+        print("List is already enabled")
 
-def isWhitelisted(file):
+def isEnabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT * FROM whitelist WHERE filter_name = (?);"
+    read = "SELECT * FROM enabled WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
     for i in range(len(filters)):
@@ -71,11 +79,11 @@ def isWhitelisted(file):
     connection.close()
 
 
-def isBlacklisted(file):
+def isDisabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT * FROM blacklist WHERE filter_name = (?);"
+    read = "SELECT * FROM disabled WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
     for i in range(len(filters)):
