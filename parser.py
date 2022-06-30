@@ -29,7 +29,7 @@ def main():
                     print("Exception thrown. List validation failed.")
 
 def blacklist(file):
-    with open "json/whitelist.json", "r") as whitelist:
+    with open("json/whitelist.json", "r") as whitelist:
         whitelist.pop(file)
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
