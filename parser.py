@@ -24,6 +24,7 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
+                toggle(file)
                 if (isDisabled(file) == True):
                     disable(file)
                 elif(isEnabled(file) == True):
