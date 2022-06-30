@@ -1,6 +1,7 @@
 import os
 import urllib.parse
 import json
+from filters import Filter
 
 def main():
     with open('README.md', 'a') as readme:
@@ -26,6 +27,7 @@ def blacklist(file):
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
+    Filter().whitelist(file)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
