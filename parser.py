@@ -30,12 +30,16 @@ def main():
 
 def blacklist(file):
     with open("json/whitelist.json", "r") as whitelist:
-      del  whitelist[str(file)]
+      data = json.load(whitelist)
+      for element in data:
+        element.pop(file, None)
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
     with open("json/blacklist.json", "r") as blacklist:
-       del blacklist[str(file)]
+       data = json.load(blacklist)
+       for element in data:
+         element.pop(file, None)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
