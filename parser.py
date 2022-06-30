@@ -3,8 +3,9 @@ import urllib.parse
 import json
 import mysql.connector
 
-filter = Filter()
-
+database = 'database/filters.db'
+connection = mysql.connect(database)
+cur = connection.cursor()
 
 def main():
     with open('README.md', 'a') as readme:
@@ -25,6 +26,7 @@ def main():
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
                     
+
 
 def blacklist(file):
     with open("json/blacklist.json", "w") as blacklist:

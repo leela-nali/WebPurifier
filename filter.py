@@ -1,9 +1,4 @@
-import mysql.connector
 
-
-database = 'database/filters.db'
-connection = mysql.connect(database)
-cur = connection.cursor()
 
 class Filter:
         def __init__(self):
