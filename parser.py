@@ -24,6 +24,14 @@ def main():
                 except:
                     print("Exception thrown. List validation failed.")
 
+
+def blacklist(file):
+    with open("json/whitelist.json", "w") as whitelist:
+        whitelist.write(file)
+def whitelist(file):
+    with open("json/blacklist.json", "w") as blacklist:
+        blacklist.write(file)
+
 def isWhitelisted(file):
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
