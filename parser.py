@@ -10,10 +10,8 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                     if (isBlacklisted(file) == True):
-                        blacklist(file)
                         print("🔴 List is blacklisted")
                     elif(isWhitelisted(file) == True):
-                        whitelist(file)
                         print("✅List is whitelisted")
                         output = os.path.join(root, file)
                         encoded = urllib.parse.quote(output)
