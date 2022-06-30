@@ -36,7 +36,7 @@ def main():
                     with open('README.md', 'a') as readme:
                         readme.write("\n- "+file)
                 else:
-                    print("No data on the list ¯\_(ツ)_/¯")
+                    print("No data on the list {file}")
 
 def toggle(file):
     database = 'database/filters.db'
@@ -51,13 +51,13 @@ def toggle(file):
                 enable = "UPDATE filters SET filter_status='enabled' WHERE filter_name=(?);"
                 cur.execute(enable,(file,))
                 connection.commit()
-                print(file + "is now enabled")
+                print(file + " is now enabled")
                 connection.close()
             elif(filt == "enabled"):
                 disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
                 cur.execute(disable,(file,))
                 connection.commit()
-                print(file + "is now disabled")
+                print(file + " is now disabled")
                 connection.close()
 def enable(file):
     try:
