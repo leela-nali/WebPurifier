@@ -58,7 +58,7 @@ def isWhitelisted(file):
     read = "SELECT * FROM whitelist WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
-    if(file in filters):
+    if(file in filters[0]):
         return True
     else:
         return False
