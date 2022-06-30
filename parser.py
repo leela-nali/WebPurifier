@@ -27,6 +27,7 @@ def blacklist(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
+    delete = """DELETE FROM whitelist(filter_name) VALUES(?);"""
     add = """INSERT INTO blacklist(filter_name) VALUES(?);"""
     cur.execute(add, (file,))
     connection.commit()
@@ -37,6 +38,7 @@ def whitelist(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
+    delete = """DELETE FROM blacklist(filter_name) VALUES(?);"""
     add = """INSERT INTO whitelist(filter_name) VALUES(?);"""
     cur.execute(add, (file,))
     connection.commit()
