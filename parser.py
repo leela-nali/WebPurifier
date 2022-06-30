@@ -8,11 +8,9 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                
+                try:
                     if (isBlacklisted(file) == True):
                         print("🔴 List is blacklisted")
-                    elif(isBlacklisted(file) == False):
-                        whitelist(file)
                     elif(isWhitelisted(file) == True):
                         print("✅List is whitelisted")
                         output = os.path.join(root, file)
@@ -21,11 +19,10 @@ def main():
                             main.write("\n!#include " + encoded)
                         with open('README.md', 'a') as readme:
                             readme.write("\n- "+file)
-                    elif(isWhitelisted(file) == False):
-                        blacklist(file)
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
-                
+                except:
+                  print("ERROR")
                     
 
 def blacklist(file):
