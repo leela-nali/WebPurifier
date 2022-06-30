@@ -36,7 +36,7 @@ def blacklist(file):
         connection.commit()
         connection.close()
     except:
-        print("Error with "+file)
+        print("List is already blacklisted")
 
 def whitelist(file):
     try:
@@ -49,7 +49,7 @@ def whitelist(file):
         connection.commit()
         connection.close()
     except:
-        print("Error with "+ file)
+        print("List is already whitelisted")
 
 def isWhitelisted(file):
     database = 'database/filters.db'
@@ -58,10 +58,12 @@ def isWhitelisted(file):
     read = "SELECT * FROM whitelist WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
-    if(file in filters[0]):
-        return True
-    else:
-        return False
+    for i in range(len(filters)):
+        for filt in filters[i]:
+            if(file in filt):
+                return True
+            else:
+                return False
     connection.close()
 
 
@@ -72,9 +74,11 @@ def isBlacklisted(file):
     read = "SELECT * FROM blacklist WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
-    if(file in filters):
-        return True
-    else:
-        return False
+    for i in range(len(filters)):
+        for filt in filters[i]:
+            if(file in filt):
+                return True
+            else:
+                return False
     connection.close()
 main()
