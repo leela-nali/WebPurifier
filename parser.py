@@ -2,7 +2,6 @@ import os
 import urllib.parse
 import json
 import mysql.connector
-import filter
 
 filter = filter.Filter()
 
