@@ -45,17 +45,18 @@ def toggle(file):
     read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
-    delete = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
     for i in range(len(filters)):
         for filt in filters[i]:
-            print(filt)
-            cur.execute(delete,(file,))
-            connection.commit()
-            if(file in filt):
-                return True
-            else:
-                return False
-
+            if(filt == "disabled"):
+                enable = "UPDATE filters SET filter_status='enable' WHERE filter_name=(?);"
+                cur.execute(enable,(file,))
+                connection.commit()
+                connection.close()
+            elif(filt == "enabled"):
+                disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
+                cur.execute(disable,(file,))
+                connection.commit()
+                connection.close()
 def enable(file):
     try:
         database = 'database/filters.db'
