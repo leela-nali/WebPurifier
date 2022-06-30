@@ -38,6 +38,7 @@ def blacklist(file):
 def whitelist(file):
     with open("json/blacklist.json", "r") as blacklist:
        data = json.load(blacklist)
+       file.split()
        for element in data:
          element.pop(file, None)
     with open("json/whitelist.json", "w") as whitelist:
