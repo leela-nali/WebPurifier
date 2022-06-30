@@ -30,12 +30,12 @@ def main():
 
 def blacklist(file):
     with open("json/whitelist.json", "r") as whitelist:
-        whitelist.pop(file)
+      del  whitelist[file]
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
     with open("json/blacklist.json", "r") as blacklist:
-        blacklist.pop(file)
+       del blacklist[file]
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
