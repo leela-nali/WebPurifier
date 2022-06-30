@@ -50,7 +50,7 @@ def toggle(file):
         for filt in filters[i]:
             print(filt)
             cur.execute(delete,('{file}',))
-            cur.commit()
+            connection.commit()
             if(file in filt):
                 return True
             else:
