@@ -24,21 +24,29 @@ def main():
                     
 
 def blacklist(file):
-    with open("json/blacklist.json", "w") as blacklist:
-        blacklist.write(file)
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    add = "INSERT INTO blacklist (filter_name) VALUES (%s)"
+    delete = "DELETE FROM whitelist WHERE (filter_name) = "
+    cur.execute(add, file)
+    cur.execute(delete, file)
+    connection.close()
 def whitelist(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-
     add = "INSERT INTO whitelist (filter_name) VALUES (%s)"
+    delete = "DELETE FROM blacklist WHERE (filter_name) = "
     cur.execute(add, file)
+    cur.execute(delete, file)
     connection.close()
-    with open("json/whitelist.json", "w") as whitelist:
-        whitelist.write(file)
-
 def isWhitelisted(file):
-    
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    for row in cur.fetchall():
+    print('row = %r' % (row,))
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
@@ -54,6 +62,5 @@ def isBlacklisted(file):
         else:
             return False
         blacklist.close()
-
         
 main()
