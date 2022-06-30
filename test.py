@@ -1,16 +1,23 @@
-import mysql.connector
+import sqlite3
 
-database = 'database/filters.db'
-connection = sqlite3.connect(database)
-cur = connection.cursor()
+def blacklist(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    add = "INSERT INTO blacklist (filter_name) VALUES (%s)"
+    delete = "DELETE FROM whitelist WHERE (filter_name) = "
+    cur.execute(add, file)
+    cur.execute(delete, file)
+    connection.close()
 
-table_list = [a for a in cur.execute("SELECT name FROM sqlite_master WHERE type = 'table'")]
-print(table_list)
-connection.close()
+def whitelist(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    add = "INSERT INTO whitelist (filter_name) VALUES (%s)"
+    delete = "DELETE FROM blacklist WHERE (filter_name) = "
+    cur.execute(add, file)
+    cur.execute(delete, file)
+    connection.close()
 
-
-
-def addFilter(file):
-        add = "INSERT INTO whitelist (filter_name) VALUES (%s)"
-        cur.execute(add)
-        
+blacklist("Test.txt")
