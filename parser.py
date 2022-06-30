@@ -8,7 +8,7 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                try:
+                
                     if (isBlacklisted(file) == True):
                         print("🔴 List is blacklisted")
                     elif(isBlacklisted(file) == False):
@@ -25,8 +25,8 @@ def main():
                         blacklist(file)
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
-                except:
-                    print("Exception thrown. List validation failed.")
+                
+                    
 
 def blacklist(file):
     with open("json/whitelist.json", "r") as whitelist:
