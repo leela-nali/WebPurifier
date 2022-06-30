@@ -2,7 +2,7 @@ import os
 import urllib.parse
 import json
 import mysql.connector
-from filters import Filter
+import Filter
 
 def main():
     with open('README.md', 'a') as readme:
