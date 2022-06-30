@@ -3,7 +3,6 @@ import os
 import urllib.parse
 import json
 import mysql.connector
-import Filter
 
 # Variables
 database = 'database/filters.db'
