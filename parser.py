@@ -1,13 +1,11 @@
-# Imports
 import os
 import urllib.parse
 import json
 import mysql.connector
+import filter
 
-# Variables
-database = 'database/filters.db'
-connection = mysql.connect(database)
-cur = connection.cursor()
+filter = filter.Filter()
+
 
 def main():
     with open('README.md', 'a') as readme:
@@ -33,11 +31,12 @@ def blacklist(file):
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
-    Filter().whitelist(file)
+    filter.whitelist(file)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
 
 def isWhitelisted(file):
+    
     with open('json/whitelist.json', 'r') as whitelist:
         wl_data = json.load(whitelist)
         if(file in wl_data):
@@ -54,14 +53,5 @@ def isBlacklisted(file):
             return False
         blacklist.close()
 
-
-
-class Filter:
-        def __init__(self):
-                self.whitelist = whitelist(file)(file)
-
-        def whitelist(file):
-                add = "INSERT INTO whitelist (filter_name) VALUES (%s)"
-                cur.execute(add, file)
-                connection.close()
+        
 main()
