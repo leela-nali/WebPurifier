@@ -20,3 +20,4 @@
 !#include filters/easylist.txt
 !#include filters/urlhaus-filter-online.txt
 !#include filters/ExtremelyCondensedList.txt
+!#include filters/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt

@@ -15,3 +15,4 @@
 - easylist.txt
 - urlhaus-filter-online.txt
 - ExtremelyCondensedList.txt
+- BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
