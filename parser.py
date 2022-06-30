@@ -34,7 +34,7 @@ def blacklist(file):
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
-    with open "json/blacklist.json", "r" as blacklist:
+    with open("json/blacklist.json", "r") as blacklist:
         blacklist.pop(file)
     with open("json/whitelist.json", "w") as whitelist:
         whitelist.write(file)
