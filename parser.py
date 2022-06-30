@@ -48,7 +48,7 @@ def toggle(file):
     for i in range(len(filters)):
         for filt in filters[i]:
             if(filt == "disabled"):
-                enable = "UPDATE filters SET filter_status='enable' WHERE filter_name=(?);"
+                enable = "UPDATE filters SET filter_status='enabled' WHERE filter_name=(?);"
                 cur.execute(enable,(file,))
                 connection.commit()
                 connection.close()
