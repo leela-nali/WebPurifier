@@ -52,10 +52,6 @@ def isWhitelisted(file):
             return False
         whitelist.close()
 def isBlacklisted(file):
-
-    for row in cur.fetchall():
-        print('row = %r' % (row,))
-    connection.close()
     with open('json/blacklist.json', 'r') as blacklist:
         bl_data = json.load(blacklist)
         if(file in bl_data):
