@@ -24,7 +24,6 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                toggle(file)
                 if (isDisabled(file) == True):
                     disable(file)
                 elif(isEnabled(file) == True):
@@ -59,6 +58,13 @@ def toggle(file):
                 connection.commit()
                 print(file + " is now disabled")
                 connection.close()
+            elif(filt == "NULL"):
+                disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
+                cur.execute(disable,(file,))
+                connection.commit()
+                print(file + " is now disabled")
+                connection.close()
+
 def enable(file):
     try:
         database = 'database/filters.db'
