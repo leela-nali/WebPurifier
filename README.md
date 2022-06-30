@@ -10,6 +10,7 @@
 - legacy.txt
 - quick-fixes.txt
 - urlhaus-filter-online.txt
+- SocialShareList.txt
 - badware.txt
 - filters-2020.txt
 - filters-2022.txt

@@ -15,6 +15,7 @@
 !#include filters/legacy.txt
 !#include filters/quick-fixes.txt
 !#include filters/urlhaus-filter-online.txt
+!#include filters/SocialShareList.txt
 !#include filters/badware.txt
 !#include filters/filters-2020.txt
 !#include filters/filters-2022.txt
