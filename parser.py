@@ -2,6 +2,10 @@ import os
 import urllib.parse
 import json
 import sqlite3
+import sys
+
+for arg in sys.argv:
+    print(arg)
 
 def main():
     with open('README.md', 'a') as readme:
