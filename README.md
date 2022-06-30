@@ -14,5 +14,6 @@
 - filters-2020.txt
 - easylist.txt
 - urlhaus-filter-online.txt
+- YouTubeEvenMorePureVideoExperience.txt
 - ExtremelyCondensedList.txt
 - BrowseWebsitesWithoutLoggingIn-uBOExtension.txt

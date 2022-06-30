@@ -19,5 +19,6 @@
 !#include filters/filters-2020.txt
 !#include filters/easylist.txt
 !#include filters/urlhaus-filter-online.txt
+!#include filters/YouTubeEvenMorePureVideoExperience.txt
 !#include filters/ExtremelyCondensedList.txt
 !#include filters/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
