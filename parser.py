@@ -11,6 +11,8 @@ def main():
                 try:
                     if (isBlacklisted(file) == True):
                         print("🔴 List is blacklisted")
+                    elif(isBlacklisted(file) == False):
+                        whitelist(file)
                     elif(isWhitelisted(file) == True):
                         print("✅List is whitelisted")
                         output = os.path.join(root, file)
@@ -19,18 +21,23 @@ def main():
                             main.write("\n!#include " + encoded)
                         with open('README.md', 'a') as readme:
                             readme.write("\n- "+file)
+                    elif(isWhitelisted(file) == False):
+                        blacklist(file)
                     else:
                         print("No data on the list ¯\_(ツ)_/¯")
                 except:
                     print("Exception thrown. List validation failed.")
 
-
 def blacklist(file):
-    with open("json/whitelist.json", "w") as whitelist:
-        whitelist.write(file)
-def whitelist(file):
+    with open "json/whitelist.json", "r") as whitelist:
+        whitelist.pop(file)
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
+def whitelist(file):
+    with open "json/blacklist.json", "r" as blacklist:
+        blacklist.pop(file)
+    with open("json/whitelist.json", "w") as whitelist:
+        whitelist.write(file)
 
 def isWhitelisted(file):
     with open('json/whitelist.json', 'r') as whitelist:
