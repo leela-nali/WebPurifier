@@ -24,6 +24,7 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
+                toggle(file)
                 if (isDisabled(file) == True):
                     disable(file)
                 elif(isEnabled(file) == True):
@@ -36,30 +37,16 @@ def main():
                         readme.write("\n- "+file)
                 else:
                     print("No data on the list ¯\_(ツ)_/¯")
-def stage(file):
-    try:
-        database = 'database/filters.db'
-        connection = sqlite3.connect(database)
-        cur = connection.cursor()
-        add = "INSERT INTO staged(filter_name) VALUES(?);"
-        cur.execute(add, (file,))
-        connection.commit()
-        connection.close()
-    except:
-        print("List is already staged")
 def toggle(file):
-    try:
-        database = 'database/filters.db'
-        connection = sqlite3.connect(database)
-        cur = connection.cursor()
-        delete = "DELETE FROM enabled(filter_name) VALUES(?);"
-        add = "INSERT INTO disabled(filter_name) VALUES(?);"
-        cur.execute(delete, (file,))
-        cur.execute(add, (file,))
-        connection.commit()
-        connection.close()
-    except:
-        print("List is already disabled")
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    read = "SELECT * FROM filters WHERE filter_name = (?);"
+    cur.execute(read, (file,))
+    filters = cur.fetchall()
+    print(filters)
+    delete = "UPDATE filters SET filter_status='disabled' WHERE filter_name='%s';"
+    cur.execute(delete,(file,))
 
 def enable(file):
     try:
