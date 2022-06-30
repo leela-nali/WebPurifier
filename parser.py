@@ -47,7 +47,6 @@ def toggle(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            print(filt)
             if(filt == "disabled"):
                 enable = "UPDATE filters SET filter_status='enabled' WHERE filter_name=(?);"
                 cur.execute(enable,(file,))
