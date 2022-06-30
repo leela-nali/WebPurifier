@@ -1,7 +1,7 @@
 import os
 import urllib.parse
 import json
-import mysql.connector
+import mysql
 from filters import Filter
 
 def main():
