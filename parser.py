@@ -1,7 +1,7 @@
 import os
 import urllib.parse
 import json
-import mysql.connector
+import sqlite3
 
 def main():
     with open('README.md', 'a') as readme:
