@@ -11,8 +11,10 @@ def main():
             if file.endswith('.txt'):
                     if (isBlacklisted(file) == True):
                         print("🔴 List is blacklisted")
+                        blacklist(file)
                     elif(isWhitelisted(file) == True):
                         print("✅List is whitelisted")
+                        whitelist(file)
                         output = os.path.join(root, file)
                         encoded = urllib.parse.quote(output)
                         with open('main.txt', 'a') as main:
@@ -24,59 +26,56 @@ def main():
                     
 
 def blacklist(file):
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
-    delete = """DELETE FROM whitelist(filter_name) VALUES(?);"""
-    add = """INSERT INTO blacklist(filter_name) VALUES(?);"""
-    cur.execute(add, (file,))
-    connection.commit()
-    connection.close()
-    cur.close()
+    try:
+        database = 'database/filters.db'
+        connection = sqlite3.connect(database)
+        cur = connection.cursor()
+        delete = "DELETE FROM whitelist(filter_name) VALUES(?);"
+        add = "INSERT INTO blacklist(filter_name) VALUES(?);"
+        cur.execute(add, (file,))
+        connection.commit()
+        connection.close()
+    except:
+        print("Error with "+file)
 
 def whitelist(file):
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
-    delete = """DELETE FROM blacklist(filter_name) VALUES(?);"""
-    add = """INSERT INTO whitelist(filter_name) VALUES(?);"""
-    cur.execute(add, (file,))
-    connection.commit()
-    connection.close()
-    cur.close()
-
+    try:
+        database = 'database/filters.db'
+        connection = sqlite3.connect(database)
+        cur = connection.cursor()
+        delete = "DELETE FROM blacklist(filter_name) VALUES(?);"
+        add = "INSERT INTO whitelist(filter_name) VALUES(?);"
+        cur.execute(add, (file,))
+        connection.commit()
+        connection.close()
+    except:
+        print("Error with "+ file)
 
 def isWhitelisted(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT filter_name FROM whitelist;"
-    cur.execute(read)
+    read = "SELECT * FROM whitelist WHERE filter_name = (?);"
+    cur.execute(read, (file,))
     filters = cur.fetchall()
-    if(file in filters):
-        print('whitelist TRUE')
+    print(range(len(filters)))
+    if(file in range(len(filters))):
         return True
     else:
-        print('whitelist FALSE')
         return False
     connection.close()
-    cur.close()
 
 
 def isBlacklisted(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT filter_name FROM blacklist;"
-    cur.execute(read)
+    read = "SELECT * FROM blacklist WHERE filter_name = (?);"
+    cur.execute(read, (file,))
     filters = cur.fetchall()
     if(file in filters):
-        print('blacklist TRUE')
         return True
     else:
-        print('blacklist FALSE')
         return False
     connection.close()
-    cur.close()
-
 main()
