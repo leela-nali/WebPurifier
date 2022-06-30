@@ -3,10 +3,6 @@ import urllib.parse
 import json
 import mysql.connector
 
-database = 'database/filters.db'
-connection = sqlite3.connect(database)
-cur = connection.cursor()
-
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
@@ -31,6 +27,10 @@ def blacklist(file):
     with open("json/blacklist.json", "w") as blacklist:
         blacklist.write(file)
 def whitelist(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+
     add = "INSERT INTO whitelist (filter_name) VALUES (%s)"
     cur.execute(add, file)
     connection.close()
