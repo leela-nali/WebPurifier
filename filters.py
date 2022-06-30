@@ -2,7 +2,7 @@ import mysql.connector
 
 
 database = 'database/filters.db'
-connection = sqlite3.connect(database)
+connection = mysql.connect(database)
 cur = connection.cursor()
 
 class Filter:
