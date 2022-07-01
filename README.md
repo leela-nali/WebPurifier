@@ -1,13 +1,59 @@
 # Whats Included
 - filters-2021.txt
+- AntiGachaAndKnockoffGamesList.txt
+- Anti-'Google Hangouts' List.txt
 - resource-abuse.txt
 - unbreak.txt
+- AntiPCPriceHiderList.txt
+- AntiAmazonListForTwitchDomains.txt
+- AntiPrayerTimesList.txt
+- AntiPepeList.txt
+- AntiAmazonListForTwitch.txt
 - quick-fixes.txt
+- DailyMotionSimplicity.txt
+- AntiStevenUniverseListDomains.txt
 - annoyances.txt
+- easyprivacy.txt
 - filters.txt
+- AntiAbusePorn.txt
+- WordPressTranslatorAssistant.txt
+- AntiWeebBoobGamesList.txt
+- AntiBadCapitalismList.txt
 - filters-2022.txt
+- AntiAdventureTimeList.txt
+- BrowseWebsitesWithoutLoggingIn.txt
 - legacy.txt
+- AntiHivemindCartoonTrashingListDomains.txt
+- AntiAdoptablesList.txt
+- AntiCartoonHipsterList.txt
+- AntiNonNewsList.txt
+- Anti-Elsagate List.txt
+- Anti-'Custom cursors' List.txt
+- Anti-'Battle Royale' List.txt
 - privacy.txt
+- Anti-FіМ List.txt
+- AntiAwfulCommentsList.txt
+- Anti-Skype List.txt
+- AntiAnthroCombatWaifuList.txt
+- AntiStevenUniverseList.txt
+- AntiPorkMeatOnRestaurantMenusList.txt
 - badware.txt
+- BrowseWebsitesWithoutLoggingInDomains.txt
 - filters-2020.txt
+- easylist.txt
+- Anti-Futa List.txt
+- AdRemovalListForUnusualAds.txt
 - lan-block.txt
+- BrowseWebsitesWithoutLoggingInAGH.txt
+- AntiSubmissiveEroticaList.txt
+- Anti-'Christmas carols' List.txt
+- AntiSnowMarketingList.txt
+- AntiAstrologyList.txt
+- AntiAmazonListForTwitchHosts.txt
+- AntiOwlHouseList.txt
+- AntiKpopSpammersTwitter.txt
+- AntiHivemindCartoonTrashingList.txt
+- Anti-IMDB List.txt
+- LegitimateURLShortener.txt
+- Android Scum Class — Fake notification counters.txt
+- BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
