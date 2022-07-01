@@ -3,6 +3,7 @@ import urllib.parse
 import json
 import sqlite3
 import sys
+from termcolor import colored
 
 def main():
     with open('README.md', 'a') as readme:
@@ -11,7 +12,7 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (filter_status(file) == "DISABLED"):
-                    print(file + " is disabled")
+                    print colored(file + " is disabled", red)
                 elif(filter_status(file) == "ENABLED"):
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
@@ -26,7 +27,7 @@ def toggle(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
+    read = "  WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
     for i in range(len(filters)):
