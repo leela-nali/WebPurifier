@@ -4,13 +4,6 @@
 ! Description: See through my eyes
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
-!#include filters/Anti-%27Battle%20Royale%27%20List.txt
-!#include filters/Anti-%27Christmas%20carols%27%20List.txt
-!#include filters/Anti-%27StockVectorArtOnCopypasteBackgrounds%27.txt
-!#include filters/Anti-Futa%20List.txt
-!#include filters/Anti-F%D1%96%D0%9C%20List.txt
-!#include filters/Anti-IMDB%20List.txt
-!#include filters/Anti-Skype%20List.txt
 !#include filters/StopAutoplayOnYouTube-uBOExtension.txt
 !#include filters/YouTubeEvenMorePureVideoExperience.txt
 !#include filters/annoyances.txt

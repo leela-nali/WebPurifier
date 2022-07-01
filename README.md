@@ -1,11 +1,4 @@
 # Whats Included
-- Anti-'Battle Royale' List.txt
-- Anti-'Christmas carols' List.txt
-- Anti-'StockVectorArtOnCopypasteBackgrounds'.txt
-- Anti-Futa List.txt
-- Anti-FіМ List.txt
-- Anti-IMDB List.txt
-- Anti-Skype List.txt
 - StopAutoplayOnYouTube-uBOExtension.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt
