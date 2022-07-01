@@ -5,7 +5,6 @@
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
 !#include filters/annoyances.txt
-!#include filters/badware.txt
 !#include filters/easyprivacy.txt
 !#include filters/filters-2020.txt
 !#include filters/filters-2021.txt
@@ -13,7 +12,6 @@
 !#include filters/privacy.txt
 !#include filters/resource-abuse.txt
 !#include filters/unbreak.txt
-!#include filters/a.txt
 !#include filters/easylist.txt
 !#include filters/filters.txt
 !#include filters/legacy.txt
