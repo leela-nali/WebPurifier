@@ -1,5 +1,4 @@
 # Whats Included
-- Anti-Elsagate List.txt
 - annoyances.txt
 - easyprivacy.txt
 - filters-2022.txt
