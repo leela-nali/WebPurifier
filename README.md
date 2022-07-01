@@ -1,10 +1,8 @@
 # Whats Included
 - Anti-Elsagate List.txt
-- StopAutoplayOnYouTube.txt
 - annoyances.txt
 - easyprivacy.txt
 - filters-2022.txt
-- YouTubeEvenMorePureVideoExperience.txt
 - easylist.txt
 - filters-2020.txt
 - filters-2021.txt
