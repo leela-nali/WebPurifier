@@ -4,6 +4,10 @@
 - Anti-'Custom cursors' List.txt
 - Anti-'Google Hangouts' List.txt
 - Anti-'StockVectorArtOnCopypasteBackgrounds'.txt
+- Anti-Futa List.txt
+- Anti-FіМ List.txt
+- Anti-IMDB List.txt
+- Anti-Skype List.txt
 - StopAutoplayOnYouTube-uBOExtension.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt
