@@ -14,4 +14,3 @@
 - filters.txt
 - legacy.txt
 - quick-fixes.txt
-- urlhaus-filter-online.txt
