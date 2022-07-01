@@ -6,6 +6,7 @@
 - filters-2022.txt
 - privacy.txt
 - resource-abuse.txt
+- unbreak.txt
 - SocialShareList.txt
 - easylist.txt
 - filters.txt
