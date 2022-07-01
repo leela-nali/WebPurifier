@@ -1,7 +1,7 @@
 # Whats Included
 - Anti-'Battle Royale' List.txt
+- Anti-'Christmas carols' List.txt
 - Anti-'Custom cursors' List.txt
-- Anti-'Google Hangouts' List.txt
 - Anti-'StockVectorArtOnCopypasteBackgrounds'.txt
 - Anti-Futa List.txt
 - Anti-FіМ List.txt
