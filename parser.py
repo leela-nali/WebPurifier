@@ -24,9 +24,9 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                if (filter_status(file) == "Disabled"):
+                if (filter_status(file) == "DISABLED"):
                     print(file + " is disabled")
-                elif(filter_status(file == "Enabled")):
+                elif(filter_status(file == "ENABLED")):
                     enable(file)
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
@@ -46,20 +46,20 @@ def toggle(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            if(filt == "disabled"):
-                enable = "UPDATE filters SET filter_status='enabled' WHERE filter_name=(?);"
+            if(filt == "DISABLED"):
+                enable = "UPDATE filters SET filter_status='ENABLED' WHERE filter_name=(?);"
                 cur.execute(enable,(file,))
                 connection.commit()
                 print(file + " is now enabled")
                 connection.close()
-            elif(filt == "enabled"):
-                disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
+            elif(filt == "ENABLED"):
+                disable = "UPDATE filters SET filter_status='DISABLED' WHERE filter_name=(?);"
                 cur.execute(disable,(file,))
                 connection.commit()
                 print(file + " is now disabled")
                 connection.close()
             elif(filt == "NULL"):
-                disable = "UPDATE filters SET filter_status='disabled' WHERE filter_name=(?);"
+                disable = "UPDATE filters SET filter_status='DISABLED' WHERE filter_name=(?);"
                 cur.execute(disable,(file,))
                 connection.commit()
                 print(file + " is now disabled")
@@ -74,10 +74,10 @@ def filter_status(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            if(filt == "Enabled"):
-                return "Enabled"
+            if(filt == "ENABLED"):
+                return "ENABLED"
             else:
-                return "Disabled"
+                return "DISABLED"
     connection.close()
 
 def enable(file):
@@ -104,7 +104,7 @@ def isDisabled(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            if(filt == "Disabled"):
+            if(filt == "DISABLED"):
                 return True
             else:
                 return False
