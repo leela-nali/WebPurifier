@@ -9,7 +9,6 @@
 - resource-abuse.txt
 - unbreak.txt
 - SocialShareList.txt
-- a.txt
 - easylist.txt
 - filters.txt
 - legacy.txt
