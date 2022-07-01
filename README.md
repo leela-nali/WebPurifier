@@ -40,6 +40,7 @@
 - AdRemovalListForUnusualAds.txt
 - lan-block.txt
 - BrowseWebsitesWithoutLoggingInAGH.txt
+- i-dont-want-your-app.txt
 - Anti-'Christmas carols' List.txt
 - AntiSnowMarketingList.txt
 - AntiAstrologyList.txt
@@ -51,3 +52,4 @@
 - LegitimateURLShortener.txt
 - Android Scum Class — Fake notification counters.txt
 - BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
+- emoji-filter.txt

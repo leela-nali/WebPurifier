@@ -45,6 +45,7 @@
 !#include filters/AdRemovalListForUnusualAds.txt
 !#include filters/lan-block.txt
 !#include filters/BrowseWebsitesWithoutLoggingInAGH.txt
+!#include filters/i-dont-want-your-app.txt
 !#include filters/Anti-%27Christmas%20carols%27%20List.txt
 !#include filters/AntiSnowMarketingList.txt
 !#include filters/AntiAstrologyList.txt
@@ -56,3 +57,4 @@
 !#include filters/LegitimateURLShortener.txt
 !#include filters/Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt
 !#include filters/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
+!#include filters/emoji-filter.txt
