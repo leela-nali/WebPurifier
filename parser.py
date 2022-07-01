@@ -24,9 +24,9 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                if (isDisabled(file) == "Disabled"):
+                if (isDisabled(file) == True):
                     disable(file)
-                elif(isEnabled(file) == "Enabled"):
+                elif(isEnabled(file) == True):
                     enable(file)
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
@@ -83,12 +83,12 @@ def isEnabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT * FROM enabled WHERE filter_name = (?);"
+    read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            if(file in filt):
+            if(filt == "Enabled"):
                 return True
             else:
                 return False
@@ -99,12 +99,12 @@ def isDisabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    read = "SELECT * FROM disabled WHERE filter_name = (?);"
+    read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
     cur.execute(read, (file,))
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            if(file in filt):
+            if(filt == "Disabled"):
                 return True
             else:
                 return False
