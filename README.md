@@ -4,7 +4,6 @@
 - annoyances.txt
 - easyprivacy.txt
 - filters-2022.txt
-- unbreak.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - easylist.txt
 - filters-2020.txt
