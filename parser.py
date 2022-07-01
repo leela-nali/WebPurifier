@@ -92,7 +92,18 @@ def enable(file):
         connection.close()
     except:
         print("List is already enabled")
-
+def disable(file):
+    try:
+        database = 'database/filters.db'
+        connection = sqlite3.connect(database)
+        cur = connection.cursor()
+        disable = "UPDATE filters SET filter_status='DISABLED' WHERE filter_name=(?);"
+        cur.execute(disable,(file,))
+        connection.commit()
+        print(file + " is now disabled")
+        connection.close()
+    except:
+        print("List is already enabled")
 
 def isDisabled(file):
     database = 'database/filters.db'
