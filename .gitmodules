@@ -4,3 +4,6 @@
 [submodule "submodules/adfilt"]
 	path = submodules/adfilt
 	url = git@github.com:DandelionSprout/adfilt.git
+[submodule "submodules/adblock-nocoin-list"]
+	path = submodules/adblock-nocoin-list
+	url = https://github.com/hoshsadiq/adblock-nocoin-list
