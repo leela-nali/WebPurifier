@@ -76,8 +76,10 @@ def filter_status(file):
         for filt in filters[i]:
             if(filt == "ENABLED"):
                 return "ENABLED"
-            else:
+            elif(filt == "DISABLED"):
                 return "DISABLED"
+            else:
+                continue
     connection.close()
 
 def enable(file):
@@ -92,6 +94,7 @@ def enable(file):
         connection.close()
     except:
         print("List is already enabled")
+
 def disable(file):
     try:
         database = 'database/filters.db'
