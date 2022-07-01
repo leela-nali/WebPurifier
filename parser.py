@@ -10,18 +10,22 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                if (filter_status(file) == "DISABLED"):
-                    print(file + " is disabled")
-                elif(filter_status(file) == "ENABLED"):
-                    output = os.path.join(root, file)
-                    encoded = urllib.parse.quote(output)
-                    with open('main.txt', 'a') as main:
-                        main.write("\n!#include " + encoded)
-                    with open('README.md', 'a') as readme:
-                        readme.write("\n- "+file)
-                elif():
-                    print("No data on the list "+ file)
-
+                if (exists(file)):
+                    print(file + "exists. Moving forward")
+                    if (filter_status(file) == "DISABLED"):
+                        print(file + " is disabled")
+                    elif(filter_status(file) == "ENABLED"):
+                        output = os.path.join(root, file)
+                        encoded = urllib.parse.quote(output)
+                        with open('main.txt', 'a') as main:
+                            main.write("\n!#include " + encoded)
+                        with open('README.md', 'a') as readme:
+                            readme.write("\n- "+file)
+                    elif():
+                        print("No data on the list "+ file)
+                else:
+                    print(file + "doesnt exist. Moving adding now")
+                    addList(file)
 def toggle(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
@@ -71,14 +75,11 @@ def addList(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
     cur = connection.cursor()
-    delete = "DELETE FROM disabled(filter_name) VALUES(?);"
-    add = "INSERT INTO enabled(filter_name) VALUES(?);"
-    cur.execute(delete, (file,))
-    cur.execute(add, (file,))
-    enable = "UPDATE filters SET filter_status='ENABLED' WHERE filter_name=(?);"
-    cur.execute(enable,(file,))
+    add =  "INSERT INTO filters(filter_name, filter_status) VALUES (?, ?);"
+    val = (file, "DISABLED")
+
+    cur.execute(add,(val))
     connection.commit()
-    print(file + " is now enabled")
     connection.close()
 
 def disable(file):
@@ -93,7 +94,20 @@ def disable(file):
         connection.close()
     except:
         print("List is already enabled")
-
+def exists(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    read = "SELECT filter_name FROM filters WHERE filter_name = (?);"
+    cur.execute(read, (file,))
+    filters = cur.fetchall()
+    for i in range(len(filters)):
+        for filt in filters[i]:
+            if(filt):
+                return True
+            else:
+                return False
+    connection.close()
 def isDisabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
