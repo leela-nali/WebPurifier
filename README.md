@@ -2,6 +2,7 @@
 - ABP Macedonian List.txt
 - AdRemovalListForUnusualAds.txt
 - Android Scum Class — Fake notification counters.txt
+- AnnoyancesList-2ndDivision.txt
 - annoyances.txt
 - badware.txt
 - easyprivacy.txt

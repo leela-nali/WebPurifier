@@ -7,6 +7,7 @@
 !#include filters/ABP%20Macedonian%20List.txt
 !#include filters/AdRemovalListForUnusualAds.txt
 !#include filters/Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt
+!#include filters/AnnoyancesList-2ndDivision.txt
 !#include filters/annoyances.txt
 !#include filters/badware.txt
 !#include filters/easyprivacy.txt
