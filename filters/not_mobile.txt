@@ -1,0 +1,9 @@
+/jquery.smoothwheel/*
+/plugins/wp-enqueue/smoothscroll
+/rokophoto-lite/js/SmoothScroll
+/smart-app-banner*/banner.js
+/tapatalkdetect$1p,script
+/themes/*/js/smoothscroll
+/themes/buzzy/assets/js/modules/plugins/smoothPageScroll
+/themes/Jaz/inc/js/*nicescroll
+affarsstaden.se,boktugg.se,kurera.se,lundagard.se,macken.xyz,morotsliv.com,outsidesweden.se##+js(aeld, wheel)

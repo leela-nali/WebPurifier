@@ -7,3 +7,6 @@
 [submodule "submodules/adblock-nocoin-list"]
 	path = submodules/adblock-nocoin-list
 	url = https://github.com/hoshsadiq/adblock-nocoin-list
+[submodule "submodules/Frellwilts-filter-lists"]
+	path = submodules/Frellwilts-filter-lists
+	url = https://github.com/lassekongo83/Frellwits-filter-lists.git
