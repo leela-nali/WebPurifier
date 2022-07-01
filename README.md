@@ -8,6 +8,7 @@
 - Anti-FіМ List.txt
 - Anti-IMDB List.txt
 - Anti-Skype List.txt
+- Dandelion Sprout's Anti-Malware List.txt
 - StopAutoplayOnYouTube-uBOExtension.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt

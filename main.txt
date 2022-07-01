@@ -13,6 +13,7 @@
 !#include filters/Anti-F%D1%96%D0%9C%20List.txt
 !#include filters/Anti-IMDB%20List.txt
 !#include filters/Anti-Skype%20List.txt
+!#include filters/Dandelion%20Sprout%27s%20Anti-Malware%20List.txt
 !#include filters/StopAutoplayOnYouTube-uBOExtension.txt
 !#include filters/YouTubeEvenMorePureVideoExperience.txt
 !#include filters/annoyances.txt
