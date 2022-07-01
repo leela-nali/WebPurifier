@@ -12,7 +12,7 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (exists(file)):
-                    if (breaks(file == True)):
+                    if (breaks(file) == True):
                         print(file + "Breaks")
                         disable(file)
                     else:
