@@ -1,12 +1,13 @@
 import os
 import urllib.parse
-import json
 import sqlite3
 import sys
-
+import logging
+logger = logging.getLogger(__name__)
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
+        logger.log(info, "Added 'Whats included' header")
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
@@ -94,6 +95,7 @@ def disable(file):
         connection.close()
     except:
         print("List is already enabled")
+
 def exists(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
@@ -108,6 +110,7 @@ def exists(file):
             else:
                 return False
     connection.close()
+
 def isDisabled(file):
     database = 'database/filters.db'
     connection = sqlite3.connect(database)
