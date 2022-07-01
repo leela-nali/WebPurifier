@@ -74,6 +74,7 @@ def filter_status(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
+            print(filt)
             if(filt == "ENABLED"):
                 return "ENABLED"
             else:
