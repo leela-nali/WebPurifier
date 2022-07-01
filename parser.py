@@ -12,7 +12,7 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (filter_status(file) == "DISABLED"):
-                    print colored(file + " is disabled", red)
+                    print(colored(file + " is disabled", red))
                 elif(filter_status(file) == "ENABLED"):
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
