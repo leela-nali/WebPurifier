@@ -1,6 +1,5 @@
 # Whats Included
 - filters-2021.txt
-- AntiGachaAndKnockoffGamesList.txt
 - Anti-'Google Hangouts' List.txt
 - resource-abuse.txt
 - unbreak.txt
@@ -18,15 +17,12 @@
 - AntiAbusePorn.txt
 - WordPressTranslatorAssistant.txt
 - AntiWeebBoobGamesList.txt
-- AntiBadCapitalismList.txt
 - filters-2022.txt
 - AntiAdventureTimeList.txt
 - BrowseWebsitesWithoutLoggingIn.txt
 - legacy.txt
 - AntiHivemindCartoonTrashingListDomains.txt
 - AntiAdoptablesList.txt
-- AntiCartoonHipsterList.txt
-- AntiNonNewsList.txt
 - Anti-Elsagate List.txt
 - Anti-'Custom cursors' List.txt
 - Anti-'Battle Royale' List.txt
@@ -45,7 +41,6 @@
 - AdRemovalListForUnusualAds.txt
 - lan-block.txt
 - BrowseWebsitesWithoutLoggingInAGH.txt
-- AntiSubmissiveEroticaList.txt
 - Anti-'Christmas carols' List.txt
 - AntiSnowMarketingList.txt
 - AntiAstrologyList.txt

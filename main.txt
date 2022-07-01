@@ -5,7 +5,6 @@
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
 !#include filters/filters-2021.txt
-!#include filters/AntiGachaAndKnockoffGamesList.txt
 !#include filters/Anti-%27Google%20Hangouts%27%20List.txt
 !#include filters/resource-abuse.txt
 !#include filters/unbreak.txt
@@ -23,15 +22,12 @@
 !#include filters/AntiAbusePorn.txt
 !#include filters/WordPressTranslatorAssistant.txt
 !#include filters/AntiWeebBoobGamesList.txt
-!#include filters/AntiBadCapitalismList.txt
 !#include filters/filters-2022.txt
 !#include filters/AntiAdventureTimeList.txt
 !#include filters/BrowseWebsitesWithoutLoggingIn.txt
 !#include filters/legacy.txt
 !#include filters/AntiHivemindCartoonTrashingListDomains.txt
 !#include filters/AntiAdoptablesList.txt
-!#include filters/AntiCartoonHipsterList.txt
-!#include filters/AntiNonNewsList.txt
 !#include filters/Anti-Elsagate%20List.txt
 !#include filters/Anti-%27Custom%20cursors%27%20List.txt
 !#include filters/Anti-%27Battle%20Royale%27%20List.txt
@@ -50,7 +46,6 @@
 !#include filters/AdRemovalListForUnusualAds.txt
 !#include filters/lan-block.txt
 !#include filters/BrowseWebsitesWithoutLoggingInAGH.txt
-!#include filters/AntiSubmissiveEroticaList.txt
 !#include filters/Anti-%27Christmas%20carols%27%20List.txt
 !#include filters/AntiSnowMarketingList.txt
 !#include filters/AntiAstrologyList.txt
