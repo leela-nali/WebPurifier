@@ -4,7 +4,6 @@
 - Anti-'Custom cursors' List.txt
 - Anti-'Google Hangouts' List.txt
 - Anti-'StockVectorArtOnCopypasteBackgrounds'.txt
-- Anti-Elsagate List.txt
 - Anti-Futa List.txt
 - Anti-FіМ List.txt
 - Anti-IMDB List.txt

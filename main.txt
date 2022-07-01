@@ -9,7 +9,6 @@
 !#include filters/Anti-%27Custom%20cursors%27%20List.txt
 !#include filters/Anti-%27Google%20Hangouts%27%20List.txt
 !#include filters/Anti-%27StockVectorArtOnCopypasteBackgrounds%27.txt
-!#include filters/Anti-Elsagate%20List.txt
 !#include filters/Anti-Futa%20List.txt
 !#include filters/Anti-F%D1%96%D0%9C%20List.txt
 !#include filters/Anti-IMDB%20List.txt
