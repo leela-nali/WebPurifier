@@ -17,6 +17,7 @@
 - AntiAbusePorn.txt
 - WordPressTranslatorAssistant.txt
 - AntiWeebBoobGamesList.txt
+- Dandelion Sprout's Anti-Malware List.txt
 - chromium.txt
 - filters-2022.txt
 - AntiAdventureTimeList.txt
