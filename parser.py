@@ -17,7 +17,7 @@ def main():
                         disable(file)
                     else:
                         if (filter_status(file) == "DISABLED"):
-                                break
+                                continue
                         elif(filter_status(file) == "ENABLED"):
                             output = os.path.join(root, file)
                             encoded = urllib.parse.quote(output)
