@@ -1,19 +1,12 @@
 # Whats Included
-- filters-2021.txt
-- resource-abuse.txt
-- unbreak.txt
-- quick-fixes.txt
-- SocialShareList.txt
 - annoyances.txt
 - easyprivacy.txt
-- filters.txt
 - filters-2022.txt
-- legacy.txt
-- Anti-Elsagate List.txt
-- privacy.txt
-- badware.txt
-- filters-2020.txt
 - easylist.txt
-- urlhaus-filter-online.txt
-- StopAutoplayOnYouTube.txt
-- YouTubeEvenMorePureVideoExperience.txt
+- filters-2020.txt
+- filters-2021.txt
+- filters.txt
+- legacy.txt
+- privacy.txt
+- quick-fixes.txt
+- resource-abuse.txt
