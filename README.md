@@ -2,7 +2,6 @@
 - Anti-Elsagate List.txt
 - StopAutoplayOnYouTube.txt
 - annoyances.txt
-- badware.txt
 - easyprivacy.txt
 - filters-2022.txt
 - unbreak.txt

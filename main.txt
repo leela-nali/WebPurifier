@@ -7,7 +7,6 @@
 !#include filters/Anti-Elsagate%20List.txt
 !#include filters/StopAutoplayOnYouTube.txt
 !#include filters/annoyances.txt
-!#include filters/badware.txt
 !#include filters/easyprivacy.txt
 !#include filters/filters-2022.txt
 !#include filters/unbreak.txt
