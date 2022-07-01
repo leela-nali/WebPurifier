@@ -15,3 +15,4 @@
 !#include filters/filters.txt
 !#include filters/legacy.txt
 !#include filters/quick-fixes.txt
+!#include filters/urlhaus-filter-online.txt
