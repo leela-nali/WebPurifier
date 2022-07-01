@@ -12,18 +12,20 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (exists(file)):
-                    print(file + "exists. Moving forward")
-                    if (filter_status(file) == "DISABLED"):
-                        print(file + " is disabled")
-                    elif(filter_status(file) == "ENABLED"):
-                        output = os.path.join(root, file)
-                        encoded = urllib.parse.quote(output)
-                        with open('main.txt', 'a') as main:
-                            main.write("\n!#include " + encoded)
-                        with open('README.md', 'a') as readme:
-                            readme.write("\n- "+file)
-                    elif():
-                        print("No data on the list "+ file)
+                    if (breaks(file == True)):
+                        disable(file)
+                    else:
+                        if (filter_status(file) == "DISABLED"):
+                                print(file + " is disabled")
+                        elif(filter_status(file) == "ENABLED"):
+                            output = os.path.join(root, file)
+                            encoded = urllib.parse.quote(output)
+                            with open('main.txt', 'a') as main:
+                                main.write("\n!#include " + encoded)
+                            with open('README.md', 'a') as readme:
+                                readme.write("\n- "+file)
+                        elif():
+                            print("No data on the list "+ file)
                 else:
                     print(file + "doesnt exist. Moving adding now")
                     addList(file)
@@ -121,6 +123,21 @@ def isDisabled(file):
     for i in range(len(filters)):
         for filt in filters[i]:
             if(filt == "DISABLED"):
+                return True
+            else:
+                return False
+    connection.close()
+
+def breaks(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    read = "SELECT filter_notes FROM filters WHERE filter_name = (?);"
+    cur.execute(read, (file,))
+    filters = cur.fetchall()
+    for i in range(len(filters)):
+        for filt in filters[i]:
+            if(filt == "BREAKS"):
                 return True
             else:
                 return False
