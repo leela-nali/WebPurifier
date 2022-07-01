@@ -44,7 +44,6 @@
 - lan-block.txt
 - BrowseWebsitesWithoutLoggingInAGH.txt
 - i-dont-want-your-app.txt
-- Frellwits-Swedish-Filter.txt
 - Anti-'Christmas carols' List.txt
 - AntiSnowMarketingList.txt
 - AntiAstrologyList.txt

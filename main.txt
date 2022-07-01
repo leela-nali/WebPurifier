@@ -49,7 +49,6 @@
 !#include filters/lan-block.txt
 !#include filters/BrowseWebsitesWithoutLoggingInAGH.txt
 !#include filters/i-dont-want-your-app.txt
-!#include filters/Frellwits-Swedish-Filter.txt
 !#include filters/Anti-%27Christmas%20carols%27%20List.txt
 !#include filters/AntiSnowMarketingList.txt
 !#include filters/AntiAstrologyList.txt
