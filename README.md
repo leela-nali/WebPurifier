@@ -1,5 +1,6 @@
 # Whats Included
 - filters-2021.txt
+- nocoin.txt
 - Anti-'Google Hangouts' List.txt
 - resource-abuse.txt
 - unbreak.txt
@@ -32,6 +33,7 @@
 - AntiPorkMeatOnRestaurantMenusList.txt
 - badware.txt
 - BrowseWebsitesWithoutLoggingInDomains.txt
+- nocoin-ublock.txt
 - filters-2020.txt
 - easylist.txt
 - Anti-Futa List.txt

@@ -5,6 +5,7 @@
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
 !#include filters/filters-2021.txt
+!#include filters/nocoin.txt
 !#include filters/Anti-%27Google%20Hangouts%27%20List.txt
 !#include filters/resource-abuse.txt
 !#include filters/unbreak.txt
@@ -37,6 +38,7 @@
 !#include filters/AntiPorkMeatOnRestaurantMenusList.txt
 !#include filters/badware.txt
 !#include filters/BrowseWebsitesWithoutLoggingInDomains.txt
+!#include filters/nocoin-ublock.txt
 !#include filters/filters-2020.txt
 !#include filters/easylist.txt
 !#include filters/Anti-Futa%20List.txt
