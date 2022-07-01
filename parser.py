@@ -3,7 +3,6 @@ import urllib.parse
 import json
 import sqlite3
 import sys
-from termcolor import colored
 
 def main():
     with open('README.md', 'a') as readme:
@@ -12,7 +11,8 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (filter_status(file) == "DISABLED"):
-                    print(colored(file + " is disabled", red))
+                  sys.stdout.write("\033[1;31m")
+                    print(file + " is disabled")
                 elif(filter_status(file) == "ENABLED"):
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
