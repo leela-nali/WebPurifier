@@ -4,20 +4,6 @@ import json
 import sqlite3
 import sys
 
-#switcher = {
-#    add: addList(),
-#    delete: deleteList(),
-#    whitelist: whitelist(),
-#    blacklist: blacklist(),
-#    update: update()
-#    }
-
-#def switch(command):
-#    return switcher.get(command, default)()
-
-#for arg in sys.argv:
-#    switch(arg)
-
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
@@ -27,7 +13,6 @@ def main():
                 if (filter_status(file) == "DISABLED"):
                     print(file + " is disabled")
                 elif(filter_status(file == "ENABLED")):
-                    enable(file)
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
                     with open('main.txt', 'a') as main:
@@ -82,18 +67,19 @@ def filter_status(file):
                 continue
     connection.close()
 
-def enable(file):
-    try:
-        database = 'database/filters.db'
-        connection = sqlite3.connect(database)
-        cur = connection.cursor()
-        enable = "UPDATE filters SET filter_status='ENABLED' WHERE filter_name=(?);"
-        cur.execute(enable,(file,))
-        connection.commit()
-        print(file + " is now enabled")
-        connection.close()
-    except:
-        print("List is already enabled")
+def addList(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    delete = "DELETE FROM disabled(filter_name) VALUES(?);"
+    add = "INSERT INTO enabled(filter_name) VALUES(?);"
+    cur.execute(delete, (file,))
+    cur.execute(add, (file,))
+    enable = "UPDATE filters SET filter_status='ENABLED' WHERE filter_name=(?);"
+    cur.execute(enable,(file,))
+    connection.commit()
+    print(file + " is now enabled")
+    connection.close()
 
 def disable(file):
     try:
