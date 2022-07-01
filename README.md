@@ -1,5 +1,4 @@
 # Whats Included
-- Anti-Elsagate List.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt
 - badware.txt
