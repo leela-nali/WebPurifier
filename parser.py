@@ -3,11 +3,9 @@ import urllib.parse
 import sqlite3
 import sys
 import logging
-logger = logging.getLogger(__name__)
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
-        logger.log(info, "Added 'Whats included' header")
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
