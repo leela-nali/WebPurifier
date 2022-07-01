@@ -74,7 +74,6 @@ def filter_status(file):
     filters = cur.fetchall()
     for i in range(len(filters)):
         for filt in filters[i]:
-            print(filt)
             if(filt == "ENABLED"):
                 return "ENABLED"
             else:
@@ -86,11 +85,10 @@ def enable(file):
         database = 'database/filters.db'
         connection = sqlite3.connect(database)
         cur = connection.cursor()
-        delete = "DELETE FROM disabled(filter_name) VALUES(?);"
-        add = "INSERT INTO enabled(filter_name) VALUES(?);"
-        cur.execute(delete, (file,))
-        cur.execute(add, (file,))
+        enable = "UPDATE filters SET filter_status='ENABLED' WHERE filter_name=(?);"
+        cur.execute(enable,(file,))
         connection.commit()
+        print(file + " is now enabled")
         connection.close()
     except:
         print("List is already enabled")
