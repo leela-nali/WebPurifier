@@ -1,4 +1,5 @@
 # Whats Included
+- Anti-'Battle Royale' List.txt
 - StopAutoplayOnYouTube-uBOExtension.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt
