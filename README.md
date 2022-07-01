@@ -1,5 +1,6 @@
 # Whats Included
 - annoyances.txt
+- badware.txt
 - easyprivacy.txt
 - filters-2020.txt
 - filters-2021.txt
