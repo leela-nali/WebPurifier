@@ -10,7 +10,6 @@
 - quick-fixes.txt
 - unbreak.txt
 - SocialShareList.txt
-- StopAutoplayOnYouTube.txt
 - easyprivacy.txt
 - filters-2020.txt
 - filters-2022.txt

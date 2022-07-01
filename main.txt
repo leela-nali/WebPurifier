@@ -15,7 +15,6 @@
 !#include filters/quick-fixes.txt
 !#include filters/unbreak.txt
 !#include filters/SocialShareList.txt
-!#include filters/StopAutoplayOnYouTube.txt
 !#include filters/easyprivacy.txt
 !#include filters/filters-2020.txt
 !#include filters/filters-2022.txt
