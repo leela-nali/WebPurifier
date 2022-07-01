@@ -22,7 +22,6 @@
 !#include filters/AntiAbusePorn.txt
 !#include filters/WordPressTranslatorAssistant.txt
 !#include filters/AntiWeebBoobGamesList.txt
-!#include filters/Dandelion%20Sprout%27s%20Anti-Malware%20List.txt
 !#include filters/chromium.txt
 !#include filters/filters-2022.txt
 !#include filters/AntiAdventureTimeList.txt
