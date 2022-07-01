@@ -24,9 +24,9 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                if (isDisabled(file) == True):
+                if (isDisabled(file) == "Disabled"):
                     disable(file)
-                elif(isEnabled(file) == True):
+                elif(isEnabled(file) == "Enabled"):
                     enable(file)
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
