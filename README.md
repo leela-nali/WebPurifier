@@ -1,20 +1,16 @@
 # Whats Included
-- ABP Macedonian List.txt
-- AdRemovalListForUnusualAds.txt
-- Android Scum Class — Fake notification counters.txt
-- AnnoyancesList-2ndDivision.txt
-- annoyances.txt
-- badware.txt
-- easyprivacy.txt
-- filters-2020.txt
 - filters-2021.txt
-- filters-2022.txt
-- privacy.txt
 - resource-abuse.txt
 - unbreak.txt
-- SocialShareList.txt
-- easylist.txt
-- filters.txt
-- legacy.txt
 - quick-fixes.txt
+- SocialShareList.txt
+- annoyances.txt
+- easyprivacy.txt
+- filters.txt
+- filters-2022.txt
+- legacy.txt
+- privacy.txt
+- badware.txt
+- filters-2020.txt
+- easylist.txt
 - urlhaus-filter-online.txt
