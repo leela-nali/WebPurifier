@@ -1,4 +1,5 @@
 # Whats Included
+- StopAutoplayOnYouTube-uBOExtension.txt
 - YouTubeEvenMorePureVideoExperience.txt
 - annoyances.txt
 - badware.txt
