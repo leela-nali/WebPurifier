@@ -11,7 +11,6 @@ def main():
         for file in files:
             if file.endswith('.txt'):
                 if (filter_status(file) == "DISABLED"):
-                  sys.stdout.write("\033[1;31m")
                     print(file + " is disabled")
                 elif(filter_status(file) == "ENABLED"):
                     output = os.path.join(root, file)
