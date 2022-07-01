@@ -13,7 +13,7 @@ def main():
             if file.endswith('.txt'):
                 if (exists(file)):
                     if (breaks(file) == True):
-                        print(file + "Breaks")
+                        print(file + " Breaks")
                         disable(file)
                     else:
                         if (filter_status(file) == "DISABLED"):
