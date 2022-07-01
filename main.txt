@@ -14,6 +14,7 @@
 !#include filters/resource-abuse.txt
 !#include filters/unbreak.txt
 !#include filters/SocialShareList.txt
+!#include filters/a.txt
 !#include filters/easylist.txt
 !#include filters/filters.txt
 !#include filters/legacy.txt
