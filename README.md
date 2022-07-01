@@ -17,9 +17,11 @@
 - AntiAbusePorn.txt
 - WordPressTranslatorAssistant.txt
 - AntiWeebBoobGamesList.txt
+- chromium.txt
 - filters-2022.txt
 - AntiAdventureTimeList.txt
 - legacy.txt
+- not_chromium.txt
 - AntiHivemindCartoonTrashingListDomains.txt
 - AntiAdoptablesList.txt
 - Anti-'Custom cursors' List.txt
@@ -37,16 +39,19 @@
 - filters-2020.txt
 - easylist.txt
 - Anti-Futa List.txt
+- not_mobile.txt
 - AdRemovalListForUnusualAds.txt
 - lan-block.txt
 - BrowseWebsitesWithoutLoggingInAGH.txt
 - i-dont-want-your-app.txt
+- Frellwits-Swedish-Filter.txt
 - Anti-'Christmas carols' List.txt
 - AntiSnowMarketingList.txt
 - AntiAstrologyList.txt
 - AntiAmazonListForTwitchHosts.txt
 - AntiOwlHouseList.txt
 - AntiKpopSpammersTwitter.txt
+- swe-ubo-filters.txt
 - AntiHivemindCartoonTrashingList.txt
 - Anti-IMDB List.txt
 - LegitimateURLShortener.txt
