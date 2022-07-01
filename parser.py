@@ -2,8 +2,7 @@ import os
 import urllib.parse
 import sqlite3
 import sys
-import logging
-logger = logging.getLogger(__name__)
+
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
@@ -81,7 +80,6 @@ def addList(file):
     cur = connection.cursor()
     add =  "INSERT INTO filters(filter_name, filter_status) VALUES (?, ?);"
     val = (file, "DISABLED")
-
     cur.execute(add,(val))
     connection.commit()
     connection.close()
