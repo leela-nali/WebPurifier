@@ -24,9 +24,9 @@ def main():
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
-                if (isDisabled(file) == True):
-                    disable(file)
-                elif(isEnabled(file) == True):
+                if (filter_status(file) == "Disabled"):
+                    print(file + " is disabled")
+                elif(filter_status(file == "Enabled")):
                     enable(file)
                     output = os.path.join(root, file)
                     encoded = urllib.parse.quote(output)
@@ -34,7 +34,7 @@ def main():
                         main.write("\n!#include " + encoded)
                     with open('README.md', 'a') as readme:
                         readme.write("\n- "+file)
-                else:
+                elif():
                     print("No data on the list "+ file)
 
 def toggle(file):
@@ -65,6 +65,21 @@ def toggle(file):
                 print(file + " is now disabled")
                 connection.close()
 
+def filter_status(file):
+    database = 'database/filters.db'
+    connection = sqlite3.connect(database)
+    cur = connection.cursor()
+    read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
+    cur.execute(read, (file,))
+    filters = cur.fetchall()
+    for i in range(len(filters)):
+        for filt in filters[i]:
+            if(filt == "Enabled"):
+                return "Enabled"
+            else:
+                return "Disabled"
+    connection.close()
+
 def enable(file):
     try:
         database = 'database/filters.db'
@@ -78,21 +93,6 @@ def enable(file):
         connection.close()
     except:
         print("List is already enabled")
-
-def isEnabled(file):
-    database = 'database/filters.db'
-    connection = sqlite3.connect(database)
-    cur = connection.cursor()
-    read = "SELECT filter_status FROM filters WHERE filter_name = (?);"
-    cur.execute(read, (file,))
-    filters = cur.fetchall()
-    for i in range(len(filters)):
-        for filt in filters[i]:
-            if(filt == "Enabled"):
-                return True
-            else:
-                return False
-    connection.close()
 
 
 def isDisabled(file):
