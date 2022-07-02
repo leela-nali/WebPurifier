@@ -47,6 +47,7 @@
 - i-dont-want-your-app.txt
 - not_chromium.txt
 - swe-ubo-filters.txt
+- SocialShareList.txt
 - WordPressTranslatorAssistant.txt
 - easylist.txt
 - filters-2020.txt
