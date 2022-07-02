@@ -62,8 +62,7 @@ def toggle(file):
                 connection.close()
 
 def downloadLists():
-    whitelist = ['4','7','17']
-    blacklist = ['21']
+
     filter.getLists()
 
 def filter_status(file):
