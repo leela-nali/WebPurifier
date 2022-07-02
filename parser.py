@@ -5,6 +5,8 @@ import sys
 import wget
 from api.FilterLists import FilterLists
 
+filter = Filter()
+
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
@@ -60,7 +62,6 @@ def toggle(file):
                 connection.close()
 
 def downloadLists():
-    filter = Filter()
     whitelist = ['4','7','17']
     blacklist = ['21']
 
