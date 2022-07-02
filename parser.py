@@ -64,8 +64,7 @@ def toggle(file):
 def downloadLists():
     whitelist = ['4','7','17']
     blacklist = ['21']
-
-    print(filter.getLists())
+    filter.getLists()
 
 def filter_status(file):
     database = 'database/filters.db'
