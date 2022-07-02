@@ -1,59 +1,60 @@
 # Whats Included
-- filters-2021.txt
-- nocoin.txt
-- Anti-'Google Hangouts' List.txt
-- resource-abuse.txt
-- unbreak.txt
-- AntiPCPriceHiderList.txt
-- AntiAmazonListForTwitchDomains.txt
-- AntiPrayerTimesList.txt
-- AntiPepeList.txt
-- AntiAmazonListForTwitch.txt
-- quick-fixes.txt
-- DailyMotionSimplicity.txt
-- AntiStevenUniverseListDomains.txt
-- annoyances.txt
-- easyprivacy.txt
-- AntiAbusePorn.txt
-- WordPressTranslatorAssistant.txt
-- AntiWeebBoobGamesList.txt
-- chromium.txt
-- filters-2022.txt
-- AntiAdventureTimeList.txt
-- legacy.txt
-- not_chromium.txt
-- AntiHivemindCartoonTrashingListDomains.txt
-- AntiAdoptablesList.txt
-- Anti-'Custom cursors' List.txt
-- Anti-'Battle Royale' List.txt
-- privacy.txt
-- Anti-FіМ List.txt
-- AntiAwfulCommentsList.txt
-- Anti-Skype List.txt
-- AntiAnthroCombatWaifuList.txt
-- AntiStevenUniverseList.txt
-- AntiPorkMeatOnRestaurantMenusList.txt
-- badware.txt
-- BrowseWebsitesWithoutLoggingInDomains.txt
-- nocoin-ublock.txt
-- filters-2020.txt
-- easylist.txt
-- Anti-Futa List.txt
-- not_mobile.txt
 - AdRemovalListForUnusualAds.txt
-- lan-block.txt
-- BrowseWebsitesWithoutLoggingInAGH.txt
-- i-dont-want-your-app.txt
-- Anti-'Christmas carols' List.txt
-- AntiSnowMarketingList.txt
-- AntiAstrologyList.txt
-- AntiAmazonListForTwitchHosts.txt
-- AntiOwlHouseList.txt
-- AntiKpopSpammersTwitter.txt
-- swe-ubo-filters.txt
-- AntiHivemindCartoonTrashingList.txt
-- Anti-IMDB List.txt
-- LegitimateURLShortener.txt
 - Android Scum Class — Fake notification counters.txt
+- Anti-'Battle Royale' List.txt
+- Anti-'Christmas carols' List.txt
+- Anti-'Custom cursors' List.txt
+- Anti-'Google Hangouts' List.txt
+- Anti-Futa List.txt
+- Anti-FіМ List.txt
+- Anti-IMDB List.txt
+- Anti-Skype List.txt
+- AntiAbusePorn.txt
+- AntiAdoptablesList.txt
+- AntiAdventureTimeList.txt
+- AntiAmazonListForTwitch.txt
+- AntiAmazonListForTwitchDomains.txt
+- AntiAmazonListForTwitchHosts.txt
+- AntiAnthroCombatWaifuList.txt
+- AntiAstrologyList.txt
+- AntiAwfulCommentsList.txt
+- AntiHivemindCartoonTrashingList.txt
+- AntiHivemindCartoonTrashingListDomains.txt
+- AntiKpopSpammersTwitter.txt
+- AntiOwlHouseList.txt
+- AntiPCPriceHiderList.txt
+- AntiPepeList.txt
+- AntiPorkMeatOnRestaurantMenusList.txt
+- AntiPrayerTimesList.txt
+- AntiSnowMarketingList.txt
+- AntiStevenUniverseList.txt
+- AntiStevenUniverseListDomains.txt
+- AntiWeebBoobGamesList.txt
 - BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
+- BrowseWebsitesWithoutLoggingInAGH.txt
+- BrowseWebsitesWithoutLoggingInDomains.txt
+- DailyMotionSimplicity.txt
+- LegitimateURLShortener.txt
+- annoyances.txt
+- badware.txt
+- easyprivacy.txt
+- filters-2022.txt
+- lan-block.txt
+- unbreak.txt
+- urlhaus-filter-online.txt
+- nocoin-ublock.txt
+- chromium.txt
+- i-dont-want-your-app.txt
+- not_chromium.txt
+- swe-ubo-filters.txt
+- WordPressTranslatorAssistant.txt
+- easylist.txt
+- filters-2020.txt
+- filters-2021.txt
+- legacy.txt
+- privacy.txt
+- quick-fixes.txt
+- resource-abuse.txt
+- nocoin.txt
 - emoji-filter.txt
+- not_mobile.txt
