@@ -4,11 +4,3 @@
 ! Description: See through my eyes
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
-!#include submodules/adblock-nocoin-list/nocoin.txt
-!#include submodules/adblock-nocoin-list/nocoin-ublock.txt
-!#include submodules/Frellwilts-filter-lists/i-dont-want-your-app.txt
-!#include submodules/Frellwilts-filter-lists/emoji-filter.txt
-!#include submodules/Frellwilts-filter-lists/Swedish/chromium.txt
-!#include submodules/Frellwilts-filter-lists/Swedish/not_chromium.txt
-!#include submodules/Frellwilts-filter-lists/Swedish/not_mobile.txt
-!#include submodules/Frellwilts-filter-lists/Swedish/swe-ubo-filters.txt

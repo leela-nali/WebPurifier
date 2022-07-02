@@ -6,7 +6,7 @@ import sys
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
-    for root, dirs, files in os.walk(r'submodules/'):
+    for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
                 if (exists(file)):
