@@ -13,17 +13,7 @@ class FilterLists:
 
     def getLists(self):
         response_info = requests.get(url + '/lists').json()
-        for list in response_info:
-            print
-            {
-                list['id'],
-                list['name'],
-                list['syntaxIds'],
-                list['languageIds'],
-                list['tagIds'],
-                list['primaryViewUrl'],
-                list['maintainerIds'],
-            }
+        return response_info
     def getMaintainers(self):
         maintainers = []
         response_info = requests.get(url + '/maintainers').json()
