@@ -12,7 +12,6 @@ class FilterLists:
         self.getTags()
 
     def getLists(self):
-        lists = []
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
             print
