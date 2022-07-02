@@ -1,0 +1,12 @@
+.com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
+|http*://*?$popup,third-party,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com|youporngay.com
+||hotscopes.to/goways.php$popup
+||icepbns.com^$popup,domain=iceporn.com
+||livejasmin.com/pu/$popup
+||videowood.tv/pop?$popup
+||xtapes.to/out.php$popup
+||xteen.name/xtn/$popup
+! about:blank popups
+/about:blank.*/$popup,domain=bitporno.com|iceporn.com|katestube.com|videowood.tv|xtapes.to
+!
+$popup,third-party,domain=porn-tube-club.com

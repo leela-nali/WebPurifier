@@ -10,3 +10,6 @@
 [submodule "submodules/Frellwilts-filter-lists"]
 	path = submodules/Frellwilts-filter-lists
 	url = https://github.com/lassekongo83/Frellwits-filter-lists.git
+[submodule "submodules/easylist"]
+	path = submodules/easylist
+	url = https://github.com/easylist/easylist.git
