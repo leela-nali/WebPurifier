@@ -1,7 +1,5 @@
 whitelist = ['4','7','17']
 blacklist = ['21']
-filter = Filter()
+from api.FilterLists import FilterLists
+filter = FilterLists()
 print(filter.getLists())
-
-    whitelist = ['4','7','17']
-    blacklist = ['21']

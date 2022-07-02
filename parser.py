@@ -10,7 +10,6 @@ filter = FilterLists()
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
-    downloadLists()
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
@@ -60,10 +59,6 @@ def toggle(file):
                 connection.commit()
                 print(file + " is now disabled")
                 connection.close()
-
-def downloadLists():
-
-    filter.getLists()
 
 def filter_status(file):
     database = 'database/filters.db'
