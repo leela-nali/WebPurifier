@@ -5,7 +5,7 @@ import sys
 import wget
 from api.FilterLists import FilterLists
 
-filter = Filter()
+filter = FilterLists()
 
 def main():
     with open('README.md', 'a') as readme:
