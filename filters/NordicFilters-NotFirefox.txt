@@ -1,3 +1,0 @@
-! Version: 21July2021v1-Extension
-fla.de###top-banner
-fla.de##.index-banner

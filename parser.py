@@ -2,6 +2,8 @@ import os
 import urllib.parse
 import sqlite3
 import sys
+import wget
+from api.FilterLists import FilterLists
 
 def main():
     with open('README.md', 'a') as readme:
@@ -55,6 +57,13 @@ def toggle(file):
                 connection.commit()
                 print(file + " is now disabled")
                 connection.close()
+
+def downloadLists():
+    filter = Filter()
+    whitelist = ['4','7','17']
+    blacklist = ['21']
+
+    print(filter.getLists())
 
 def filter_status(file):
     database = 'database/filters.db'
