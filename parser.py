@@ -8,6 +8,7 @@ from api.FilterLists import FilterLists
 def main():
     with open('README.md', 'a') as readme:
         readme.write("# Whats Included")
+    downloadLists()
     for root, dirs, files in os.walk(r'filters/'):
         for file in files:
             if file.endswith('.txt'):
