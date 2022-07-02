@@ -52,6 +52,7 @@
 !#include filters/i-dont-want-your-app.txt
 !#include filters/not_chromium.txt
 !#include filters/swe-ubo-filters.txt
+!#include filters/Nitter%20De-Politificator.txt
 !#include filters/SocialShareList.txt
 !#include filters/WordPressTranslatorAssistant.txt
 !#include filters/easylist.txt
