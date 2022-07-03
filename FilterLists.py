@@ -20,7 +20,11 @@ class FilterLists:
             list_url = list['primaryViewUrl']
             #print(list_name)
             #print(syntax_ids)
-            print(list_url)
+            try:
+                print(list_url)
+            except:
+                continue
+            
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
