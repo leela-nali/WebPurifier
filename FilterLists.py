@@ -3,7 +3,8 @@ import json
 import wget
 
 url = 'https://filterlists.com/api/directory'
-
+whitelist = ['4','7','17']
+blacklist = ['21']
 class FilterLists:
     def init(self,lists,maintainers,syntaxes,tags):
         self.getLists()
