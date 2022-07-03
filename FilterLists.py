@@ -18,7 +18,7 @@ class FilterLists:
             list_name = list['name']
             syntax_ids = list['syntaxIds']
             syntax_id=(','.join(str(syntax_ids)))
-            print(list_name)
+            #print(list_name)
             print(syntax_id)
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
