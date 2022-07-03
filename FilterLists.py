@@ -15,9 +15,9 @@ class FilterLists:
     def getLists(self):
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
-            if (list['primaryViewUrl'].endswith('.txt')):
-                if(list['syntaxIds'] == whitelist):
-                    if(list['syntaxIds'] != blacklist):
+            if(list['syntaxIds'] == whitelist):
+                if(list['syntaxIds'] != blacklist):
+                    if (list['primaryViewUrl'].endswith('.txt')):
                         try:
                             print("Downloading: \n"+ list['primaryViewUrl'])
                             wget.download(list['primaryViewUrl'], out='filters/')
