@@ -23,7 +23,7 @@ class FilterLists:
             #print(list_url)
             for id in list['syntaxIds']:
                 list_syntax = id
-                print(list_syntax)
+                #print(list_syntax)
             for wid in whitelist:
                 print(wid)
 
