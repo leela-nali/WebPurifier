@@ -15,8 +15,8 @@ class FilterLists:
     def getLists(self):
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
-            list_name = list['name']
-            list_syntax_ids = list['syntaxIds']
+            #list_name = list['name']
+            #list_syntax_ids = list['syntaxIds']
             #list_url = list['primaryViewUrl']
             #print(list_name)
             #print(syntax_ids)
