@@ -15,8 +15,10 @@ class FilterLists:
     def getLists(self):
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
-            name = list['name']
-            print(name)
+            list_name = list['name']
+            syntax_id = list['syntaxIds']
+            print(list_name)
+            print(syntax_id)
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
