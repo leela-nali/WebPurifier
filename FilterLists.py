@@ -17,8 +17,10 @@ class FilterLists:
         for list in response_info:
             list_name = list['name']
             syntax_ids = list['syntaxIds']
+            url = list['primaryViewUrl']
             #print(list_name)
-            print(syntax_ids, sep=',')
+            #print(syntax_ids)
+            print(url)
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
