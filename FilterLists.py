@@ -17,7 +17,7 @@ class FilterLists:
         for list in response_info:
             if(list['syntaxIds'] in whitelist):
                 print(list['syntaxIds'])
-                if(list['syntaxIds'] != blacklist):
+                if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
                         try:
                             print("Downloading: \n"+ list['primaryViewUrl'])
