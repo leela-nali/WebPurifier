@@ -16,7 +16,8 @@ class FilterLists:
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
             list_name = list['name']
-            syntax_id = list['syntaxIds']
+            syntax_id_unformated = list['syntaxIds']
+            syntax_id=(','.join(lst))
             print(list_name)
             print(syntax_id)
             if(list['syntaxIds'] in whitelist):
