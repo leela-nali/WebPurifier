@@ -15,10 +15,13 @@ class FilterLists:
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
             if (list['primaryViewUrl'].endswith('.txt')):
-                try:
-                    wget.download(list['primaryViewUrl'], out='filters/')
-                except:
-                    continue
+                if(list['syntaxIds'] == whitelist):
+                    if(['syntaxIds'] != blacklist):
+                        try:
+                            print("Downloading: \n"+ list['primaryViewUrl'])
+                            wget.download(list['primaryViewUrl'], out='filters/')
+                        except:
+                            continue
 
     def getMaintainers(self):
         maintainers = []

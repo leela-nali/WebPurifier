@@ -4,9 +4,3 @@
 ! Description: See through my eyes
 ! Homepage: https://github.com/0x7C2f/WebPurifier
 ! Issues: https://github.com/0x7C2f/WebPurifier/issues
-!#include filters/nocoin.txt
-!#include filters/unbreak.txt
-!#include filters/uBlock-Filters-Plus.txt
-!#include filters/privacy.txt
-!#include filters/adblock_ublock.txt
-!#include filters/badware.txt

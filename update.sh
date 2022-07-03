@@ -1,4 +1,3 @@
-git submodule update --recursive --remote
 rm -rf main.txt
 rm -rf README.md
 touch main.txt
