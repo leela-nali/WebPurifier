@@ -18,7 +18,7 @@ class FilterLists:
             list_name = list['name']
             syntax_ids = list['syntaxIds']
             #print(list_name)
-            print(syntax_id)
+            print(syntax_ids)
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
