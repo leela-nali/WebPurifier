@@ -17,7 +17,7 @@ class FilterLists:
         for list in response_info:
             list_name = list['name']
             list_syntax_ids = list['syntaxIds']
-            list_url = list['primaryViewUrl']
+            #list_url = list['primaryViewUrl']
             #print(list_name)
             #print(syntax_ids)
             #print(list_url)
