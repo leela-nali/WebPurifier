@@ -15,7 +15,7 @@ class FilterLists:
     def getLists(self):
         response_info = requests.get(url + '/lists').json()
         for list in response_info:
-            print(list['syntaxIds'])
+            print(list)
             if(list['syntaxIds'] in whitelist):
                 if(list['syntaxIds'] not in blacklist):
                     if (list['primaryViewUrl'].endswith('.txt')):
