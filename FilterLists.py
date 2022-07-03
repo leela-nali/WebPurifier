@@ -22,16 +22,15 @@ class FilterLists:
             #print(syntax_ids)
             #print(list_url)
             for id in list['syntaxIds']:
-                print(id)
-            if(id in whitelist):
-                print(id)
-                if(list['syntaxIds'] not in blacklist):
-                    if (list['primaryViewUrl'].endswith('.txt')):
-                        try:
-                            print("Downloading: \n"+ list['primaryViewUrl'])
-                            wget.download(list['primaryViewUrl'], out='filters/')
-                        except:
-                            continue
+                if(id in whitelist):
+                    print(id)
+                    if(list['syntaxIds'] not in blacklist):
+                        if (list['primaryViewUrl'].endswith('.txt')):
+                            try:
+                                print("Downloading: \n"+ list['primaryViewUrl'])
+                                wget.download(list['primaryViewUrl'], out='filters/')
+                            except:
+                                continue
 
     def getMaintainers(self):
         maintainers = []
