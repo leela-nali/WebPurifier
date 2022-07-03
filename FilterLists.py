@@ -17,7 +17,6 @@ class FilterLists:
         for list in response_info:
             list_name = list['name']
             syntax_ids = list['syntaxIds']
-            syntax_id=(','.join(str(syntax_ids)))
             #print(list_name)
             print(syntax_id)
             if(list['syntaxIds'] in whitelist):
