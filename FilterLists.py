@@ -17,7 +17,7 @@ class FilterLists:
         for list in response_info:
             if (list['primaryViewUrl'].endswith('.txt')):
                 if(list['syntaxIds'] == whitelist):
-                    if(['syntaxIds'] != blacklist):
+                    if(list['syntaxIds'] != blacklist):
                         try:
                             print("Downloading: \n"+ list['primaryViewUrl'])
                             wget.download(list['primaryViewUrl'], out='filters/')
