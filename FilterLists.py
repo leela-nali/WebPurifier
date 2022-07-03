@@ -22,7 +22,8 @@ class FilterLists:
             #print(syntax_ids)
             #print(list_url)
             for id in list['syntaxIds']:
-                print(id)
+                list_syntax = id
+                print(list_syntax)
                 if(id in whitelist):
                     if(list['syntaxIds'] not in blacklist):
                         if (list['primaryViewUrl'].endswith('.txt')):
